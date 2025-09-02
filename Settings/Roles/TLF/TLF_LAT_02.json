@@ -1,0 +1,95 @@
+{
+  "commendation_type": {
+    "data_table": "'/Game/Settings/Commendations/CommendationInfo.CommendationInfo' Class 'DataTable'>",
+    "row_name": "role_lightanti-tank"
+  },
+  "data": {
+    "data_table": "'/Game/Settings/Roles/TLF/RoleTable_TLF.RoleTable_TLF' Class 'DataTable'>",
+    "row_name": "TLF_LAT_02"
+  },
+  "id": "TLF_LAT_02",
+  "inventory": [
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Rifles/BP_MPT76_HNA.BP_MPT76_HNA_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 2,
+          "weapon_type": "<WeaponType.PRIMARY: 1>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/Melee/BP_G3Bayonet.BP_G3Bayonet_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/RocketLaunchers/BP_HAR66_2mags.BP_HAR66_2mags_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.SPECIAL: 3>"
+        },
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Grenades/BP_M67Frag.BP_M67Frag_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_Generic_FieldDressing.BP_Generic_FieldDressing_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_EntrenchingTool.BP_EntrenchingTool_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        },
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/Binoculars/BP_US_Binoculars.BP_US_Binoculars_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    }
+  ],
+  "role_specifics_action_name": "None",
+  "role_specifics_action_name1": "None"
+}

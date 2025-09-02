@@ -1,0 +1,14 @@
+{
+  "curve": "None",
+  "data": {
+    "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+    "row_name": "SquadSize_1"
+  },
+  "fixed_availability": -1,
+  "id": "SquadSize_1",
+  "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+  "use_curve": false,
+  "use_for_player": true,
+  "use_for_team": false,
+  "value_to_reach": 1.0
+}

@@ -1,0 +1,95 @@
+{
+  "commendation_type": {
+    "data_table": "'/Game/Settings/Commendations/CommendationInfo.CommendationInfo' Class 'DataTable'>",
+    "row_name": "role_squadleader"
+  },
+  "data": {
+    "data_table": "'/Game/Settings/Roles/CRF/RoleTable_CRF.RoleTable_CRF' Class 'DataTable'>",
+    "row_name": "CRF_SL_03"
+  },
+  "id": "CRF_SL_03",
+  "inventory": [
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Rifles/BP_M16A2M203_Rifle.BP_M16A2M203_Rifle_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 2,
+          "weapon_type": "<WeaponType.PRIMARY: 1>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Pistols/BP_M9A1.BP_M9A1_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.SECONDARY: 2>"
+        },
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/Melee/BP_M9Bayonet.BP_M9Bayonet_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_HE_3mags.BP_M16A2M203_UGL_HE_3mags_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.SPECIAL: 3>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_Smoke.BP_M16A2M203_UGL_Smoke_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_Generic_FieldDressing.BP_Generic_FieldDressing_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_EquippableRallyPoint_WPMC_Cheap.BP_EquippableRallyPoint_WPMC_Cheap_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 3,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        },
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/Binoculars/BP_US_Binoculars.BP_US_Binoculars_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.SPECIAL: 3>"
+        }
+      ]
+    }
+  ],
+  "role_specifics_action_name": "CommandMenu",
+  "role_specifics_action_name1": "Fire"
+}

@@ -1,0 +1,95 @@
+{
+  "commendation_type": {
+    "data_table": "'/Game/Settings/Commendations/CommendationInfo.CommendationInfo' Class 'DataTable'>",
+    "row_name": "role_autorifleman"
+  },
+  "data": {
+    "data_table": "'/Game/Settings/Roles/ADF/RoleTable_ADF.RoleTable_ADF' Class 'DataTable'>",
+    "row_name": "ADF_AR_01"
+  },
+  "id": "ADF_AR_01",
+  "inventory": [
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/MachineGuns/BP_F89_ET552.BP_F89_ET552_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.PRIMARY: 1>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Pistols/BP_BrowningHP_ADF.BP_BrowningHP_ADF_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.SECONDARY: 2>"
+        },
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/Melee/BP_SOCP_Knife_ADF.BP_SOCP_Knife_ADF_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Grenades/BP_F1Frag_au.BP_F1Frag_au_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_ADF_FieldDressing.BP_ADF_FieldDressing_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_EntrenchingTool.BP_EntrenchingTool_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        },
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/Binoculars/BP_ADF_Binoculars.BP_ADF_Binoculars_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    }
+  ],
+  "role_specifics_action_name": "None",
+  "role_specifics_action_name1": "None"
+}

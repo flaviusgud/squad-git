@@ -1,0 +1,109 @@
+{
+  "commendation_type": {
+    "data_table": "'/Game/Settings/Commendations/CommendationInfo.CommendationInfo' Class 'DataTable'>",
+    "row_name": "role_squadleader"
+  },
+  "data": {
+    "data_table": "'/Game/Settings/Roles/MEI/RoleTable_MEI.RoleTable_MEI' Class 'DataTable'>",
+    "row_name": "MEI_SL_02"
+  },
+  "id": "MEI_SL_02",
+  "inventory": [
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/SubmachineGuns/PPSH41/BP_Ppsh41_Stick.BP_Ppsh41_Stick_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 2,
+          "weapon_type": "<WeaponType.PRIMARY: 1>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/SubmachineGuns/VZ61/BP_Vz61_5mags.BP_Vz61_5mags_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.SECONDARY: 2>"
+        },
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/Melee/BP_AKMBayonet.BP_AKMBayonet_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Grenades/BP_F1Frag.BP_F1Frag_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke.BP_RDG2Smoke_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        },
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Black.BP_RDG2Smoke_Black_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        },
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Yellow.BP_RDG2Smoke_Yellow_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_Generic_FieldDressing.BP_Generic_FieldDressing_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/Binoculars/BP_Soviet_Binoculars.BP_Soviet_Binoculars_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.SPECIAL: 3>"
+        },
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_EquippableRallyPoint_MEI.BP_EquippableRallyPoint_MEI_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    }
+  ],
+  "role_specifics_action_name": "CommandMenu",
+  "role_specifics_action_name1": "Fire"
+}

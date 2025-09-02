@@ -1,0 +1,55 @@
+{
+  "base_availability": 12,
+  "data": {
+    "data_table": "'/Game/Settings/Roles/Counts/RoleCountTable.RoleCountTable' Class 'DataTable'>",
+    "row_name": "LAT"
+  },
+  "id": "LAT",
+  "is_unique_usage": false,
+  "parameters": [
+    {
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "TeamSize_LAT_TLF"
+      },
+      "id": "TeamSize_LAT_TLF",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_for_player": true,
+      "use_for_team": false
+    },
+    {
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "SquadSize_FireSupport"
+      },
+      "id": "SquadSize_FireSupport",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_for_player": true,
+      "use_for_team": false
+    },
+    {
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "SquadSize_LAT_TLF"
+      },
+      "id": "SquadSize_LAT_TLF",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_for_player": true,
+      "use_for_team": false
+    },
+    {
+      "curve": "None",
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "SquadSize_3_for_3"
+      },
+      "fixed_availability": 3,
+      "id": "SquadSize_3_for_3",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_curve": false,
+      "use_for_player": true,
+      "use_for_team": false,
+      "value_to_reach": 3.0
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "commendation_type": {
+    "data_table": "'/Game/Settings/Commendations/CommendationInfo.CommendationInfo' Class 'DataTable'>",
+    "row_name": "role_combatengineer"
+  },
+  "data": {
+    "data_table": "'/Game/Settings/Roles/TLF/RoleTable_TLF.RoleTable_TLF' Class 'DataTable'>",
+    "row_name": "TLF_Engineer_01"
+  },
+  "id": "TLF_Engineer_01",
+  "inventory": [
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Rifles/BP_MPT76.BP_MPT76_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 2,
+          "weapon_type": "<WeaponType.PRIMARY: 1>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/Melee/BP_G3Bayonet.BP_G3Bayonet_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Grenades/BP_M67Frag.BP_M67Frag_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        },
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_M112_C4Explosive_Timed.BP_M112_C4Explosive_Timed_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.SPECIAL: 3>"
+        },
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_M15_Antitank_Mine.BP_M15_Antitank_Mine_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 3,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_Generic_FieldDressing.BP_Generic_FieldDressing_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_EntrenchingTool_Engineer.BP_EntrenchingTool_Engineer_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        },
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_RepairTool.BP_RepairTool_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        },
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_Infantry_Sandbag.BP_Infantry_Sandbag_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        },
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_Infantry_Razorwire.BP_Infantry_Razorwire_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        },
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/Binoculars/BP_US_Binoculars.BP_US_Binoculars_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    }
+  ],
+  "role_specifics_action_name": "None",
+  "role_specifics_action_name1": "None"
+}

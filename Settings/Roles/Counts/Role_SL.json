@@ -1,0 +1,10 @@
+{
+  "base_availability": -1,
+  "data": {
+    "data_table": "'/Game/Settings/Roles/Counts/RoleCountTable.RoleCountTable' Class 'DataTable'>",
+    "row_name": "SL"
+  },
+  "id": "SL",
+  "is_unique_usage": false,
+  "parameters": []
+}

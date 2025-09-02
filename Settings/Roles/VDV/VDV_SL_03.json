@@ -1,0 +1,102 @@
+{
+  "commendation_type": {
+    "data_table": "'/Game/Settings/Commendations/CommendationInfo.CommendationInfo' Class 'DataTable'>",
+    "row_name": "role_squadleader"
+  },
+  "data": {
+    "data_table": "'/Game/Settings/Roles/VDV/RoleTable_VDV.RoleTable_VDV' Class 'DataTable'>",
+    "row_name": "VDV_SL_03"
+  },
+  "id": "VDV_SL_03",
+  "inventory": [
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_1P78Picatinny.BP_AK12GP25_Rifle_1P78Picatinny_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 2,
+          "weapon_type": "<WeaponType.PRIMARY: 1>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Pistols/BP_MP443.BP_MP443_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.SECONDARY: 2>"
+        },
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/Melee/BP_AK74Bayonet.BP_AK74Bayonet_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_1P78Picatinny_HE_2rnds.BP_AK12GP25_UGL_1P78Picatinny_HE_2rnds_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.SPECIAL: 3>"
+        },
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Grenades/BP_RGOFrag_Brown.BP_RGOFrag_Brown_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_1P78Picatinny_Smoke.BP_AK12GP25_UGL_1P78Picatinny_Smoke_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_Generic_FieldDressing.BP_Generic_FieldDressing_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 2,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_EquippableRallyPoint_RGF.BP_EquippableRallyPoint_RGF_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 0,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        },
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/Binoculars/BP_Russian_Baigish_Binoculars.BP_Russian_Baigish_Binoculars_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.SPECIAL: 3>"
+        }
+      ]
+    }
+  ],
+  "role_specifics_action_name": "CommandMenu",
+  "role_specifics_action_name1": "Fire"
+}

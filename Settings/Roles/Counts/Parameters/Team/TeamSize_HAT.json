@@ -1,0 +1,14 @@
+{
+  "curve": "'/Game/Settings/Roles/Counts/Parameters/Team/HAT_Scaling.HAT_Scaling' Class 'CurveFloat'>",
+  "data": {
+    "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+    "row_name": "TeamSize_HAT"
+  },
+  "fixed_availability": 0,
+  "id": "TeamSize_HAT",
+  "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+  "use_curve": true,
+  "use_for_player": true,
+  "use_for_team": false,
+  "value_to_reach": 0.0
+}

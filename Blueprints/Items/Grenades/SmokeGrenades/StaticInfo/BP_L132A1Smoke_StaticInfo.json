@@ -1,0 +1,285 @@
+{
+  "ads_strafe_spring_rotator": {
+    "pitch": 0.0,
+    "roll": 5.0,
+    "yaw": 0.0
+  },
+  "allow_raising_above_head": true,
+  "bipod_loc": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 1.5
+  },
+  "bobbing_add_sprint1p_montage": "None",
+  "bored_abort_blend_out_time": 0.20000000298023224,
+  "bored_max_frequency": 60.0,
+  "bored_montage": [],
+  "change_stance_punch_camera_rotation": "None",
+  "change_stance_punch_weapon_alignment": "None",
+  "change_stance_punch_weapon_sway": "None",
+  "check_current_magazine_for_equip": false,
+  "check_current_magazine_for_unequip": true,
+  "crouch_lean_left_camera_rotation": {
+    "pitch": 0.0,
+    "roll": -5.0,
+    "yaw": 0.0
+  },
+  "crouch_lean_left_root_offset": {
+    "x": 0.0,
+    "y": -36.0,
+    "z": -10.0
+  },
+  "crouch_lean_left_weapon_rotation": {
+    "pitch": 0.0,
+    "roll": -22.0,
+    "yaw": 0.0
+  },
+  "crouch_lean_right_camera_rotation": {
+    "pitch": 0.0,
+    "roll": 5.0,
+    "yaw": 0.0
+  },
+  "crouch_lean_right_root_offset": {
+    "x": 0.0,
+    "y": 50.0,
+    "z": -22.0
+  },
+  "crouch_lean_right_weapon_rotation": {
+    "pitch": 0.0,
+    "roll": 22.0,
+    "yaw": 0.0
+  },
+  "crouch_loc": {
+    "x": -2.0,
+    "y": 0.0,
+    "z": 2.5
+  },
+  "dry_reload_sound1p": "None",
+  "dry_reload_sound3p": "None",
+  "empty_equip1p_montage": "None",
+  "empty_equip3p_montage": "None",
+  "empty_equip_duration": 0.0,
+  "empty_equip_weapon_montage": "None",
+  "empty_unequip1p_montage": "None",
+  "empty_unequip3p_montage": "None",
+  "empty_unequip_duration": 0.0,
+  "empty_unequip_weapon_montage": "None",
+  "equip_sound1p": "None",
+  "equip_sound3p": "None",
+  "equip_weapon_montage": "None",
+  "fire_shake": "None",
+  "fire_sound1p": "None",
+  "fire_sound3p": "None",
+  "fpv_lower_root_bone_offset": {
+    "x": -60.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "fpv_torso_camera_offset": {
+    "x": -14.0,
+    "y": 29.0,
+    "z": 148.5
+  },
+  "idle_blend_out_time": 0.5,
+  "into_forced_lowering_sound": "None",
+  "into_forced_raising_sound": "None",
+  "item_collision_distance": 0.0,
+  "item_usage_nullified_text": "Weapons remain on Safe while inside the Main Base",
+  "jog_play_rate_factor_min_range": -0.699999988079071,
+  "left_hand_weapon_ik_alpha": 1.0,
+  "lowered1p_montage": "None",
+  "lowered3p_montage": "None",
+  "lowered_crouch3p_montage": "None",
+  "lowering_blend_out_time": 0.5,
+  "lowering_timer": 4.0,
+  "move_bobbing_end_loop_section_names": {
+    "begin_section": "Begin",
+    "end_section": "End",
+    "loop_section1": "Loop1",
+    "loop_section2": "Loop2",
+    "mid_end_section": "MidEnd"
+  },
+  "mutual_weapons": [],
+  "offset_line_of_fire": {
+    "pitch": -3.0,
+    "roll": 0.0,
+    "yaw": 0.0
+  },
+  "out_of_forced_lowering_sound": "None",
+  "out_of_forced_raising_sound": "None",
+  "prevent_alt_use_while_crawling": false,
+  "prevent_use_while_crawling": false,
+  "prone_lean_left_camera_rotation": {
+    "pitch": 0.0,
+    "roll": -15.0,
+    "yaw": 0.0
+  },
+  "prone_lean_left_root_offset": {
+    "x": 0.0,
+    "y": -50.0,
+    "z": 0.0
+  },
+  "prone_lean_left_weapon_rotation": {
+    "pitch": 0.0,
+    "roll": -30.0,
+    "yaw": 0.0
+  },
+  "prone_lean_right_camera_rotation": {
+    "pitch": 0.0,
+    "roll": 15.0,
+    "yaw": 0.0
+  },
+  "prone_lean_right_root_offset": {
+    "x": 0.0,
+    "y": 65.0,
+    "z": -5.0
+  },
+  "prone_lean_right_weapon_rotation": {
+    "pitch": 0.0,
+    "roll": 30.0,
+    "yaw": 0.0
+  },
+  "prone_loc": {
+    "x": -2.0,
+    "y": 0.0,
+    "z": 2.5
+  },
+  "raising_blend_out_time": 0.5,
+  "reload_sound1p": "None",
+  "reload_sound3p": "None",
+  "return_to_ads_after_item_collision": true,
+  "right_hand3p_weapon_ik_alpha": 1.0,
+  "sounds_socket": "WeaponRoot",
+  "spring_ads_multiplier_rotation": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "spring_ads_multiplier_translation": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "sprint_blend_factor_min_range": 0.8500000238418579,
+  "sprint_blend_speed_interp_speed": 400.0,
+  "sprint_bobbing_end_loop_section_names": {
+    "begin_section": "Begin",
+    "end_section": "End",
+    "loop_section1": "Loop1",
+    "loop_section2": "Loop2",
+    "mid_end_section": "MidEnd"
+  },
+  "sprint_play_rate_factor_min_range": -2.0,
+  "stand_lean_left_camera_rotation": {
+    "pitch": 0.0,
+    "roll": -5.0,
+    "yaw": 0.0
+  },
+  "stand_lean_left_root_offset": {
+    "x": 0.0,
+    "y": -52.0,
+    "z": -20.0
+  },
+  "stand_lean_left_weapon_rotation": {
+    "pitch": 0.0,
+    "roll": -22.0,
+    "yaw": 0.0
+  },
+  "stand_lean_right_camera_rotation": {
+    "pitch": 0.0,
+    "roll": 5.0,
+    "yaw": 0.0
+  },
+  "stand_lean_right_root_offset": {
+    "x": 0.0,
+    "y": 52.0,
+    "z": -20.0
+  },
+  "stand_lean_right_weapon_rotation": {
+    "pitch": 0.0,
+    "roll": 22.0,
+    "yaw": 0.0
+  },
+  "stand_loc": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1.5
+  },
+  "stand_loc_blend_time": 0.0,
+  "strafe_spring_rotator": {
+    "pitch": 0.0,
+    "roll": 6.0,
+    "yaw": 0.5
+  },
+  "strafe_spring_vector": {
+    "x": 0.0,
+    "y": -1.7999999523162842,
+    "z": 1.25
+  },
+  "toggle_ads_flag": false,
+  "toggle_bipod_ads_flag": false,
+  "toggle_bipod_non_ads_flag": false,
+  "unequip_sound1p": "None",
+  "unequip_sound3p": "None",
+  "unequip_weapon_montage": "None",
+  "usable_in_main_base": false,
+  "use_auto_lowering": false,
+  "walk_speed_multiplier": -1.0,
+  "weapon_mesh_spring_loc_delay_factor": -0.05999999865889549,
+  "weapon_mesh_spring_rot_delay_factor": 1.0,
+  "weapon_spring_ads_override": {
+    "weapon_spring_ads_multiplier_rotation": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "weapon_spring_ads_multiplier_translation": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "weapon_spring_clamp": 5.0,
+    "weapon_spring_factor2": 0.05000000074505806,
+    "weapon_spring_override_bit_flags": 0,
+    "weapon_spring_side": 1
+  },
+  "weapon_spring_bipod_ads_override": {
+    "weapon_spring_ads_multiplier_rotation": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "weapon_spring_ads_multiplier_translation": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "weapon_spring_clamp": 5.0,
+    "weapon_spring_factor2": 0.5,
+    "weapon_spring_override_bit_flags": 0,
+    "weapon_spring_side": 1
+  },
+  "weapon_spring_bipod_non_ads_override": {
+    "weapon_spring_ads_multiplier_rotation": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "weapon_spring_ads_multiplier_translation": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "weapon_spring_clamp": 5.0,
+    "weapon_spring_factor2": 0.5,
+    "weapon_spring_override_bit_flags": 0,
+    "weapon_spring_side": 1
+  },
+  "weapon_spring_clamp": 5.0,
+  "weapon_spring_critical_damping_factor": 0.8999999761581421,
+  "weapon_spring_factor2": 0.05000000074505806,
+  "weapon_spring_mass": 0.05000000074505806,
+  "weapon_spring_side": 1,
+  "weapon_spring_stiffness": 0.6000000238418579,
+  "weapon_spring_turn_speed_to_full_intensity": 100.0
+}

@@ -1,0 +1,21 @@
+{
+  "base_availability": -1,
+  "data": {
+    "data_table": "'/Game/Settings/Roles/Counts/RoleCountTable.RoleCountTable' Class 'DataTable'>",
+    "row_name": "AR"
+  },
+  "id": "AR",
+  "is_unique_usage": false,
+  "parameters": [
+    {
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "SquadSize_AR"
+      },
+      "id": "SquadSize_AR",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_for_player": true,
+      "use_for_team": false
+    }
+  ]
+}

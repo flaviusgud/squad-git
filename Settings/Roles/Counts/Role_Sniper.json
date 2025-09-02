@@ -1,0 +1,59 @@
+{
+  "base_availability": 2,
+  "data": {
+    "data_table": "'/Game/Settings/Roles/Counts/RoleCountTable.RoleCountTable' Class 'DataTable'>",
+    "row_name": "Sniper"
+  },
+  "id": "Sniper",
+  "is_unique_usage": false,
+  "parameters": [
+    {
+      "curve": "'/Game/Settings/Roles/Counts/Parameters/Team/Sniper_Scaling.Sniper_Scaling' Class 'CurveFloat'>",
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "TeamSize_Sniper"
+      },
+      "fixed_availability": 0,
+      "id": "TeamSize_Sniper",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_curve": true,
+      "use_for_player": false,
+      "use_for_team": true,
+      "value_to_reach": 0.0
+    },
+    {
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "TeamSize_Specialist"
+      },
+      "id": "TeamSize_Specialist",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_for_player": true,
+      "use_for_team": false
+    },
+    {
+      "curve": "None",
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "SquadSize_8_for_1"
+      },
+      "fixed_availability": 1,
+      "id": "SquadSize_8_for_1",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_curve": false,
+      "use_for_player": true,
+      "use_for_team": false,
+      "value_to_reach": 8.0
+    },
+    {
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "SquadSize_Specialist"
+      },
+      "id": "SquadSize_Specialist",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_for_player": true,
+      "use_for_team": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "data": {
+    "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+    "row_name": "TeamSize_LAT_10"
+  },
+  "id": "TeamSize_LAT_10",
+  "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+  "use_for_player": true,
+  "use_for_team": false
+}

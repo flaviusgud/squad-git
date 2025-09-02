@@ -1,0 +1,10 @@
+{
+  "data": {
+    "data_table": "'/Game/Settings/Roles/Conditions/RoleRestrictionTable.RoleRestrictionTable' Class 'DataTable'>",
+    "row_name": "RequireSL"
+  },
+  "id": "RequireSL",
+  "required_status": [
+    "<SQPlayerStatus.SQUAD_LEADER: 1>"
+  ]
+}

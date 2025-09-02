@@ -1,0 +1,14 @@
+{
+  "curve": "'/Game/Settings/Roles/Counts/Parameters/Team/DMR_Scaling.DMR_Scaling' Class 'CurveFloat'>",
+  "data": {
+    "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+    "row_name": "TeamSize_DMR"
+  },
+  "fixed_availability": 0,
+  "id": "TeamSize_DMR",
+  "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+  "use_curve": true,
+  "use_for_player": false,
+  "use_for_team": true,
+  "value_to_reach": 0.0
+}

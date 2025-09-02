@@ -1,0 +1,35 @@
+{
+  "actions": [],
+  "auto_inject_into_layers": false,
+  "characteristics": [
+    {
+      "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
+      "row_name": "NoSpecial"
+    }
+  ],
+  "characteristics_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
+  "data": {
+    "data_table": "'/Game/Settings/FactionSetups/CIV/FactionSetupTable_CIV.FactionSetupTable_CIV' Class 'DataTable'>",
+    "row_name": "CIV_Motorized_1"
+  },
+  "default_role": "None",
+  "default_squad_leader_role": "None",
+  "deployables": [],
+  "faction_id": "CIV",
+  "game_mode_list_inclusion": false,
+  "game_modes_list": [],
+  "id": "CIV_Motorized_1",
+  "leave_squad_role": "None",
+  "outer_faction": "None",
+  "override_defaults": false,
+  "roles": [
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "None"
+    }
+  ],
+  "vehicles": []
+}

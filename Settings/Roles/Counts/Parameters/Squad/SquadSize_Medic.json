@@ -1,0 +1,10 @@
+{
+  "data": {
+    "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+    "row_name": "SquadSize_Medic"
+  },
+  "id": "SquadSize_Medic",
+  "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+  "use_for_player": true,
+  "use_for_team": false
+}

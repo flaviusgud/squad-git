@@ -1,0 +1,893 @@
+{
+  "add_move_deviation": 0.0,
+  "add_move_recoil": 1.0,
+  "add_shot_deviation_factor": 0.0,
+  "add_shot_deviation_factor_ads": 0.0,
+  "adjustable_ads_sight_item_frame_rate": 0.03333333507180214,
+  "ads_punch_camera_location_curve": "'/Game/Blueprints/Soldiers/PunchCurves/ADS/CameraLocation/VC_ADS_CameraLocation_Moderate.VC_ADS_CameraLocation_Moderate' Class 'CurveVector'>",
+  "ads_punch_camera_rotation_curve": "'/Game/Blueprints/Soldiers/PunchCurves/ADS/CameraRotation/VC_ADS_CameraRotation_Moderate.VC_ADS_CameraRotation_Moderate' Class 'CurveVector'>",
+  "ads_punch_weapon_alignment_curve": "'/Game/Blueprints/Soldiers/PunchCurves/ADS/WeaponAlignment/VC_ADS_WeaponAlignment_Moderate.VC_ADS_WeaponAlignment_Moderate' Class 'CurveVector'>",
+  "ads_sights_anim": [
+    {
+      "adjust_ads_transition3p_montage": "None",
+      "adjust_from_ads_transition3p_montage": "None",
+      "base_adjust_ads3p_montage": "None",
+      "distance_text": "100m",
+      "line_of_fire_angle": {
+        "pitch": 0.07999999821186066,
+        "roll": 0.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "adjust_ads_transition3p_montage": "None",
+      "adjust_from_ads_transition3p_montage": "None",
+      "base_adjust_ads3p_montage": "None",
+      "distance_text": "200m",
+      "line_of_fire_angle": {
+        "pitch": 0.05999999865889549,
+        "roll": 0.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "adjust_ads_transition3p_montage": "None",
+      "adjust_from_ads_transition3p_montage": "None",
+      "base_adjust_ads3p_montage": "None",
+      "distance_text": "300m",
+      "line_of_fire_angle": {
+        "pitch": 0.14000000059604645,
+        "roll": 0.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "adjust_ads_transition3p_montage": "None",
+      "adjust_from_ads_transition3p_montage": "None",
+      "base_adjust_ads3p_montage": "None",
+      "distance_text": "400m",
+      "line_of_fire_angle": {
+        "pitch": 0.1599999964237213,
+        "roll": 0.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "adjust_ads_transition3p_montage": "None",
+      "adjust_from_ads_transition3p_montage": "None",
+      "base_adjust_ads3p_montage": "None",
+      "distance_text": "500m",
+      "line_of_fire_angle": {
+        "pitch": 0.23999999463558197,
+        "roll": 0.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "adjust_ads_transition3p_montage": "None",
+      "adjust_from_ads_transition3p_montage": "None",
+      "base_adjust_ads3p_montage": "None",
+      "distance_text": "600m",
+      "line_of_fire_angle": {
+        "pitch": 0.33000001311302185,
+        "roll": 0.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "adjust_ads_transition3p_montage": "None",
+      "adjust_from_ads_transition3p_montage": "None",
+      "base_adjust_ads3p_montage": "None",
+      "distance_text": "700m",
+      "line_of_fire_angle": {
+        "pitch": 0.4699999988079071,
+        "roll": 0.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "adjust_ads_transition3p_montage": "None",
+      "adjust_from_ads_transition3p_montage": "None",
+      "base_adjust_ads3p_montage": "None",
+      "distance_text": "800m",
+      "line_of_fire_angle": {
+        "pitch": 0.5299999713897705,
+        "roll": 0.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "adjust_ads_transition3p_montage": "None",
+      "adjust_from_ads_transition3p_montage": "None",
+      "base_adjust_ads3p_montage": "None",
+      "distance_text": "900m",
+      "line_of_fire_angle": {
+        "pitch": 0.6700000166893005,
+        "roll": 0.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "adjust_ads_transition3p_montage": "None",
+      "adjust_from_ads_transition3p_montage": "None",
+      "base_adjust_ads3p_montage": "None",
+      "distance_text": "1000m",
+      "line_of_fire_angle": {
+        "pitch": 0.699999988079071,
+        "roll": 0.0,
+        "yaw": 0.0
+      }
+    }
+  ],
+  "ads_strafe_spring_rotator": {
+    "pitch": 0.0,
+    "roll": 5.0,
+    "yaw": 0.0
+  },
+  "ads_suppression_punch_camera_location_multiplier": 1.0,
+  "ads_suppression_punch_camera_rotation_multiplier": 0.4000000059604645,
+  "ads_suppression_punch_weapon_alignment_multiplier": 2.0,
+  "ads_transition1p_montage": "None",
+  "aim1p_weapon_mesh_position": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "aim1p_weapon_mesh_rescale": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "aim_direction_socket_name": "Bip01_IK_Weapon_Root",
+  "allow_raising_above_head": true,
+  "allow_vault_and_low_climb_shooting": true,
+  "back_blast_effect_socket": "None",
+  "back_blast_lasting_effect1p": "None",
+  "back_blast_lasting_effect3p": "None",
+  "back_blast_lasting_effect_additional_rotation": {
+    "pitch": 0.0,
+    "roll": 0.0,
+    "yaw": 0.0
+  },
+  "bipod1p_montage": "None",
+  "bipod3p_montage": "None",
+  "bipod_ads_recoil_mean": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "bipod_ads_recoil_sigma": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "bipod_end_loop_section_names": {
+    "begin_section": "Begin",
+    "end_section": "End",
+    "loop_section1": "Loop",
+    "loop_section2": "Loop",
+    "mid_end_section": "End"
+  },
+  "bipod_height_raw": 31.5,
+  "bipod_length": 55.0,
+  "bipod_loc": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 1.5
+  },
+  "bipod_recoil_mean": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "bipod_recoil_sigma": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "bipod_time": 0.30000001192092896,
+  "bipod_weapon_montage": "None",
+  "bobbing_aim_end_loop_section_names": {
+    "begin_section": "Begin",
+    "end_section": "End",
+    "loop_section1": "Loop1",
+    "loop_section2": "Loop2",
+    "mid_end_section": "MidEnd"
+  },
+  "bored_abort_blend_out_time": 0.20000000298023224,
+  "bored_max_frequency": 60.0,
+  "bored_montage": [
+    {
+      "bored3p_montage": "None",
+      "bored_weapon_montage": "None"
+    },
+    {
+      "bored3p_montage": "None",
+      "bored_weapon_montage": "None"
+    },
+    {
+      "bored3p_montage": "None",
+      "bored_weapon_montage": "None"
+    }
+  ],
+  "cancel_reload_on_jump_vault_climb": true,
+  "cancel_reload_on_sprint": false,
+  "change_magnification_alignment_punch_curve": "'/Game/Blueprints/Soldiers/PunchCurves/WeaponInteraction/VC_ChangeMagnification_Alignment.VC_ChangeMagnification_Alignment' Class 'CurveVector'>",
+  "change_magnification_location_punch_curve": "'/Game/Blueprints/Soldiers/PunchCurves/WeaponInteraction/VC_ChangeMagnification_Location.VC_ChangeMagnification_Location' Class 'CurveVector'>",
+  "change_magnification_punch_angle": {
+    "x": 70.0,
+    "y": 110.0
+  },
+  "change_magnification_sound": "'/Game/Audio/Weapons/Zoom/ZoomCycle/01/weapon_zoomcycle_01_Cue.weapon_zoomcycle_01_Cue' Class 'SoundCue'>",
+  "change_stance_punch_camera_rotation": "'/Game/Blueprints/Soldiers/PunchCurves/ChangeStance/VC_ChangeStance_CameraRotation.VC_ChangeStance_CameraRotation' Class 'CurveVector'>",
+  "change_stance_punch_weapon_alignment": "'/Game/Blueprints/Soldiers/PunchCurves/ChangeStance/VC_ChangeStance_WeaponAlignment.VC_ChangeStance_WeaponAlignment' Class 'CurveVector'>",
+  "change_stance_punch_weapon_sway": "'/Game/Blueprints/Soldiers/PunchCurves/ChangeStance/VC_ChangeStance_WeaponSway.VC_ChangeStance_WeaponSway' Class 'CurveVector'>",
+  "check_current_magazine_for_equip": false,
+  "check_current_magazine_for_unequip": false,
+  "clamp_speed_while_reloading": -1.0,
+  "clear_sight_interp_speed": 5.0,
+  "clear_sight_sway_weight": 0.0,
+  "clear_sights_max_input": 8.5,
+  "clear_sights_max_offset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -0.6499999761581421
+  },
+  "clear_sights_max_roll": {
+    "pitch": 0.0,
+    "roll": 0.0,
+    "yaw": 0.0
+  },
+  "clear_sights_min_input": 5.5,
+  "crouch_ads_recoil_mean": {
+    "x": 0.41999998688697815,
+    "y": 0.07999999821186066,
+    "z": 0.0
+  },
+  "crouch_ads_recoil_sigma": {
+    "x": 0.10000000149011612,
+    "y": 0.11999999731779099,
+    "z": 0.699999988079071
+  },
+  "crouch_lean_left_camera_rotation": {
+    "pitch": 0.0,
+    "roll": -5.0,
+    "yaw": 0.0
+  },
+  "crouch_lean_left_root_offset": {
+    "x": 0.0,
+    "y": -36.0,
+    "z": -10.0
+  },
+  "crouch_lean_left_weapon_rotation": {
+    "pitch": 0.0,
+    "roll": -22.0,
+    "yaw": 0.0
+  },
+  "crouch_lean_right_camera_rotation": {
+    "pitch": 0.0,
+    "roll": 5.0,
+    "yaw": 0.0
+  },
+  "crouch_lean_right_root_offset": {
+    "x": 0.0,
+    "y": 50.0,
+    "z": -22.0
+  },
+  "crouch_lean_right_weapon_rotation": {
+    "pitch": 0.0,
+    "roll": 22.0,
+    "yaw": 0.0
+  },
+  "crouch_loc": {
+    "x": -2.0,
+    "y": -1.5,
+    "z": 1.5
+  },
+  "crouch_recoil_mean": {
+    "x": 0.42500001192092896,
+    "y": 0.08500000089406967,
+    "z": 0.0
+  },
+  "crouch_recoil_sigma": {
+    "x": 0.08500000089406967,
+    "y": 0.08500000089406967,
+    "z": 0.42500001192092896
+  },
+  "crouch_time": 0.3499999940395355,
+  "default_zeroing_text": "100m",
+  "deviation_visu_fb_interp_speed_final": 0.0,
+  "deviation_visu_fb_interp_speed_yz": 0.0,
+  "deviation_visu_fb_max": 0.0,
+  "disable_suppression_x_axis_camera_location_punch": false,
+  "dry_reload_sound1p": "None",
+  "dry_reload_sound3p": "None",
+  "empty_alt_use_sound1p": "None",
+  "empty_alt_use_sound3p": "None",
+  "empty_equip1p_montage": "None",
+  "empty_equip3p_montage": "None",
+  "empty_equip_duration": 0.0,
+  "empty_equip_weapon_montage": "None",
+  "empty_unequip1p_montage": "None",
+  "empty_unequip3p_montage": "None",
+  "empty_unequip_duration": 0.0,
+  "empty_unequip_weapon_montage": "None",
+  "equip_sound1p": "None",
+  "equip_sound3p": "None",
+  "falling_weapon_punch_curve": "'/Game/Blueprints/Soldiers/PunchCurves/Falling/VC_Falling_WeaponSway.VC_Falling_WeaponSway' Class 'CurveVector'>",
+  "fire_add_bipod1p_montage": "None",
+  "fire_bipod3p_montage": "None",
+  "fire_bipod_weapon_montage": "None",
+  "fire_stance_restriction": 0,
+  "firemode_bipod_montage": "None",
+  "firemode_bipod_weapon_montage": "None",
+  "firing_modes_flip_flop_toggle": [
+    true,
+    true
+  ],
+  "fpv_lower_root_bone_offset": {
+    "x": -60.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "fpv_torso_camera_offset": {
+    "x": -14.0,
+    "y": 29.0,
+    "z": 148.5
+  },
+  "free_aim_ads_interp_speed": 4.0,
+  "free_aim_horizontal_rotation_scale": 0.10000000149011612,
+  "free_aim_horizontal_threshold": 0.10000000149011612,
+  "free_aim_limit_horizontal": 11.0,
+  "free_aim_limit_superellipse_power": 2.0,
+  "free_aim_limit_vertical": 6.0,
+  "free_aim_non_ads_interp_speed": 30.0,
+  "free_aim_rotation_scale_curve": "'/Game/Blueprints/Items/VC_FreeAimScalingCurve_Rifle.VC_FreeAimScalingCurve_Rifle' Class 'CurveVector'>",
+  "free_aim_vertical_rotation_scale": 0.10000000149011612,
+  "from_ads_transition1p_montage": "None",
+  "full_stamina_deviation_factor": 0.0,
+  "full_stamina_recoil_factor": 0.0,
+  "has_adjustable_sight": true,
+  "has_ads_transition": false,
+  "has_bipod": false,
+  "hold_breath_ease_curve": "'/Game/Blueprints/Items/HoldBreathEaseCurve.HoldBreathEaseCurve' Class 'CurveFloat'>",
+  "hold_breath_ease_in_play_rate": 1.0,
+  "hold_breath_ease_out_play_rate": 3.0,
+  "idle_blend_out_time": 0.5,
+  "into_forced_lowering_sound": "None",
+  "into_forced_raising_sound": "None",
+  "item_collision_distance": 78.0,
+  "item_usage_nullified_text": "Weapons remain on Safe while inside the Main Base",
+  "jog_play_rate_factor_min_range": -0.699999988079071,
+  "lean_head_when_ads": true,
+  "left_hand_weapon_ik_alpha": 1.0,
+  "limit_lean_angle": false,
+  "loop_muzzle_flash": false,
+  "loop_shell_ejection": false,
+  "low_stamina_deviation_factor": 0.0,
+  "low_stamina_recoil_factor": 0.20000000298023224,
+  "lowering_blend_out_time": 0.20000000298023224,
+  "lowering_timer": 50.0,
+  "manual_bolting1p_montage": "None",
+  "manual_bolting3p_montage": "None",
+  "manual_bolting_bipod1p_montage": "None",
+  "manual_bolting_bipod3p_montage": "None",
+  "manual_bolting_bipod_weapon_montage": "None",
+  "manual_bolting_completion_time": 1.0,
+  "manual_bolting_weapon_montage": "None",
+  "max_move_deviation_factor": 0.0,
+  "max_move_recoil_factor": 0.699999988079071,
+  "max_shot_deviation_factor": 0.0,
+  "max_speed_required_for_use": -1.0,
+  "min_bipod_ads_deviation": 0.0,
+  "min_bipod_deviation": 0.0,
+  "min_crouch_ads_deviation": 0.0,
+  "min_crouch_deviation": 0.0,
+  "min_move_deviation_factor": 0.0,
+  "min_move_recoil_factor": 0.07000000029802322,
+  "min_prone_ads_deviation": 0.0,
+  "min_prone_deviation": 0.0,
+  "min_prone_transition_deviation": 16.0,
+  "min_shot_deviation_factor": 0.0,
+  "min_stand_ads_deviation": 0.0,
+  "min_stand_deviation": 0.0,
+  "move_bobbing_end_loop_section_names": {
+    "begin_section": "Begin",
+    "end_section": "End",
+    "loop_section1": "Loop1",
+    "loop_section2": "Loop2",
+    "mid_end_section": "MidEnd"
+  },
+  "move_deviation_factor_release": 0.0,
+  "move_recoil_factor_release": 9.5,
+  "mutual_weapons": [],
+  "muzzle_flash_effect1p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_AssaultRifle_Sideblasts.Muzzleflash_AssaultRifle_Sideblasts' Class 'ParticleSystem'>",
+  "muzzle_flash_effect3p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_AssaultRifle_Sideblasts.Muzzleflash_AssaultRifle_Sideblasts' Class 'ParticleSystem'>",
+  "muzzle_flash_effect_ads": "None",
+  "muzzle_flash_effect_socket": "BarrelStart",
+  "muzzle_flash_lasting_effect1p": "None",
+  "muzzle_flash_lasting_effect3p": "None",
+  "muzzle_flash_use_lasting_effect": false,
+  "niagara_muzzle_flash_effect1p": "None",
+  "niagara_muzzle_flash_effect3p": "None",
+  "niagara_muzzle_flash_effect_ads": "None",
+  "niagara_shell_ejection_effect1p": "None",
+  "niagara_shell_ejection_effect3p": "None",
+  "offset_line_of_fire": {
+    "pitch": -3.0,
+    "roll": 0.0,
+    "yaw": 0.0
+  },
+  "out_of_forced_lowering_sound": "None",
+  "out_of_forced_raising_sound": "None",
+  "play_sound_on_empty_alt_use": 0,
+  "play_sound_on_empty_use": 10,
+  "play_sound_on_mag_empty": true,
+  "prevent_alt_use_while_crawling": true,
+  "prevent_freelook_while_ads": true,
+  "prevent_use_while_crawling": true,
+  "prone_ads_recoil_mean": {
+    "x": 0.30000001192092896,
+    "y": 0.019999999552965164,
+    "z": 0.0
+  },
+  "prone_ads_recoil_sigma": {
+    "x": 0.09000000357627869,
+    "y": 0.10000000149011612,
+    "z": 1.0
+  },
+  "prone_lean_left_camera_rotation": {
+    "pitch": 0.0,
+    "roll": -15.0,
+    "yaw": 0.0
+  },
+  "prone_lean_left_root_offset": {
+    "x": 0.0,
+    "y": -50.0,
+    "z": 0.0
+  },
+  "prone_lean_left_weapon_rotation": {
+    "pitch": 0.0,
+    "roll": -30.0,
+    "yaw": 0.0
+  },
+  "prone_lean_right_camera_rotation": {
+    "pitch": 0.0,
+    "roll": 15.0,
+    "yaw": 0.0
+  },
+  "prone_lean_right_root_offset": {
+    "x": 0.0,
+    "y": 65.0,
+    "z": -5.0
+  },
+  "prone_lean_right_weapon_rotation": {
+    "pitch": 0.0,
+    "roll": 30.0,
+    "yaw": 0.0
+  },
+  "prone_loc": {
+    "x": -2.0,
+    "y": -1.5,
+    "z": 1.5
+  },
+  "prone_recoil_mean": {
+    "x": 0.36125001311302185,
+    "y": 0.08500000089406967,
+    "z": 0.8500000238418579
+  },
+  "prone_recoil_sigma": {
+    "x": 0.1275000125169754,
+    "y": 0.8500000238418579,
+    "z": 0.42500001192092896
+  },
+  "prone_time": 0.30000001192092896,
+  "prone_transition_recoil_mean": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "prone_transition_recoil_sigma": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "raising_blend_out_time": 0.5,
+  "random_fire1p_montage": [
+    {
+      "blend_mode_in": "<MontageBlendMode.STANDARD: 0>",
+      "blend_mode_out": "<MontageBlendMode.STANDARD: 0>",
+      "blend_profile_in": "None",
+      "blend_profile_out": "None",
+      "controller": "'/Engine/Transient.AnimDataController_34' Class 'AnimDataController'>",
+      "data_model": "None",
+      "sequence_length": 2.0
+    },
+    {
+      "blend_mode_in": "<MontageBlendMode.STANDARD: 0>",
+      "blend_mode_out": "<MontageBlendMode.STANDARD: 0>",
+      "blend_profile_in": "None",
+      "blend_profile_out": "None",
+      "controller": "'/Engine/Transient.AnimDataController_35' Class 'AnimDataController'>",
+      "data_model": "None",
+      "sequence_length": 2.0
+    },
+    {
+      "blend_mode_in": "<MontageBlendMode.STANDARD: 0>",
+      "blend_mode_out": "<MontageBlendMode.STANDARD: 0>",
+      "blend_profile_in": "None",
+      "blend_profile_out": "None",
+      "controller": "'/Engine/Transient.AnimDataController_36' Class 'AnimDataController'>",
+      "data_model": "None",
+      "sequence_length": 2.0
+    },
+    {
+      "blend_mode_in": "<MontageBlendMode.STANDARD: 0>",
+      "blend_mode_out": "<MontageBlendMode.STANDARD: 0>",
+      "blend_profile_in": "None",
+      "blend_profile_out": "None",
+      "controller": "'/Engine/Transient.AnimDataController_37' Class 'AnimDataController'>",
+      "data_model": "None",
+      "sequence_length": 2.0
+    }
+  ],
+  "recoil_ads_camera_shot_interp_speed": 200.0,
+  "recoil_alignment_bipod_grip_angle_limits": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "recoil_alignment_bipod_grip_max": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "recoil_alignment_bipod_multiplier": 1.0,
+  "recoil_alignment_bipod_shoulder_angle_limits": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "recoil_alignment_bipod_shoulder_max": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "recoil_alignment_bipod_use_separate_config": true,
+  "recoil_alignment_crouch_multiplier": 0.8999999761581421,
+  "recoil_alignment_grip_angle_limits": {
+    "x": 2.0,
+    "y": 2.0
+  },
+  "recoil_alignment_grip_max": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "recoil_alignment_movement_addative": 0.10000000149011612,
+  "recoil_alignment_movement_exponent": 1.0,
+  "recoil_alignment_multiplier_max": 1.3300000429153442,
+  "recoil_alignment_no_flip_flop_when_bipoded": false,
+  "recoil_alignment_prone_multiplier": 0.8299999833106995,
+  "recoil_alignment_shoulder_angle_limits": {
+    "x": 5.0,
+    "y": 3.5
+  },
+  "recoil_alignment_shoulder_max": {
+    "x": 2.0,
+    "y": 1.2000000476837158
+  },
+  "recoil_alignment_stamina_addative": 0.10000000149011612,
+  "recoil_alignment_stamina_exponent": 0.5,
+  "recoil_alignment_stand_multiplier": 1.0,
+  "recoil_anim_blend_time": 0.0,
+  "recoil_camera_offset_factor": 0.800000011920929,
+  "recoil_camera_offset_interp_speed": 5.0,
+  "recoil_camera_shot_interp_speed": 0.0,
+  "recoil_can_release_interp_speed": 30.0,
+  "recoil_grip_alignment_curve": "'/Game/Blueprints/Items/RecoilGripAlignmentCurve.RecoilGripAlignmentCurve' Class 'CurveFloat'>",
+  "recoil_lof_attack_interp_speed": 45.0,
+  "recoil_lof_camera_offset_limit": 30.0,
+  "recoil_lof_release_interp_speed": 10.0,
+  "recoil_shoulder_alignment_curve": "'/Game/Blueprints/Items/RecoilShoulderAlignmentCurve.RecoilShoulderAlignmentCurve' Class 'CurveFloat'>",
+  "recoil_weapon_rel_loc_factor": 0.0,
+  "reload_bipod1p_montage": "None",
+  "reload_bipod3p_montage": "None",
+  "reload_bipod_weapon_montage": "None",
+  "reload_dry_bipod1p_montage": "None",
+  "reload_dry_bipod3p_montage": "None",
+  "reload_dry_bipod_weapon_montage": "None",
+  "reload_sound1p": "None",
+  "reload_sound3p": "None",
+  "require_ads_to_shoot": false,
+  "requires_manual_bolt": false,
+  "return_to_ads_after_item_collision": true,
+  "right_hand3p_weapon_ik_alpha": 1.0,
+  "separate_ads_fov": -1.0,
+  "shell_ejection_cull_distance_in_meters": 10.0,
+  "shell_ejection_effect1p": "'/Game/Particles/Weapons/Shell_Ejections/P_ShellEjection_545x39.P_ShellEjection_545x39' Class 'ParticleSystem'>",
+  "shell_ejection_effect3p": "'/Game/Particles/Weapons/Shell_Ejections/P_ShellEjection_545x39.P_ShellEjection_545x39' Class 'ParticleSystem'>",
+  "shell_ejection_effect_socket": "ShellEjection",
+  "shot_deviation_factor_release": 1.0,
+  "show_weapon_handling_indicator": true,
+  "show_zeroing_in_hud": true,
+  "sight_switching_sound1p": "None",
+  "sight_switching_sound3p": "None",
+  "sounds_socket": "WeaponRoot",
+  "split_randomization": true,
+  "spring_ads_multiplier_rotation": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "spring_ads_multiplier_translation": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "sprint_blend_factor_min_range": 0.8500000238418579,
+  "sprint_blend_speed_interp_speed": 400.0,
+  "sprint_bobbing_end_loop_section_names": {
+    "begin_section": "Begin",
+    "end_section": "End",
+    "loop_section1": "Loop1",
+    "loop_section2": "Loop2",
+    "mid_end_section": "MidEnd"
+  },
+  "sprint_play_rate_factor_min_range": -2.0,
+  "stand_ads_recoil_mean": {
+    "x": 0.5,
+    "y": 0.07999999821186066,
+    "z": 0.0
+  },
+  "stand_ads_recoil_sigma": {
+    "x": 0.10000000149011612,
+    "y": 0.10000000149011612,
+    "z": 0.800000011920929
+  },
+  "stand_lean_left_camera_rotation": {
+    "pitch": 0.0,
+    "roll": -5.0,
+    "yaw": 0.0
+  },
+  "stand_lean_left_root_offset": {
+    "x": 0.0,
+    "y": -52.0,
+    "z": -20.0
+  },
+  "stand_lean_left_weapon_rotation": {
+    "pitch": 0.0,
+    "roll": -22.0,
+    "yaw": 0.0
+  },
+  "stand_lean_right_camera_rotation": {
+    "pitch": 0.0,
+    "roll": 5.0,
+    "yaw": 0.0
+  },
+  "stand_lean_right_root_offset": {
+    "x": 0.0,
+    "y": 52.0,
+    "z": -20.0
+  },
+  "stand_lean_right_weapon_rotation": {
+    "pitch": 0.0,
+    "roll": 22.0,
+    "yaw": 0.0
+  },
+  "stand_loc": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -2.5
+  },
+  "stand_loc_blend_time": 0.20000000298023224,
+  "stand_recoil_mean": {
+    "x": 0.4675000309944153,
+    "y": 0.08500000089406967,
+    "z": 0.0
+  },
+  "stand_recoil_sigma": {
+    "x": 0.11900000274181366,
+    "y": 0.08500000089406967,
+    "z": 2.0400002002716064
+  },
+  "stand_time": 0.4000000059604645,
+  "steady1p_hip_fire_duration": 0.30000001192092896,
+  "strafe_spring_rotator": {
+    "pitch": 0.0,
+    "roll": 6.0,
+    "yaw": 0.5
+  },
+  "strafe_spring_vector": {
+    "x": 0.0,
+    "y": -1.7999999523162842,
+    "z": 1.25
+  },
+  "sway_alignment_data": {
+    "aspect": {
+      "has_sway": 1.0,
+      "sway_interp_speed_final": 4.199999809265137,
+      "sway_interp_speed_yz": 1.5
+    },
+    "dynamic_group": {
+      "breath": {
+        "holding_breath_sway": 0.0,
+        "holding_breath_sway_factor": 0.6600000262260437
+      },
+      "movement": {
+        "add_move_sway": 9.500000305706635e-05,
+        "max_move_sway_factor": 1.149999976158142,
+        "min_move_sway_factor": 0.0,
+        "move_sway_factor_release": 9.5
+      },
+      "stamina": {
+        "full_stamina_sway_factor": 0.0,
+        "low_stamina_sway_factor": 5.400000095367432
+      }
+    },
+    "limits": {
+      "final_sway_clamp": 5.0
+    },
+    "location_offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "location_offset_multiplier": 4.5,
+    "stance_group": {
+      "bipod": {
+        "ads_sway_min": 0.0,
+        "sway_min": 0.0
+      },
+      "bipod_interpolation_speed": 0.33000001311302185,
+      "crouch": {
+        "ads_sway_min": 0.4699999988079071,
+        "sway_min": 0.75
+      },
+      "prone": {
+        "ads_sway_min": 0.4000000059604645,
+        "sway_min": 0.6499999761581421
+      },
+      "prone_transition": {
+        "prone_transition_sway_min": 1.0
+      },
+      "stance_interpolation_speed": 7.5,
+      "standing": {
+        "ads_sway_min": 0.6499999761581421,
+        "sway_min": 1.0
+      }
+    },
+    "sway": {
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 0.0
+    },
+    "total_sway": 0.0,
+    "unclamped_total_sway": 0.0
+  },
+  "sway_clear_sights_blend_curve": "'/Game/Blueprints/Items/Rifles/FC_GenericClearSightTransition.FC_GenericClearSightTransition' Class 'CurveFloat'>",
+  "sway_data": {
+    "aspect": {
+      "has_sway": 1.0,
+      "sway_interp_speed_final": 3.0,
+      "sway_interp_speed_yz": 2.0
+    },
+    "dynamic_group": {
+      "breath": {
+        "holding_breath_sway": 0.0,
+        "holding_breath_sway_factor": 0.6000000238418579
+      },
+      "movement": {
+        "add_move_sway": 4.999999873689376e-05,
+        "max_move_sway_factor": 6.0,
+        "min_move_sway_factor": 0.0,
+        "move_sway_factor_release": 9.5
+      },
+      "stamina": {
+        "full_stamina_sway_factor": 0.0,
+        "low_stamina_sway_factor": 5.400000095367432
+      }
+    },
+    "limits": {
+      "final_sway_clamp": 6.0
+    },
+    "location_offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "location_offset_multiplier": 6.0,
+    "stance_group": {
+      "bipod": {
+        "ads_sway_min": 0.0,
+        "sway_min": 0.0
+      },
+      "bipod_interpolation_speed": 0.6600000262260437,
+      "crouch": {
+        "ads_sway_min": 0.6000000238418579,
+        "sway_min": 1.0
+      },
+      "prone": {
+        "ads_sway_min": 0.44999998807907104,
+        "sway_min": 0.5600000023841858
+      },
+      "prone_transition": {
+        "prone_transition_sway_min": 1.0
+      },
+      "stance_interpolation_speed": 7.5,
+      "standing": {
+        "ads_sway_min": 0.949999988079071,
+        "sway_min": 1.2999999523162842
+      }
+    },
+    "sway": {
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 0.0
+    },
+    "total_sway": 0.0,
+    "unclamped_total_sway": 0.0
+  },
+  "toggle_ads_flag": true,
+  "toggle_bipod_ads_flag": false,
+  "toggle_bipod_non_ads_flag": false,
+  "toggle_firemode_sound1p": "None",
+  "toggle_firemode_sound3p": "None",
+  "unequip_sound1p": "None",
+  "unequip_sound3p": "None",
+  "usable_in_main_base": false,
+  "use_auto_lowering": true,
+  "walk_speed_multiplier": 0.699999988079071,
+  "weapon_mesh_spring_loc_delay_factor": -0.05999999865889549,
+  "weapon_mesh_spring_rot_delay_factor": -3.0,
+  "weapon_spring_ads_override": {
+    "weapon_spring_ads_multiplier_rotation": {
+      "x": 0.20000000298023224,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "weapon_spring_ads_multiplier_translation": {
+      "x": 2.0,
+      "y": 2.0,
+      "z": 2.0
+    },
+    "weapon_spring_clamp": 5.0,
+    "weapon_spring_factor2": 0.05000000074505806,
+    "weapon_spring_override_bit_flags": 3,
+    "weapon_spring_side": 1
+  },
+  "weapon_spring_bipod_ads_override": {
+    "weapon_spring_ads_multiplier_rotation": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "weapon_spring_ads_multiplier_translation": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "weapon_spring_clamp": 5.0,
+    "weapon_spring_factor2": 0.5,
+    "weapon_spring_override_bit_flags": 0,
+    "weapon_spring_side": 1
+  },
+  "weapon_spring_bipod_non_ads_override": {
+    "weapon_spring_ads_multiplier_rotation": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "weapon_spring_ads_multiplier_translation": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "weapon_spring_clamp": 5.0,
+    "weapon_spring_factor2": 0.5,
+    "weapon_spring_override_bit_flags": 0,
+    "weapon_spring_side": 1
+  },
+  "weapon_spring_clamp": 5.0,
+  "weapon_spring_critical_damping_factor": 0.8999999761581421,
+  "weapon_spring_factor2": 0.05000000074505806,
+  "weapon_spring_mass": 0.05000000074505806,
+  "weapon_spring_side": 1,
+  "weapon_spring_stiffness": 0.6000000238418579,
+  "weapon_spring_turn_speed_to_full_intensity": 100.0
+}

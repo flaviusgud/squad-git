@@ -1,0 +1,118 @@
+{
+  "actions": [],
+  "auto_inject_into_layers": true,
+  "characteristics": [],
+  "characteristics_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
+  "data": {
+    "data_table": "'/Game/Settings/FactionSetups/TestFactionSetups/FactionSetupTable_Testing.FactionSetupTable_Testing' Class 'DataTable'>",
+    "row_name": "FSTest_RGF_UltraLightweight"
+  },
+  "default_role": "'/Game/Settings/Roles/RGF/RGF_Recruit.RGF_Recruit' Class 'BP_SQRoleSettings_C'>",
+  "default_squad_leader_role": "'/Game/Settings/Roles/RGF/RGF_Recruit.RGF_Recruit' Class 'BP_SQRoleSettings_C'>",
+  "deployables": [
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_HAB_Conventionnal.Cost_HAB_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_HAB_01.Count_HAB_01' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Tech/HAB_RGF.HAB_RGF' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_AmmoCrate.Cost_AmmoCrate' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Tech/AmmoCrate_RGF.AmmoCrate_RGF' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "NotWithinFOB"
+          },
+          "fob_radius_table_column_name": "FOBExclusionRadius",
+          "id": "NotWithinFOB",
+          "range": 40000.0,
+          "target_count": 0,
+          "target_teams": "set([SameTeam])"
+        },
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "Need1TeamMate"
+          },
+          "id": "Need1TeamMate",
+          "range": 3000.0,
+          "target_count": 2,
+          "target_teams": "set([SameTeam])"
+        },
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "Need3TeamMate"
+          },
+          "id": "Need3TeamMate",
+          "range": 3000.0,
+          "target_count": 4,
+          "target_teams": "set([SameTeam])"
+        },
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "NearFriendlyLOG"
+          },
+          "id": "NearFriendlyLOG",
+          "range": 3000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Other/Radio_RGF.Radio_RGF' Class 'BP_SQDeployableSettings_C'>"
+    }
+  ],
+  "faction_id": "RGF",
+  "game_mode_list_inclusion": false,
+  "game_modes_list": [],
+  "id": "FSTest_RGF_UltraLightweight",
+  "leave_squad_role": "'/Game/Settings/Roles/RGF/RGF_Recruit.RGF_Recruit' Class 'BP_SQRoleSettings_C'>",
+  "outer_faction": "None",
+  "override_defaults": false,
+  "roles": [
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/RGF/RGF_Recruit.RGF_Recruit' Class 'BP_SQRoleSettings_C'>"
+    }
+  ],
+  "vehicles": []
+}

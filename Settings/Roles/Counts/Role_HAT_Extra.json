@@ -1,0 +1,65 @@
+{
+  "base_availability": 2,
+  "data": {
+    "data_table": "'/Game/Settings/Roles/Counts/RoleCountTable.RoleCountTable' Class 'DataTable'>",
+    "row_name": "HAT"
+  },
+  "id": "HAT",
+  "is_unique_usage": false,
+  "parameters": [
+    {
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "Teamsize_HAT_Extra"
+      },
+      "id": "Teamsize_HAT_Extra",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_for_player": true,
+      "use_for_team": false
+    },
+    {
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "TeamSize_Specialist"
+      },
+      "id": "TeamSize_Specialist",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_for_player": true,
+      "use_for_team": false
+    },
+    {
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "TeamSize_LAT"
+      },
+      "id": "TeamSize_LAT",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_for_player": true,
+      "use_for_team": false
+    },
+    {
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "SquadSize_Specialist"
+      },
+      "id": "SquadSize_Specialist",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_for_player": true,
+      "use_for_team": false
+    },
+    {
+      "curve": "None",
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "SquadSize_3_for_1"
+      },
+      "fixed_availability": 1,
+      "id": "SquadSize_3_for_1",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_curve": false,
+      "use_for_player": true,
+      "use_for_team": false,
+      "value_to_reach": 3.0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "curve": "'/Game/Settings/Roles/Counts/Parameters/Team/Sniper_Scaling.Sniper_Scaling' Class 'CurveFloat'>",
+  "data": {
+    "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+    "row_name": "TeamSize_Sniper"
+  },
+  "fixed_availability": 0,
+  "id": "TeamSize_Sniper",
+  "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+  "use_curve": true,
+  "use_for_player": false,
+  "use_for_team": true,
+  "value_to_reach": 0.0
+}

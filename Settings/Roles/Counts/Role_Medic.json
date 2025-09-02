@@ -1,0 +1,35 @@
+{
+  "base_availability": -1,
+  "data": {
+    "data_table": "'/Game/Settings/Roles/Counts/RoleCountTable.RoleCountTable' Class 'DataTable'>",
+    "row_name": "Medic"
+  },
+  "id": "Medic",
+  "is_unique_usage": false,
+  "parameters": [
+    {
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "SquadSize_Medic"
+      },
+      "id": "SquadSize_Medic",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_for_player": true,
+      "use_for_team": false
+    },
+    {
+      "curve": "None",
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "SquadSize_2_for_2"
+      },
+      "fixed_availability": 2,
+      "id": "SquadSize_2_for_2",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_curve": false,
+      "use_for_player": true,
+      "use_for_team": false,
+      "value_to_reach": 2.0
+    }
+  ]
+}

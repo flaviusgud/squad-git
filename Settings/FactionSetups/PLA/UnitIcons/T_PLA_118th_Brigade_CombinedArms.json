@@ -1,0 +1,87 @@
+{
+  "address_x": "<TextureAddress.TA_WRAP: 0>",
+  "address_y": "<TextureAddress.TA_WRAP: 0>",
+  "adjust_brightness": 1.0,
+  "adjust_brightness_curve": 1.0,
+  "adjust_hue": 0.0,
+  "adjust_max_alpha": 1.0,
+  "adjust_min_alpha": 0.0,
+  "adjust_rgb_curve": 1.0,
+  "adjust_saturation": 1.0,
+  "adjust_vibrance": 0.0,
+  "alpha_coverage_thresholds": {
+    "w": 1.0,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "availability": "<TextureAvailability.GPU: 0>",
+  "chroma_key_color": {
+    "a": 255,
+    "b": 255,
+    "g": 0,
+    "r": 255
+  },
+  "chroma_key_texture": false,
+  "chroma_key_threshold": 0.003921568859368563,
+  "composite_power": 1.0,
+  "composite_texture": "None",
+  "composite_texture_mode": "<CompositeTextureMode.CTM_NORMAL_ROUGHNESS_TO_ALPHA: 4>",
+  "compress_final": false,
+  "compression_no_alpha": false,
+  "compression_quality": "<TextureCompressionQuality.TCQ_DEFAULT: 0>",
+  "compression_settings": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  "cook_platform_tiling_settings": "<TextureCookPlatformTilingSettings.TCPTS_FROM_TEXTURE_GROUP: 0>",
+  "defer_compression": false,
+  "do_scale_mips_for_alpha_coverage": false,
+  "filter": "<TextureFilter.TF_DEFAULT: 3>",
+  "flip_green_channel": false,
+  "global_force_mip_levels_to_be_resident": false,
+  "lod_bias": 0,
+  "lod_group": "<TextureGroup.TEXTUREGROUP_UI: 16>",
+  "lossy_compression_amount": "<TextureLossyCompressionAmount.TLCA_DEFAULT: 0>",
+  "max_texture_size": 0,
+  "mip_gen_settings": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+  "mip_load_options": "<TextureMipLoadOptions.DEFAULT: 0>",
+  "never_stream": false,
+  "normalize_normals": false,
+  "num_cinematic_mip_levels": 0,
+  "oodle_preserve_extremes": false,
+  "oodle_texture_sdk_version": "None",
+  "pad_with_border_color": false,
+  "padding_color": {
+    "a": 255,
+    "b": 0,
+    "g": 0,
+    "r": 0
+  },
+  "power_of_two_mode": "<TexturePowerOfTwoSetting.NONE: 0>",
+  "preserve_border": false,
+  "resize_during_build_x": 0,
+  "resize_during_build_y": 0,
+  "source_color_settings": {
+    "blue_chromaticity_coordinate": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "chromatic_adaptation_method": "<TextureChromaticAdaptationMethod.TCAM_BRADFORD: 1>",
+    "color_space": "<TextureColorSpace.TCS_NONE: 0>",
+    "encoding_override": "<TextureSourceEncoding.TSE_NONE: 0>",
+    "green_chromaticity_coordinate": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "red_chromaticity_coordinate": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "white_chromaticity_coordinate": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  "srgb": true,
+  "use_legacy_gamma": false,
+  "use_new_mip_filter": false,
+  "virtual_texture_streaming": false
+}

@@ -1,0 +1,49 @@
+{
+  "commendation_type": {
+    "data_table": "'/Game/Settings/Commendations/CommendationInfo.CommendationInfo' Class 'DataTable'>",
+    "row_name": "None"
+  },
+  "data": {
+    "data_table": "'/Game/Settings/Roles/MEI/RoleTable_MEI.RoleTable_MEI' Class 'DataTable'>",
+    "row_name": "MEI_Recruit"
+  },
+  "id": "MEI_Recruit",
+  "inventory": [
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/Rifles/BP_AKM_1mag.BP_AKM_1mag_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.PRIMARY: 1>"
+        }
+      ]
+    },
+    {
+      "weapon_items": []
+    },
+    {
+      "weapon_items": []
+    },
+    {
+      "weapon_items": []
+    },
+    {
+      "weapon_items": [
+        {
+          "cannot_rearm": false,
+          "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_Generic_FieldDressing.BP_Generic_FieldDressing_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
+        }
+      ]
+    },
+    {
+      "weapon_items": []
+    }
+  ],
+  "role_specifics_action_name": "Zoom",
+  "role_specifics_action_name1": "Fire"
+}

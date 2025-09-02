@@ -1,0 +1,1034 @@
+{
+  "actions": [
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Actions/Delay/Delay_UAV.Delay_UAV' Class 'SQRestriction_Delay'>",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Actions/CommanderActions/INS/HandledDrone.HandledDrone' Class 'BP_SQActionSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "limited_count": "None",
+      "other_restrictions": []
+    }
+  ],
+  "auto_inject_into_layers": false,
+  "characteristics": [
+    {
+      "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
+      "row_name": "VehicleCommander"
+    }
+  ],
+  "characteristics_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
+  "data": {
+    "data_table": "'/Game/Settings/FactionSetups/IMF/FactionSetupTable_IMF.FactionSetupTable_IMF' Class 'DataTable'>",
+    "row_name": "IMF_LD_Armored"
+  },
+  "default_role": "'/Game/Settings/Roles/IMF/IMF_Rifleman_01.IMF_Rifleman_01' Class 'BP_SQRoleSettings_C'>",
+  "default_squad_leader_role": "'/Game/Settings/Roles/IMF/IMF_SL_01.IMF_SL_01' Class 'BP_SQRoleSettings_C'>",
+  "deployables": [
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "NotWithinFOB"
+          },
+          "fob_radius_table_column_name": "FOBExclusionRadius",
+          "id": "NotWithinFOB",
+          "range": 40000.0,
+          "target_count": 0,
+          "target_teams": "set([SameTeam])"
+        },
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "Need1TeamMate"
+          },
+          "id": "Need1TeamMate",
+          "range": 3000.0,
+          "target_count": 2,
+          "target_teams": "set([SameTeam])"
+        },
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "Need3TeamMate"
+          },
+          "id": "Need3TeamMate",
+          "range": 3000.0,
+          "target_count": 4,
+          "target_teams": "set([SameTeam])"
+        },
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "NearFriendlyLOG"
+          },
+          "id": "NearFriendlyLOG",
+          "range": 3000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Other/Radio_IMF.Radio_IMF' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_HAB_Irregular.Cost_HAB_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_HAB_01.Count_HAB_01' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Tech/HAB_IMF.HAB_IMF' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_AmmoCrate.Cost_AmmoCrate' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Tech/AmmoCrate_IMF.AmmoCrate_IMF' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_RepairStation_Irregular.Cost_RepairStation_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_RepairStation.Count_RepairStation' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Tech/RepairStation_Irregular.RepairStation_Irregular' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Razorwire_Irregular.Cost_Razorwire_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/RazorWire_Dirty.RazorWire_Dirty' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Ladder.Cost_Ladder' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_Ladder.Count_Ladder' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/Ladder_Wood.Ladder_Wood' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Sandbags_Irregular.Cost_Sandbags_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/Wall_Sandbag.Wall_Sandbag' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Sandbags_Irregular.Cost_Sandbags_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/Wall_Sandbag_MurderHole.Wall_Sandbag_MurderHole' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Wall_Logs.Cost_Wall_Logs' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/Wall_Log.Wall_Log' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Fortification_50.Cost_Fortification_50' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/Wall_DirtCrateLow_IMF.Wall_DirtCrateLow_IMF' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Fortification_50.Cost_Fortification_50' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/Wall_DirtCrateHigh_IMF.Wall_DirtCrateHigh_IMF' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Fortification_50.Cost_Fortification_50' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/Wall_DirtCrateFiringPort_IMF.Wall_DirtCrateFiringPort_IMF' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Fortification_20.Cost_Fortification_20' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/HedgeHogTankTrap_IMF.HedgeHogTankTrap_IMF' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Fortification_50.Cost_Fortification_50' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_CamoNetWall.Count_CamoNetWall' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/CamoNetWall_IMF.CamoNetWall_IMF' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Fortification_50.Cost_Fortification_50' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_CamoNetLeanTo.Count_CamoNetLeanTo' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/CamoNetLeanTo_IMF.CamoNetLeanTo_IMF' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Fortification_100.Cost_Fortification_100' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_CamoNetCanopy.Count_CamoNetCanopy' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/CamoNetCanopy_IMF.CamoNetCanopy_IMF' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_IndirectFireShelter_Conventional.Cost_IndirectFireShelter_Conventional' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_IndirectFireShelter.Count_IndirectFireShelter' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/IndirectFireShelter.IndirectFireShelter' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Fortification_200.Cost_Fortification_200' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_Hull_Down.Count_Hull_Down' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/HullDown.HullDown' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_ObservationTower_Irregular.Cost_ObservationTower_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_ObservationTower.Count_ObservationTower' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Fortifications/ObservationTower_IMF.ObservationTower_IMF' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_AA_Irregular.Cost_AA_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_AAGun.Count_AAGun' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Weapons/ZU23-2.ZU23-2' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_FieldGun.Count_FieldGun' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Weapons/Zis3_FieldGun.Zis3_FieldGun' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Fortification_450.Cost_Fortification_450' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ]
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_AT_Irregular.Cost_AT_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_AT_Irregular.Count_AT_Irregular' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Weapons/SPG9_Tripod.SPG9_Tripod' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_HMG_Irregular.Cost_HMG_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_HMG.Count_HMG' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Weapons/DShk_Tripod.DShk_Tripod' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_HMG_Irregular.Cost_HMG_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_HMG_Protected.Count_HMG_Protected' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Weapons/DShk_Shielded.DShk_Shielded' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_HMG_Irregular.Cost_HMG_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_HMG_Protected_Extra.Count_HMG_Protected_Extra' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Weapons/M2HB_Tripod_Shielded.M2HB_Tripod_Shielded' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Mortar_Irregular.Cost_Mortar_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_Mortar_02.Count_Mortar_02' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Weapons/M1937_Mortar.M1937_Mortar' Class 'BP_SQDeployableSettings_C'>"
+    }
+  ],
+  "faction_id": "IMF",
+  "game_mode_list_inclusion": false,
+  "game_modes_list": [],
+  "id": "IMF_LD_Armored",
+  "leave_squad_role": "'/Game/Settings/Roles/IMF/IMF_Recruit.IMF_Recruit' Class 'BP_SQRoleSettings_C'>",
+  "outer_faction": "None",
+  "override_defaults": false,
+  "roles": [
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Recruit.IMF_Recruit' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_SL.Role_SL' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Roles/Conditions/RoleRestrictionTable.RoleRestrictionTable' Class 'DataTable'>",
+            "row_name": "RequireSL"
+          },
+          "id": "RequireSL",
+          "required_status": [
+            "<SQPlayerStatus.SQUAD_LEADER: 1>"
+          ]
+        }
+      ],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_SL_01.IMF_SL_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_SL.Role_SL' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Roles/Conditions/RoleRestrictionTable.RoleRestrictionTable' Class 'DataTable'>",
+            "row_name": "RequireSL"
+          },
+          "id": "RequireSL",
+          "required_status": [
+            "<SQPlayerStatus.SQUAD_LEADER: 1>"
+          ]
+        }
+      ],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_SL_02.IMF_SL_02' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_SL.Role_SL' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Roles/Conditions/RoleRestrictionTable.RoleRestrictionTable' Class 'DataTable'>",
+            "row_name": "RequireSL"
+          },
+          "id": "RequireSL",
+          "required_status": [
+            "<SQPlayerStatus.SQUAD_LEADER: 1>"
+          ]
+        }
+      ],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_SL_03.IMF_SL_03' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_SL.Role_SL' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Roles/Conditions/RoleRestrictionTable.RoleRestrictionTable' Class 'DataTable'>",
+            "row_name": "RequireSL"
+          },
+          "id": "RequireSL",
+          "required_status": [
+            "<SQPlayerStatus.SQUAD_LEADER: 1>"
+          ]
+        }
+      ],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_SL_04.IMF_SL_04' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_SL_Scoped.Role_SL_Scoped' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Roles/Conditions/RoleRestrictionTable.RoleRestrictionTable' Class 'DataTable'>",
+            "row_name": "RequireSL"
+          },
+          "id": "RequireSL",
+          "required_status": [
+            "<SQPlayerStatus.SQUAD_LEADER: 1>"
+          ]
+        }
+      ],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_SL_05.IMF_SL_05' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_4for1.Role_4for1' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Roles/Conditions/RoleRestrictionTable.RoleRestrictionTable' Class 'DataTable'>",
+            "row_name": "RequireSL"
+          },
+          "id": "RequireSL",
+          "required_status": [
+            "<SQPlayerStatus.SQUAD_LEADER: 1>"
+          ]
+        }
+      ],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_SL_06.IMF_SL_06' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_6for1.Role_6for1' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Roles/Conditions/RoleRestrictionTable.RoleRestrictionTable' Class 'DataTable'>",
+            "row_name": "RequireSL"
+          },
+          "id": "RequireSL",
+          "required_status": [
+            "<SQPlayerStatus.SQUAD_LEADER: 1>"
+          ]
+        }
+      ],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_SL_07.IMF_SL_07' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_SL_Crewman.Role_SL_Crewman' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Roles/Conditions/RoleRestrictionTable.RoleRestrictionTable' Class 'DataTable'>",
+            "row_name": "RequireSL"
+          },
+          "id": "RequireSL",
+          "required_status": [
+            "<SQPlayerStatus.SQUAD_LEADER: 1>"
+          ]
+        }
+      ],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_SLCrewman_01.IMF_SLCrewman_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Medic.Role_Medic' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Medic_02.IMF_Medic_02' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Medic_Scoped.Role_Medic_Scoped' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Medic_03.IMF_Medic_03' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Rifleman.Role_Rifleman' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Rifleman_01.IMF_Rifleman_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Rifleman.Role_Rifleman' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Rifleman_02.IMF_Rifleman_02' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Rifleman.Role_Rifleman' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Rifleman_03.IMF_Rifleman_03' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Rifleman.Role_Rifleman' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Rifleman_04.IMF_Rifleman_04' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Rifleman.Role_Rifleman' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Rifleman_05.IMF_Rifleman_05' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Rifleman.Role_Rifleman' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Rifleman_06.IMF_Rifleman_06' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Rifleman_Scoped.Role_Rifleman_Scoped' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Rifleman_07.IMF_Rifleman_07' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Rifleman_Scoped.Role_Rifleman_Scoped' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Rifleman_08.IMF_Rifleman_08' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Raider.Role_Raider' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Raider_01.IMF_Raider_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Raider.Role_Raider' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Raider_02.IMF_Raider_02' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_AR.Role_AR' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_AR_01.IMF_AR_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_AR.Role_AR' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_AR_03.IMF_AR_03' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_AR_FireSupport.Role_AR_FireSupport' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_AR_04.IMF_AR_04' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_GND.Role_GND' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Grenadier_01.IMF_Grenadier_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_GND.Role_GND' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Grenadier_02.IMF_Grenadier_02' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_GND.Role_GND' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Grenadier_03.IMF_Grenadier_03' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_LAT_TLF.Role_LAT_TLF' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_LAT_01.IMF_LAT_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_LAT_TLF.Role_LAT_TLF' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_LAT_02.IMF_LAT_02' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_LAT_TLF.Role_LAT_TLF' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_LAT_03.IMF_LAT_03' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_DMR.Role_DMR' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Marksman_01.IMF_Marksman_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_DMR.Role_DMR' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Marksman_02.IMF_Marksman_02' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_MMG.Role_MMG' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_MachineGunner_01.IMF_MachineGunner_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_MMG.Role_MMG' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_MachineGunner_02.IMF_MachineGunner_02' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_HAT.Role_HAT' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_HAT_01.IMF_HAT_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_HAT_Restricted.Role_HAT_Restricted' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_HAT_02.IMF_HAT_02' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_HAT.Role_HAT' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Scout_01.IMF_Scout_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Sapper.Role_Sapper' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Sapper_01.IMF_Sapper_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Sniper.Role_Sniper' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Sniper_01.IMF_Sniper_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Crewman.Role_Crewman' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/IMF/IMF_Crewman_01.IMF_Crewman_01' Class 'BP_SQRoleSettings_C'>"
+    }
+  ],
+  "vehicles": [
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_Transport_Initial06.Delay_Transport_Initial06' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_03.AlwaysPerTeam_03' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_Ural375D-TRAN.IMF_Ural375D-TRAN' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_Logi.Delay_Logi' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_02.AlwaysPerTeam_02' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_Ural375D-LOG.IMF_Ural375D-LOG' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_Logi.Delay_Logi' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_02.AlwaysPerTeam_02' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_MTLB_LOGI.IMF_MTLB_LOGI' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_IFV_Light_Initial10.Delay_IFV_Light_Initial10' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_BMP-1.IMF_BMP-1' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_IFV_Light_Initial10.Delay_IFV_Light_Initial10' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_BMP-2.IMF_BMP-2' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_AAA.Delay_AAA' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_02.AlwaysPerTeam_02' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_MTLB-ZU23-2.IMF_MTLB-ZU23-2' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_BM21Grad.IMF_BM21Grad' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_MGS.Delay_MGS' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_T-62.IMF_T-62' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_MGS_initial15.Delay_MGS_Initial15' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_T-72A.IMF_T-72A' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_ULTV.Delay_ULTV' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/Universal/RHIB_PKM.RHIB_PKM' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_ULTV.Delay_ULTV' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_02.AlwaysPerTeam_02' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/Universal/RHIB_DSHK.RHIB_DSHK' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_ULTV.Delay_ULTV' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/Universal/RHIB_Logi.RHIB_Logi' Class 'BP_SQVehicleSettings_C'>"
+    }
+  ]
+}
