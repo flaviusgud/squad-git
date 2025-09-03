@@ -11,11 +11,13 @@ guns_types = ["GrenadeLaunchers", "MachineGuns", "Pistols", "Rifles", "RocketLau
 used_guns = set()
 used_static = set()
 
+
 def jd(x, p):
-    pp = p.rsplit("/",1)[0]
+    pp = p.rsplit("/", 1)[0]
     os.makedirs(f"{out}/{pp}", exist_ok=1)
     with open(f"{out}/{p}.json", "w") as f:
         json.dump(x, f, indent=2)
+
 
 def strip(x):
     if isinstance(x, float) or isinstance(x, int):
@@ -25,10 +27,12 @@ def strip(x):
     x = re.sub("<Struct 'Vector'", "", x)
     return re.sub("<Object ", "", x)
 
+
 def itrarr(x, dep):
-        if "Object" in str(x) or "Struct" in str(x):
-            return itrdict(x, dep + 1)
-        return strip(x)
+    if "Object" in str(x) or "Struct" in str(x):
+        return itrdict(x, dep + 1)
+    return strip(x)
+
 
 def itrdict(x, dep):
     if dep > 3:
@@ -61,9 +65,10 @@ def itrdict(x, dep):
             pass
     return d
 
+
 paths = ["Settings/Roles", "Settings/FactionSetups"]
 for path in paths:
-    for w in glob(f"{inst}/{path}/**/*.uasset", recursive = True):
+    for w in glob(f"{inst}/{path}/**/*.uasset", recursive=True):
         bp = w.split("\\", 1)[1].replace("\\", "/")[:-7]
         b = unreal.load_object(None, f"/Game/{path}/{bp}")
         jd(itrdict(b, 0), f"{path}/{bp}")
@@ -77,7 +82,7 @@ for gun in used_static:
     jd(itrdict(b, 0), gun.split(".")[0][5:])
 paths = ["Blueprints/Items/Grenades", "Blueprints/Items/Projectiles"]
 for path in paths:
-    for w in glob(f"{inst}/{path}/**/BP_*.uasset", recursive = True):
+    for w in glob(f"{inst}/{path}/**/BP_*.uasset", recursive=True):
         bp = w.split("\\", 1)[1].replace("\\", "/")[:-7]
         bpp = bp.rsplit("/", 1)
         b = unreal.load_object(None, f"/Game/{path}/{bp}.{bpp[-1]}_C")
