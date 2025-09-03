@@ -216,7 +216,16 @@
     "can_reload_when_equipping": false,
     "create_projectile_on_server": false,
     "damage_fall_off_rate": 44.0,
-    "damage_falloff_curve": "'/Game/Gameplay/DamageCurves/M110_DamageCurve.M110_DamageCurve' Class 'CurveFloat'>",
+    "damage_falloff_curve": [
+      [
+        36100.0,
+        80000.0
+      ],
+      [
+        87.0,
+        35.0
+      ]
+    ],
     "distance_to_start_damage_fall_off": 9000.0,
     "dry_reload_duration": 5.21999979019165,
     "dynamic_moa_decay_multiplier": 1.0,

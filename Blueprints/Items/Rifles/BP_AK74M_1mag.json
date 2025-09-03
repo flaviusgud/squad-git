@@ -213,7 +213,16 @@
     "can_reload_when_equipping": false,
     "create_projectile_on_server": false,
     "damage_fall_off_rate": 88.0,
-    "damage_falloff_curve": "'/Game/Gameplay/DamageCurves/AK74_DamageCurve.AK74_DamageCurve' Class 'CurveFloat'>",
+    "damage_falloff_curve": [
+      [
+        31100.0,
+        45000.0
+      ],
+      [
+        60.0,
+        35.0
+      ]
+    ],
     "distance_to_start_damage_fall_off": 9000.0,
     "dry_reload_duration": 5.849999904632568,
     "dynamic_moa_decay_multiplier": 1.0,

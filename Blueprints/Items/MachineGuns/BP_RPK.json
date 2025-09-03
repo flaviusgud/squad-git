@@ -212,7 +212,16 @@
     "can_reload_when_equipping": false,
     "create_projectile_on_server": false,
     "damage_fall_off_rate": 198.6666717529297,
-    "damage_falloff_curve": "'/Game/Gameplay/DamageCurves/RPK_DamageCurve.RPK_DamageCurve' Class 'CurveFloat'>",
+    "damage_falloff_curve": [
+      [
+        22600.0,
+        40000.0
+      ],
+      [
+        73.0,
+        35.0
+      ]
+    ],
     "distance_to_start_damage_fall_off": 9000.0,
     "dry_reload_duration": 7.699999809265137,
     "dynamic_moa_decay_multiplier": 1.0,

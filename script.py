@@ -17,7 +17,6 @@ def jd(x, p):
     with open(f"{out}/{p}.json", "w") as f:
         json.dump(x, f, indent=2)
 
-
 def strip(x):
     if isinstance(x, float) or isinstance(x, int):
         return x
@@ -55,6 +54,9 @@ def itrdict(x, dep):
                 used_guns.add(aas)
             if a == "item_static_info_class":
                 used_static.add(aas)
+            if a == "damage_falloff_curve":
+                b = unreal.load_object(None, aas.split(".")[0])
+                d[a] = [b.get_time_range(), b.get_value_range()[::-1]]
         except:
             pass
     return d
@@ -73,7 +75,6 @@ for gun in used_static:
     b = unreal.load_object(None, gun)
     b = unreal.get_default_object(b)
     jd(itrdict(b, 0), gun.split(".")[0][5:])
-
 paths = ["Blueprints/Items/Grenades", "Blueprints/Items/Projectiles"]
 for path in paths:
     for w in glob(f"{inst}/{path}/**/BP_*.uasset", recursive = True):

@@ -216,7 +216,16 @@
     "can_reload_when_equipping": false,
     "create_projectile_on_server": false,
     "damage_fall_off_rate": 100.0,
-    "damage_falloff_curve": "'/Game/Gameplay/DamageCurves/Pistol_DamageCurve.Pistol_DamageCurve' Class 'CurveFloat'>",
+    "damage_falloff_curve": [
+      [
+        3000.0,
+        10000.0
+      ],
+      [
+        41.0,
+        24.0
+      ]
+    ],
     "distance_to_start_damage_fall_off": 9000.0,
     "dry_reload_duration": 3.559999942779541,
     "dynamic_moa_decay_multiplier": 1.0,

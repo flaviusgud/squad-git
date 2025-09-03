@@ -216,7 +216,16 @@
     "can_reload_when_equipping": false,
     "create_projectile_on_server": false,
     "damage_fall_off_rate": 88.0,
-    "damage_falloff_curve": "'/Game/Blueprints/Items/DamageCurves/Mosin_DamageCurve.Mosin_DamageCurve' Class 'CurveFloat'>",
+    "damage_falloff_curve": [
+      [
+        40000.0,
+        180000.0
+      ],
+      [
+        165.0,
+        75.0
+      ]
+    ],
     "distance_to_start_damage_fall_off": 9000.0,
     "dry_reload_duration": 7.920000076293945,
     "dynamic_moa_decay_multiplier": 1.0,
