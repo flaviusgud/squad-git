@@ -1,7 +1,7 @@
 {
   "commendation_type": {
     "data_table": "'/Game/Settings/Commendations/CommendationInfo.CommendationInfo' Class 'DataTable'>",
-    "row_name": "role_sapper"
+    "row_name": "role_combatengineer"
   },
   "data": {
     "data_table": "'/Game/Settings/Roles/CRF/RoleTable_CRF.RoleTable_CRF' Class 'DataTable'>",

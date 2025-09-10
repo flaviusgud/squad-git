@@ -79,7 +79,7 @@
     "velocity": 0.0
   },
   "holding_zoom_easing_alpha": 0.0,
-  "hud_selected_texture": "'/Game/UI/HUD/Inventory/Weapons/MachineGuns/M27_IAR_NoBipod.T_M27_IAR_NoBipod' Class 'Texture2D'>",
+  "hud_selected_texture": "'/Game/UI/HUD/Inventory/Weapons/Rifles/T_M27_Optic.T_M27_Optic' Class 'Texture2D'>",
   "hud_texture": "'/Game/UI/HUD/Inventory/inventory_category_rifle.inventory_category_rifle' Class 'Texture2D'>",
   "idle_anim": "None",
   "initial_life_span": 0.0,
