@@ -408,7 +408,6 @@
       "blend_mode_out": "<MontageBlendMode.STANDARD: 0>",
       "blend_profile_in": "None",
       "blend_profile_out": "None",
-      "controller": "'/Engine/Transient.AnimDataController_34' Class 'AnimDataController'>",
       "data_model": "None",
       "sequence_length": 2.0
     },
@@ -417,7 +416,6 @@
       "blend_mode_out": "<MontageBlendMode.STANDARD: 0>",
       "blend_profile_in": "None",
       "blend_profile_out": "None",
-      "controller": "'/Engine/Transient.AnimDataController_35' Class 'AnimDataController'>",
       "data_model": "None",
       "sequence_length": 2.0
     },
@@ -426,7 +424,6 @@
       "blend_mode_out": "<MontageBlendMode.STANDARD: 0>",
       "blend_profile_in": "None",
       "blend_profile_out": "None",
-      "controller": "'/Engine/Transient.AnimDataController_36' Class 'AnimDataController'>",
       "data_model": "None",
       "sequence_length": 2.0
     },
@@ -435,7 +432,6 @@
       "blend_mode_out": "<MontageBlendMode.STANDARD: 0>",
       "blend_profile_in": "None",
       "blend_profile_out": "None",
-      "controller": "'/Engine/Transient.AnimDataController_37' Class 'AnimDataController'>",
       "data_model": "None",
       "sequence_length": 2.0
     }

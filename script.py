@@ -4,6 +4,7 @@ import json
 import re
 from glob import glob
 
+
 out = "D:/ws/sq5"
 inst = "C:/avx/bin/SEPT/Squad/Content"
 
@@ -39,6 +40,8 @@ def itrdict(x, dep):
         return strip(x)[:128]
     d = {}
     for a in dir(x):
+        if a in ["controller"]:
+            continue
         try:
             aa = getattr(x, a)
             ts = str(type(aa))
