@@ -600,7 +600,7 @@
     },
     {
       "cost": "None",
-      "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Light.Delay_LTV_Light' Class 'SQRestriction_Delay'>",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Light_Initial05.Delay_LTV_Light_Initial05' Class 'SQRestriction_Delay'>",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/TLF/TLF_Cobra2-MG3.TLF_Cobra2-MG3' Class 'BP_SQVehicleSettings_C'>"

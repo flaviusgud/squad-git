@@ -668,7 +668,7 @@
     {
       "cost": "None",
       "delay": "'/Game/Settings/Availability/Delay/Delay_Transport_Initial06.Delay_Transport_Initial06' Class 'SQRestriction_Delay'>",
-      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_04.AlwaysPerTeam_04' Class 'SQRestriction_Count'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_02.AlwaysPerTeam_02' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/WPMC/WPMC_CPV-Transport.WPMC_CPV-Transport' Class 'BP_SQVehicleSettings_C'>"
     },

@@ -680,13 +680,6 @@
     },
     {
       "cost": "None",
-      "delay": "'/Game/Settings/Availability/Delay/Delay_MBT_Initial10x2.Delay_MBT_Initial10x2' Class 'SQRestriction_Delay'>",
-      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_02.AlwaysPerTeam_02' Class 'SQRestriction_Count'>",
-      "other_restrictions": [],
-      "setting": "'/Game/Settings/Vehicle/TLF/TLF_M60T.TLF_M60T' Class 'BP_SQVehicleSettings_C'>"
-    },
-    {
-      "cost": "None",
       "delay": "'/Game/Settings/Availability/Delay/Delay_ULTV.Delay_ULTV' Class 'SQRestriction_Delay'>",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],

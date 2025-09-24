@@ -541,27 +541,13 @@
     {
       "cost": "None",
       "delay": "'/Game/Settings/Availability/Delay/Delay_Transport_Initial06.Delay_Transport_Initial06' Class 'SQRestriction_Delay'>",
-      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_03.AlwaysPerTeam_03' Class 'SQRestriction_Count'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/PLA/PLA_CTM131_QJY88.PLA_CTM131_QJY88' Class 'BP_SQVehicleSettings_C'>"
     },
     {
       "cost": "None",
-      "delay": "'/Game/Settings/Availability/Delay/Delay_Logi.Delay_Logi' Class 'SQRestriction_Delay'>",
-      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_02.AlwaysPerTeam_02' Class 'SQRestriction_Count'>",
-      "other_restrictions": [],
-      "setting": "'/Game/Settings/Vehicle/PLA/PLA_CTM131_Logistic.PLA_CTM131_Logistic' Class 'BP_SQVehicleSettings_C'>"
-    },
-    {
-      "cost": "None",
-      "delay": "'/Game/Settings/Availability/Delay/Delay_Logi.Delay_Logi' Class 'SQRestriction_Delay'>",
-      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
-      "other_restrictions": [],
-      "setting": "'/Game/Settings/Vehicle/PLA/PLA_ZSD05_Logi.PLA_ZSD05_Logi' Class 'BP_SQVehicleSettings_C'>"
-    },
-    {
-      "cost": "None",
-      "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Light.Delay_LTV_Light' Class 'SQRestriction_Delay'>",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Light_Initial05.Delay_LTV_Light_Initial05' Class 'SQRestriction_Delay'>",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/PLA/PLA_CSK131_QJY88.PLA_CSK131_QJY88' Class 'BP_SQVehicleSettings_C'>"
