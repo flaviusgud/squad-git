@@ -76,7 +76,7 @@
     "velocity": 0.0
   },
   "holding_zoom_easing_alpha": 0.0,
-  "hud_selected_texture": "'/Game/UI/HUD/Inventory/Weapons/Rifles/M1Carbine.T_M1Carbine' Class 'Texture2D'>",
+  "hud_selected_texture": "'/Game/UI/HUD/Inventory/Weapons/Rifles/T_M1Carbine.T_M1Carbine' Class 'Texture2D'>",
   "hud_texture": "'/Game/UI/HUD/Inventory/inventory_category_rifle.inventory_category_rifle' Class 'Texture2D'>",
   "idle_anim": "None",
   "initial_life_span": 0.0,
@@ -88,7 +88,7 @@
   "item_count": 0,
   "item_count_icon_texture": "None",
   "item_description": "Magazine Capacity: 15+1/Caliber: .30 Caliber/Fire Mode: Semi",
-  "item_static_info_class": "'/Game/Blueprints/Items/Rifles/StaticInfo/BP_M1Carbine_Ironsights_StaticInfo.BP_M1Carbine_Ironsights_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
+  "item_static_info_class": "'/Game/Blueprints/Items/Rifles/M1Carbine/StaticInfo/BP_M1Carbine_Ironsights_StaticInfo.BP_M1Carbine_Ironsights_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {
     "armor_damage_multiplier": 1.0,
     "is_tracer": false,
@@ -180,6 +180,7 @@
   "replicate_using_registered_sub_object_list": false,
   "replicates": true,
   "root_component": "'/Game/Blueprints/Items/Rifles/M1Carbine/BP_M1Carbine_Ironsights.Default__BP_M1Carbine_Ironsights_C:SceneComponent' Class 'SceneComponent'>",
+  "should_remove_from_inventory_when_depleted": false,
   "show_ammo_data_in_hud": false,
   "show_item_count_in_inventory": false,
   "show_mag_count_in_inventory": true,

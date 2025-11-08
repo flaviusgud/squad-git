@@ -5,7 +5,7 @@
       "delay": "'/Game/Settings/Actions/Delay/Delay_Strafing.Delay_Strafing' Class 'SQRestriction_Delay'>",
       "limited_count": "None",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Actions/MapActions/RGF/Su25_Strafing_S8_RGF.Su25_Strafing_S8_RGF' Class 'BP_SQMapActionSettings_C'>"
+      "setting": "'/Game/Settings/Actions/MapActions/VDV/Su25_Strafing_S8_VDV.Su25_Strafing_S8_VDV' Class 'BP_SQMapActionSettings_C'>"
     },
     {
       "cost": "None",
@@ -22,7 +22,7 @@
       "delay": "'/Game/Settings/Actions/Delay/Delay_UAV.Delay_UAV' Class 'SQRestriction_Delay'>",
       "limited_count": "None",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Actions/MapActions/RGF/UAV_Pchela-1T_RGF.UAV_Pchela-1T_RGF' Class 'BP_SQMapActionSettings_C'>"
+      "setting": "'/Game/Settings/Actions/MapActions/VDV/UAV_Pchela-1T_VDV.UAV_Pchela-1T_VDV' Class 'BP_SQMapActionSettings_C'>"
     }
   ],
   "auto_inject_into_layers": false,
@@ -714,6 +714,13 @@
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/VDV/VDV_BTR-D_Kord.VDV_BTR-D_Kord' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_APC_Light.Delay_APC_Light' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/VDV/VDV_BTR-D_AGS17.VDV_BTR-D_AGS17' Class 'BP_SQVehicleSettings_C'>"
     },
     {
       "cost": "None",

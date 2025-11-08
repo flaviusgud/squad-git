@@ -1,18 +1,5 @@
 {
-  "actions": [
-    {
-      "cost": "None",
-      "delay": "'/Game/Settings/Actions/Delay/Delay_UAV.Delay_UAV' Class 'SQRestriction_Delay'>",
-      "limited_count": "None",
-      "other_restrictions": [],
-      "setting": "'/Game/Settings/Actions/CommanderActions/INS/HandledDrone.HandledDrone' Class 'BP_SQActionSettings_C'>"
-    },
-    {
-      "cost": "None",
-      "limited_count": "None",
-      "other_restrictions": []
-    }
-  ],
+  "actions": [],
   "auto_inject_into_layers": false,
   "characteristics": [
     {

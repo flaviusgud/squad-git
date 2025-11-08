@@ -1,5 +1,32 @@
 {
-  "actions": [],
+  "actions": [
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": []
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": []
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Actions/MapActions/PLA/JH7A_Strafing_Rockets_PLA.JH7A_Strafing_Rockets_PLA' Class 'BP_SQMapActionSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Actions/MapActions/PLA/UAV_CH4A_PLA.UAV_CH4A_PLA' Class 'BP_SQMapActionSettings_C'>"
+    }
+  ],
   "auto_inject_into_layers": false,
   "characteristics": [
     {
@@ -604,13 +631,6 @@
       "limited_count": "'/Game/Settings/Roles/Counts/Role_Pilot.Role_Pilot' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Roles/PLA/PLA_Pilot_01.PLA_Pilot_01' Class 'BP_SQRoleSettings_C'>"
-    },
-    {
-      "cost": "None",
-      "delay": "None",
-      "limited_count": "None",
-      "other_restrictions": [],
-      "setting": "None"
     }
   ],
   "vehicles": [

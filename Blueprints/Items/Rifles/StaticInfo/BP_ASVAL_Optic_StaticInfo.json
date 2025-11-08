@@ -31,9 +31,9 @@
   "ads_suppression_punch_weapon_alignment_multiplier": 2.0,
   "ads_transition1p_montage": "None",
   "aim1p_weapon_mesh_position": {
-    "x": 0.0,
-    "y": 0.0,
-    "z": 0.0
+    "x": 0.544,
+    "y": 0.6,
+    "z": -0.168
   },
   "aim1p_weapon_mesh_rescale": {
     "x": 1.0,

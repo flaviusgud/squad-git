@@ -13,7 +13,7 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Rifles/BP_AKS74U_4mags.BP_AKS74U_4mags_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/Rifles/BP_AKS74U_RUS_4mags.BP_AKS74U_RUS_4mags_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 1,
           "weapon_type": "<WeaponType.PRIMARY: 1>"

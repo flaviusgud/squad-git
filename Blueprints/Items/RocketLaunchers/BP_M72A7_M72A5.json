@@ -183,6 +183,7 @@
   "root_component": "'/Game/Blueprints/Items/RocketLaunchers/BP_M72A7_M72A5.Default__BP_M72A7_M72A5_C:SceneComponent' Class 'SceneComponent'>",
   "semi_auto_sound1p": "None",
   "semi_auto_sound3p": "None",
+  "should_remove_from_inventory_when_depleted": false,
   "show_ammo_data_in_hud": false,
   "show_item_count_in_inventory": false,
   "show_mag_count_in_inventory": true,

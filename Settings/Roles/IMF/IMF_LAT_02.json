@@ -35,15 +35,8 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/RocketLaunchers/BP_RPG26_2mags.BP_RPG26_2mags_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
-          "minimum_count_on_spawn": 0,
-          "weapon_type": "<WeaponType.SPECIAL: 3>"
-        },
-        {
-          "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Grenades/BP_RKG3Antitank.BP_RKG3Antitank_C' Class 'BlueprintGeneratedClass'>",
-          "max_allowed_in_inventory": 3,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.SPECIAL: 3>"
         }

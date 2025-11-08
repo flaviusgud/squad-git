@@ -183,6 +183,7 @@
   "root_component": "'/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_Reddot_HE.Default__BP_AK12GP25_UGL_Reddot_HE_C:SceneComponent' Class 'SceneComponent'>",
   "semi_auto_sound1p": "None",
   "semi_auto_sound3p": "None",
+  "should_remove_from_inventory_when_depleted": false,
   "show_ammo_data_in_hud": false,
   "show_item_count_in_inventory": false,
   "show_mag_count_in_inventory": true,

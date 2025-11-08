@@ -5,7 +5,7 @@
       "delay": "'/Game/Settings/Actions/Delay/Delay_UAV.Delay_UAV' Class 'SQRestriction_Delay'>",
       "limited_count": "None",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Actions/CommanderActions/INS/HandledDrone.HandledDrone' Class 'BP_SQActionSettings_C'>"
+      "setting": "'/Game/Settings/Actions/CommanderActions/MEI/HandledDrone_IMF.HandledDrone_IMF' Class 'BP_SQActionSettings_C'>"
     },
     {
       "cost": "None",
@@ -994,18 +994,18 @@
       "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Light.Delay_LTV_Light' Class 'SQRestriction_Delay'>",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Vehicle/IMF/IMF_URAL375D-ZU23-2.IMF_URAL375D-ZU23-2' Class 'BP_SQVehicleSettings_C'>"
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_Technical-AGS17.IMF_Technical-AGS17' Class 'BP_SQVehicleSettings_C'>"
     },
     {
       "cost": "None",
-      "delay": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Medium.Delay_LTV_Medium' Class 'SQRestriction_Delay'>",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/IMF/IMF_Technical-Modern-UB32.IMF_Technical-Modern-UB32' Class 'BP_SQVehicleSettings_C'>"
     },
     {
       "cost": "None",
-      "delay": "'/Game/Settings/Availability/Delay/Delay_AT.Delay_AT' Class 'SQRestriction_Delay'>",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Medium.Delay_LTV_Medium' Class 'SQRestriction_Delay'>",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/IMF/IMF_Technical-SPG9.IMF_Technical-SPG9' Class 'BP_SQVehicleSettings_C'>"
@@ -1023,6 +1023,13 @@
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/IMF/IMF_Tigr-M-Kord.IMF_Tigr-M-Kord' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Light.Delay_LTV_Light' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_URAL375D-ZU23-2.IMF_URAL375D-ZU23-2' Class 'BP_SQVehicleSettings_C'>"
     },
     {
       "cost": "None",
@@ -1063,7 +1070,7 @@
       "cost": "None",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Vehicle/IMF/IMF_BM21Grad.IMF_BM21Grad' Class 'BP_SQVehicleSettings_C'>"
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_Ural375D-BM21Grad.IMF_Ural375D-BM21Grad' Class 'BP_SQVehicleSettings_C'>"
     },
     {
       "cost": "None",
@@ -1084,6 +1091,13 @@
       "delay": "'/Game/Settings/Availability/Delay/Delay_IFV.Delay_IFV' Class 'SQRestriction_Delay'>",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_BMP-2.IMF_BMP-2' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_IFV.Delay_IFV' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/IMF/IMF_T-62.IMF_T-62' Class 'BP_SQVehicleSettings_C'>"
     },
     {
@@ -1092,13 +1106,6 @@
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/IMF/IMF_T-72A.IMF_T-72A' Class 'BP_SQVehicleSettings_C'>"
-    },
-    {
-      "cost": "None",
-      "delay": "'/Game/Settings/Availability/Delay/Delay_IFV.Delay_IFV' Class 'SQRestriction_Delay'>",
-      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
-      "other_restrictions": [],
-      "setting": "'/Game/Settings/Vehicle/IMF/IMF_BMP-2.IMF_BMP-2' Class 'BP_SQVehicleSettings_C'>"
     }
   ]
 }

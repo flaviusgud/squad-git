@@ -27,12 +27,12 @@
   "ads_suppression_punch_camera_rotation_multiplier": 0.4000000059604645,
   "ads_suppression_punch_weapon_alignment_multiplier": 2.0,
   "aim1p_weapon_mesh_position": {
-    "x": -8.0,
-    "y": 0.0,
-    "z": 0.0
+    "x": -6.5,
+    "y": 0.148,
+    "z": 0.115
   },
   "aim1p_weapon_mesh_rescale": {
-    "x": 0.3499999940395355,
+    "x": 1.0,
     "y": 1.0,
     "z": 1.0
   },
@@ -179,7 +179,7 @@
   },
   "crouch_loc": {
     "x": 6.5,
-    "y": 1.5,
+    "y": 10.0,
     "z": 0.0
   },
   "crouch_recoil_mean": {
@@ -414,7 +414,7 @@
       "none_empty_or_ignore_both_equip_duration": 3.200000047683716,
       "none_or_ignore_current_unequip_duration": 3.9000000953674316,
       "previous_empty_or_ignore_current_equip_duration": 7.929999828338623,
-      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Frag.BP_RPG7V1_Frag_C' Class 'BlueprintGeneratedClass'>"
+      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7V1/BP_RPG7V1_Frag.BP_RPG7V1_Frag_C' Class 'BlueprintGeneratedClass'>"
     },
     {
       "both_empty1p_equip_montage": "None",
@@ -433,7 +433,7 @@
       "none_empty_or_ignore_both_equip_duration": 3.200000047683716,
       "none_or_ignore_current_unequip_duration": 3.9000000953674316,
       "previous_empty_or_ignore_current_equip_duration": 7.929999828338623,
-      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Frag_2Mag.BP_RPG7V1_Frag_2Mag_C' Class 'BlueprintGeneratedClass'>"
+      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7V1/BP_RPG7V1_Frag_2Mag.BP_RPG7V1_Frag_2Mag_C' Class 'BlueprintGeneratedClass'>"
     },
     {
       "both_empty1p_equip_montage": "None",
@@ -452,7 +452,7 @@
       "none_empty_or_ignore_both_equip_duration": 3.200000047683716,
       "none_or_ignore_current_unequip_duration": 3.9000000953674316,
       "previous_empty_or_ignore_current_equip_duration": 7.929999828338623,
-      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Heat.BP_RPG7V1_Heat_C' Class 'BlueprintGeneratedClass'>"
+      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7V1/BP_RPG7V1_Heat.BP_RPG7V1_Heat_C' Class 'BlueprintGeneratedClass'>"
     },
     {
       "both_empty1p_equip_montage": "None",
@@ -471,7 +471,7 @@
       "none_empty_or_ignore_both_equip_duration": 3.200000047683716,
       "none_or_ignore_current_unequip_duration": 3.9000000953674316,
       "previous_empty_or_ignore_current_equip_duration": 7.929999828338623,
-      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Heat_2Mag.BP_RPG7V1_Heat_2Mag_C' Class 'BlueprintGeneratedClass'>"
+      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7V1/BP_RPG7V1_Heat_2Mag.BP_RPG7V1_Heat_2Mag_C' Class 'BlueprintGeneratedClass'>"
     },
     {
       "both_empty1p_equip_montage": "None",
@@ -490,7 +490,7 @@
       "none_empty_or_ignore_both_equip_duration": 3.200000047683716,
       "none_or_ignore_current_unequip_duration": 3.9000000953674316,
       "previous_empty_or_ignore_current_equip_duration": 7.929999828338623,
-      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Tandem.BP_RPG7V1_Tandem_C' Class 'BlueprintGeneratedClass'>"
+      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7V1/BP_RPG7V1_Tandem.BP_RPG7V1_Tandem_C' Class 'BlueprintGeneratedClass'>"
     },
     {
       "both_empty1p_equip_montage": "None",
@@ -509,7 +509,7 @@
       "none_empty_or_ignore_both_equip_duration": 3.200000047683716,
       "none_or_ignore_current_unequip_duration": 3.9000000953674316,
       "previous_empty_or_ignore_current_equip_duration": 7.929999828338623,
-      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Tandem_2Mag.BP_RPG7V1_Tandem_2Mag_C' Class 'BlueprintGeneratedClass'>"
+      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7V1/BP_RPG7V1_Tandem_2Mag.BP_RPG7V1_Tandem_2Mag_C' Class 'BlueprintGeneratedClass'>"
     },
     {
       "both_empty1p_equip_montage": "None",
@@ -528,7 +528,7 @@
       "none_empty_or_ignore_both_equip_duration": 3.200000047683716,
       "none_or_ignore_current_unequip_duration": 3.9000000953674316,
       "previous_empty_or_ignore_current_equip_duration": 7.929999828338623,
-      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Thermo.BP_RPG7V1_Thermo_C' Class 'BlueprintGeneratedClass'>"
+      "weapon": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7V1/BP_RPG7V1_Thermo.BP_RPG7V1_Thermo_C' Class 'BlueprintGeneratedClass'>"
     },
     {
       "both_empty1p_equip_montage": "None",
@@ -826,7 +826,7 @@
   },
   "prone_loc": {
     "x": 6.5,
-    "y": 1.5,
+    "y": 10.0,
     "z": 0.0
   },
   "prone_recoil_mean": {
@@ -925,7 +925,7 @@
   "requires_manual_bolt": false,
   "return_to_ads_after_item_collision": true,
   "right_hand3p_weapon_ik_alpha": 1.0,
-  "separate_ads_fov": 80.0,
+  "separate_ads_fov": 61.0,
   "shell_ejection_cull_distance_in_meters": 10.0,
   "shell_ejection_effect1p": "None",
   "shell_ejection_effect3p": "None",
@@ -999,7 +999,7 @@
   },
   "stand_loc": {
     "x": 6.5,
-    "y": 3.0,
+    "y": 10.0,
     "z": -1.0
   },
   "stand_loc_blend_time": 1.0,
@@ -1150,7 +1150,7 @@
     "total_sway": 0.0,
     "unclamped_total_sway": 0.0
   },
-  "toggle_ads_flag": false,
+  "toggle_ads_flag": true,
   "toggle_bipod_ads_flag": false,
   "toggle_bipod_non_ads_flag": false,
   "toggle_firemode_sound1p": "None",
@@ -1164,18 +1164,18 @@
   "weapon_mesh_spring_rot_delay_factor": 1.0,
   "weapon_spring_ads_override": {
     "weapon_spring_ads_multiplier_rotation": {
-      "x": 1.0,
+      "x": 0.5,
       "y": 1.0,
       "z": 1.0
     },
     "weapon_spring_ads_multiplier_translation": {
       "x": 1.0,
-      "y": 1.0,
-      "z": 1.0
+      "y": 2.5,
+      "z": 2.5
     },
     "weapon_spring_clamp": 5.0,
     "weapon_spring_factor2": 0.05000000074505806,
-    "weapon_spring_override_bit_flags": 0,
+    "weapon_spring_override_bit_flags": 3,
     "weapon_spring_side": 1
   },
   "weapon_spring_bipod_ads_override": {

@@ -740,9 +740,16 @@
     {
       "cost": "None",
       "delay": "'/Game/Settings/Availability/Delay/Delay_ULTV.Delay_ULTV' Class 'SQRestriction_Delay'>",
-      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_02.AlwaysPerTeam_02' Class 'SQRestriction_Count'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/Universal/RHIB_NSV.RHIB_NSV' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_ULTV.Delay_ULTV' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/Universal/RHIB_AGS17.RHIB_AGS17' Class 'BP_SQVehicleSettings_C'>"
     },
     {
       "cost": "None",

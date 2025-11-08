@@ -1,10 +1,45 @@
 {
-  "actions": [],
+  "actions": [
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": []
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": []
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Actions/MapActions/PLA/JH7A_Strafing_Rockets_PLA.JH7A_Strafing_Rockets_PLA' Class 'BP_SQMapActionSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Actions/MapActions/PLA/UAV_CH4A_PLA.UAV_CH4A_PLA' Class 'BP_SQMapActionSettings_C'>"
+    }
+  ],
   "auto_inject_into_layers": false,
   "characteristics": [
     {
       "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
+      "row_name": "FastHeliRespawn"
+    },
+    {
+      "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
       "row_name": "ATGM+"
+    },
+    {
+      "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
+      "row_name": "Mortar+"
     },
     {
       "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",

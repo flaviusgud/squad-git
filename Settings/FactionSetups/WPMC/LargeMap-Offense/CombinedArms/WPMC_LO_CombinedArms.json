@@ -17,7 +17,7 @@
       "delay": "'/Game/Settings/Actions/Delay/Delay_UAV.Delay_UAV' Class 'SQRestriction_Delay'>",
       "limited_count": "None",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Actions/CommanderActions/INS/HandledDrone.HandledDrone' Class 'BP_SQActionSettings_C'>"
+      "setting": "'/Game/Settings/Actions/CommanderActions/MEI/HandledDrone_WPMC.HandledDrone_WPMC' Class 'BP_SQActionSettings_C'>"
     }
   ],
   "auto_inject_into_layers": false,
@@ -618,14 +618,14 @@
     {
       "cost": "None",
       "delay": "None",
-      "limited_count": "'/Game/Settings/Roles/Counts/Role_Raider.Role_Raider' Class 'BP_SQRestriction_RoleCount_C'>",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Raider_FireSupport.Role_Raider_FireSupport' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Roles/WPMC/WPMC_Raider_01.WPMC_Raider_01' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
-      "limited_count": "'/Game/Settings/Roles/Counts/Role_Raider.Role_Raider' Class 'BP_SQRestriction_RoleCount_C'>",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Raider_FireSupport.Role_Raider_FireSupport' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Roles/WPMC/WPMC_Raider_02.WPMC_Raider_02' Class 'BP_SQRoleSettings_C'>"
     },

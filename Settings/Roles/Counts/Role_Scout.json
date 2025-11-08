@@ -1,5 +1,5 @@
 {
-  "base_availability": 1,
+  "base_availability": 2,
   "data": {
     "data_table": "'/Game/Settings/Roles/Counts/RoleCountTable.RoleCountTable' Class 'DataTable'>",
     "row_name": "Scout"
@@ -7,6 +7,16 @@
   "id": "Scout",
   "is_unique_usage": false,
   "parameters": [
+    {
+      "data": {
+        "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",
+        "row_name": "TeamSize_Scout"
+      },
+      "id": "TeamSize_Scout",
+      "operation": "<SQScalingCountingMode.MAX_AVAILABLE: 1>",
+      "use_for_player": true,
+      "use_for_team": false
+    },
     {
       "data": {
         "data_table": "'/Game/Settings/Roles/Counts/Parameters/RoleCountParameterTable.RoleCountParameterTable' Class 'DataTable'>",

@@ -15,84 +15,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "100m",
       "line_of_fire_angle": {
-        "pitch": 0.17,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "200m",
-      "line_of_fire_angle": {
-        "pitch": 0.18,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "300m",
-      "line_of_fire_angle": {
-        "pitch": 0.27,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "400m",
-      "line_of_fire_angle": {
-        "pitch": 0.35,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "500m",
-      "line_of_fire_angle": {
-        "pitch": 0.45,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "600m",
-      "line_of_fire_angle": {
-        "pitch": 0.55,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "700m",
-      "line_of_fire_angle": {
-        "pitch": 0.66,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "800m",
-      "line_of_fire_angle": {
-        "pitch": 0.76,
+        "pitch": 0.19,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -152,7 +75,7 @@
   "bipod_loc": {
     "x": 0.0,
     "y": 0.0,
-    "z": -5.0
+    "z": -4.5
   },
   "bipod_recoil_mean": {
     "x": 0.0,
@@ -260,8 +183,8 @@
   },
   "crouch_loc": {
     "x": 1.0,
-    "y": -1.5,
-    "z": -5.0
+    "y": 0.0,
+    "z": -4.5
   },
   "crouch_recoil_mean": {
     "x": 0.42500001192092896,
@@ -448,7 +371,7 @@
   "prone_loc": {
     "x": 1.0,
     "y": -1.5,
-    "z": -5.0
+    "z": -4.5
   },
   "prone_recoil_mean": {
     "x": 0.36125001311302185,
@@ -647,8 +570,8 @@
   },
   "stand_loc": {
     "x": 3.0,
-    "y": 0.0,
-    "z": -9.0
+    "y": 1.5,
+    "z": -7.5
   },
   "stand_loc_blend_time": 0.4000000059604645,
   "stand_recoil_mean": {

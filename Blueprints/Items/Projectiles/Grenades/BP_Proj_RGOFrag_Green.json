@@ -29,6 +29,7 @@
   "explosive_kill_zone_radius": 0.0,
   "explosive_minimum_damage": 0.0,
   "find_camera_component_when_view_target": true,
+  "flyby_sound": "None",
   "fuse_time": 4.0,
   "generate_overlap_events_during_level_streaming": false,
   "ground_trace_length": 25.0,

@@ -46,13 +46,6 @@
           "max_allowed_in_inventory": 2,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.BACKPACK: 0>"
-        },
-        {
-          "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Grenades/BP_RKG3Antitank.BP_RKG3Antitank_C' Class 'BlueprintGeneratedClass'>",
-          "max_allowed_in_inventory": 2,
-          "minimum_count_on_spawn": 0,
-          "weapon_type": "<WeaponType.SPECIAL: 3>"
         }
       ]
     },

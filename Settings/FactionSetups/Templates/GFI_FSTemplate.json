@@ -718,6 +718,13 @@
     },
     {
       "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Light.Delay_LTV_Light' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/GFI/GFI_Safir-AGS17.GFI_Safir-AGS17' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
       "delay": "'/Game/Settings/Availability/Delay/Delay_AT.Delay_AT' Class 'SQRestriction_Delay'>",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],

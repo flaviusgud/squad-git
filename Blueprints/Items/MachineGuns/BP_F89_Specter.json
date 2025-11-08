@@ -78,7 +78,7 @@
     "velocity": 0.0
   },
   "holding_zoom_easing_alpha": 0.0,
-  "hud_selected_texture": "'/Game/UI/HUD/Inventory/Weapons/MachineGuns/f89_specter.T_f89_specter' Class 'Texture2D'>",
+  "hud_selected_texture": "'/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_f89_specter.T_f89_specter' Class 'Texture2D'>",
   "hud_texture": "'/Game/UI/HUD/Inventory/inventory_category_machinegun.inventory_category_machinegun' Class 'Texture2D'>",
   "idle_anim": "None",
   "initial_life_span": 0.0,
@@ -184,6 +184,7 @@
   "root_component": "'/Game/Blueprints/Items/MachineGuns/BP_F89_Specter.Default__BP_F89_Specter_C:SceneComponent' Class 'SceneComponent'>",
   "semi_auto_sound1p": "None",
   "semi_auto_sound3p": "None",
+  "should_remove_from_inventory_when_depleted": false,
   "show_ammo_data_in_hud": false,
   "show_item_count_in_inventory": false,
   "show_mag_count_in_inventory": true,

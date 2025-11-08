@@ -700,6 +700,13 @@
       "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Medium.Delay_LTV_Medium' Class 'SQRestriction_Delay'>",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/RGF/RGF_Tigr-M-AGS17.RGF_Tigr-M-AGS17' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Medium.Delay_LTV_Medium' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/RGF/RGF_Tigr-M-RWS.RGF_Tigr-M-RWS' Class 'BP_SQVehicleSettings_C'>"
     },
     {

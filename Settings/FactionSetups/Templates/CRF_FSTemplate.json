@@ -4,25 +4,13 @@
       "cost": "None",
       "delay": "'/Game/Settings/Actions/Delay/Delay_Strafing.Delay_Strafing' Class 'SQRestriction_Delay'>",
       "limited_count": "None",
-      "other_restrictions": [],
-      "setting": "'/Game/Settings/Actions/MapActions/USA/A10_Strafing_30mm_US.A10_Strafing_30mm_US' Class 'BP_SQMapActionSettings_C'>"
-    },
-    {
-      "cost": "None",
-      "limited_count": "None",
       "other_restrictions": []
     },
     {
       "cost": "None",
       "limited_count": "None",
-      "other_restrictions": []
-    },
-    {
-      "cost": "None",
-      "delay": "'/Game/Settings/Actions/Delay/Delay_UAV.Delay_UAV' Class 'SQRestriction_Delay'>",
-      "limited_count": "None",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Actions/MapActions/USA/UAV_MQ9_US.UAV_MQ9_US' Class 'BP_SQMapActionSettings_C'>"
+      "setting": "'/Game/Settings/Actions/CommanderActions/MEI/HandledDrone_CRF.HandledDrone_CRF' Class 'BP_SQActionSettings_C'>"
     }
   ],
   "auto_inject_into_layers": false,

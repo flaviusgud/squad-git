@@ -435,6 +435,27 @@
       "none_or_ignore_current_unequip_duration": 0.25,
       "none_or_ignore_current_weapon_unequip_montage": "None",
       "previous_empty_or_ignore_current_equip_duration": 1.350000023841858,
+      "weapon": "'/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P63_Pro.BP_AK74GP25_Rifle_1P63_Pro_C' Class 'BlueprintGeneratedClass'>"
+    },
+    {
+      "both_empty1p_equip_montage": "None",
+      "both_empty3p_equip_montage": "None",
+      "both_empty_equip_duration": 0.25,
+      "both_empty_weapon_equip_montage": "None",
+      "check_current_magazine_for_equip": true,
+      "check_current_magazine_for_unequip": false,
+      "check_previous_magazine_for_equip": false,
+      "current_empty1p_unequip_montage": "None",
+      "current_empty3p_unequip_montage": "None",
+      "current_empty_or_ignore_previous_equip_duration": 1.350000023841858,
+      "current_empty_unequip_duration": 0.25,
+      "current_empty_weapon_unequip_montage": "None",
+      "none_empty_or_ignore_both_equip_duration": 3.75,
+      "none_or_ignore_current1p_unequip_montage": "None",
+      "none_or_ignore_current3p_unequip_montage": "None",
+      "none_or_ignore_current_unequip_duration": 0.25,
+      "none_or_ignore_current_weapon_unequip_montage": "None",
+      "previous_empty_or_ignore_current_equip_duration": 1.350000023841858,
       "weapon": "'/Game/Blueprints/Items/Rifles/AK74M_Desert/BP_AK74MGP25_Rifle_1P63_Desert.BP_AK74MGP25_Rifle_1P63_Desert_C' Class 'BlueprintGeneratedClass'>"
     },
     {

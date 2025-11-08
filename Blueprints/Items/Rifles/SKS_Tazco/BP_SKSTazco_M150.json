@@ -88,7 +88,7 @@
   "is_round_in_chamber": true,
   "item_count": 0,
   "item_count_icon_texture": "None",
-  "item_description": "Magazine Capacity: 10+1/Caliber: 7.62x39mm/Fire Mode: Semi",
+  "item_description": "Magazine Capacity: 20+1/Caliber: 7.62x39mm/Fire Mode: Semi",
   "item_static_info_class": "'/Game/Blueprints/Items/Rifles/SKS_Tazco/StaticInfo/BP_SKSTazco_M150_StaticInfo.BP_SKSTazco_M150_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {
     "armor_damage_multiplier": 1.0,
@@ -181,6 +181,7 @@
   "replicate_using_registered_sub_object_list": false,
   "replicates": true,
   "root_component": "'/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_M150.Default__BP_SKSTazco_M150_C:SceneComponent' Class 'SceneComponent'>",
+  "should_remove_from_inventory_when_depleted": false,
   "show_ammo_data_in_hud": false,
   "show_item_count_in_inventory": false,
   "show_mag_count_in_inventory": true,

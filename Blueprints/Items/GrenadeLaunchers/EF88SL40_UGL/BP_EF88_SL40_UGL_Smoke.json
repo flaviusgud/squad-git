@@ -80,7 +80,7 @@
     "velocity": 0.0
   },
   "holding_zoom_easing_alpha": 0.0,
-  "hud_selected_texture": "'/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/sl40_gl_whitesmoke.T_sl40_gl_whitesmoke' Class 'Texture2D'>",
+  "hud_selected_texture": "'/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/T_sl40_gl_whitesmoke.T_sl40_gl_whitesmoke' Class 'Texture2D'>",
   "hud_texture": "'/Game/UI/HUD/Inventory/inventory_category_grenadelauncher.inventory_category_grenadelauncher' Class 'Texture2D'>",
   "idle_anim": "None",
   "initial_life_span": 0.0,
@@ -184,6 +184,7 @@
   "replicate_using_registered_sub_object_list": false,
   "replicates": true,
   "root_component": "'/Game/Blueprints/Items/GrenadeLaunchers/EF88SL40_UGL/BP_EF88_SL40_UGL_Smoke.Default__BP_EF88_SL40_UGL_Smoke_C:SceneComponent' Class 'SceneComponent'>",
+  "should_remove_from_inventory_when_depleted": false,
   "show_ammo_data_in_hud": false,
   "show_item_count_in_inventory": false,
   "show_mag_count_in_inventory": true,

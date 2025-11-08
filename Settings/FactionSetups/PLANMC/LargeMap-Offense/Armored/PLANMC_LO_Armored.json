@@ -1,5 +1,32 @@
 {
-  "actions": [],
+  "actions": [
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": []
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": []
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Actions/MapActions/PLANMC/JH7A_Strafing_Rockets_PLANMC.JH7A_Strafing_Rockets_PLANMC' Class 'BP_SQMapActionSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Actions/MapActions/PLANMC/UAV_CH4A_PLANMC.UAV_CH4A_PLANMC' Class 'BP_SQMapActionSettings_C'>"
+    }
+  ],
   "auto_inject_into_layers": false,
   "characteristics": [
     {

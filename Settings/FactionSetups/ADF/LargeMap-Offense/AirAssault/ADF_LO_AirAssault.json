@@ -29,11 +29,15 @@
   "characteristics": [
     {
       "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
+      "row_name": "FastHeliRespawn"
+    },
+    {
+      "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
       "row_name": "ATGM+"
     },
     {
       "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
-      "row_name": "HAT+"
+      "row_name": "Mortar+"
     },
     {
       "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
@@ -41,7 +45,7 @@
     },
     {
       "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
-      "row_name": "Pathfinder"
+      "row_name": "HAT+"
     }
   ],
   "characteristics_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",

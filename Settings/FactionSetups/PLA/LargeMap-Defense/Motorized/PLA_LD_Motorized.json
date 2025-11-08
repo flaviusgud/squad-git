@@ -1,5 +1,32 @@
 {
-  "actions": [],
+  "actions": [
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": []
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": []
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Actions/MapActions/PLA/JH7A_Strafing_Rockets_PLA.JH7A_Strafing_Rockets_PLA' Class 'BP_SQMapActionSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Actions/MapActions/PLA/UAV_CH4A_PLA.UAV_CH4A_PLA' Class 'BP_SQMapActionSettings_C'>"
+    }
+  ],
   "auto_inject_into_layers": false,
   "characteristics": [
     {
@@ -627,7 +654,7 @@
     },
     {
       "cost": "None",
-      "delay": "'/Game/Settings/Availability/Delay/Delay_MBT_Initial15.Delay_MBT_Initial15' Class 'SQRestriction_Delay'>",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_MBT_Initial20.Delay_MBT_Initial20' Class 'SQRestriction_Delay'>",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/PLA/PLA_ZTZ99A_CAGE.PLA_ZTZ99A_CAGE' Class 'BP_SQVehicleSettings_C'>"

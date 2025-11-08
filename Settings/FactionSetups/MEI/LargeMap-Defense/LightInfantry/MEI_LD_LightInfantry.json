@@ -5,7 +5,7 @@
       "delay": "'/Game/Settings/Actions/Delay/Delay_UAV.Delay_UAV' Class 'SQRestriction_Delay'>",
       "limited_count": "None",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Actions/CommanderActions/INS/HandledDrone.HandledDrone' Class 'BP_SQActionSettings_C'>"
+      "setting": "'/Game/Settings/Actions/CommanderActions/MEI/HandledDrone_MEI.HandledDrone_MEI' Class 'BP_SQActionSettings_C'>"
     },
     {
       "cost": "None",
@@ -26,6 +26,10 @@
     {
       "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
       "row_name": "HAB+"
+    },
+    {
+      "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
+      "row_name": "AccessGMG"
     }
   ],
   "characteristics_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
@@ -262,7 +266,7 @@
           "target_teams": "set([SameTeam])"
         }
       ],
-      "setting": "'/Game/Settings/Deployables/Weapons/DShk_Tripod.DShk_Tripod' Class 'BP_SQDeployableSettings_C'>"
+      "setting": "'/Game/Settings/Deployables/Weapons/AGS17_Tripod.AGS17_Tripod' Class 'BP_SQDeployableSettings_C'>"
     },
     {
       "cost": "'/Game/Settings/Deployables/Costs/Cost_HMG_Irregular.Cost_HMG_Irregular' Class 'BP_SQRestriction_Cost_C'>",
@@ -781,9 +785,16 @@
     {
       "cost": "None",
       "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Light.Delay_LTV_Light' Class 'SQRestriction_Delay'>",
-      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_02.AlwaysPerTeam_02' Class 'SQRestriction_Count'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/MEI/MEI_Technical-HMG.MEI_Technical-HMG' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Light.Delay_LTV_Light' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/MEI/MEI_Technical-AGS17.MEI_Technical-AGS17' Class 'BP_SQVehicleSettings_C'>"
     },
     {
       "cost": "None",

@@ -3,6 +3,7 @@
   "add_move_recoil": 1.0,
   "add_shot_deviation_factor": 0.0,
   "add_shot_deviation_factor_ads": 0.0,
+  "adjustable_ads_sight_item_anim": "None",
   "adjustable_ads_sight_item_frame_rate": 0.03333333507180214,
   "ads_punch_camera_location_curve": "'/Game/Blueprints/Soldiers/PunchCurves/ADS/CameraLocation/VC_ADS_CameraLocation_Moderate.VC_ADS_CameraLocation_Moderate' Class 'CurveVector'>",
   "ads_punch_camera_rotation_curve": "'/Game/Blueprints/Soldiers/PunchCurves/ADS/CameraRotation/VC_ADS_CameraRotation_Moderate.VC_ADS_CameraRotation_Moderate' Class 'CurveVector'>",
@@ -14,84 +15,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "100m",
       "line_of_fire_angle": {
-        "pitch": 0.17000000178813934,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "200m",
-      "line_of_fire_angle": {
-        "pitch": 0.18000000715255737,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "300m",
-      "line_of_fire_angle": {
-        "pitch": 0.27000001072883606,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "400m",
-      "line_of_fire_angle": {
-        "pitch": 0.3499999940395355,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "500m",
-      "line_of_fire_angle": {
-        "pitch": 0.44999998807907104,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "600m",
-      "line_of_fire_angle": {
-        "pitch": 0.550000011920929,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "700m",
-      "line_of_fire_angle": {
-        "pitch": 0.6600000262260437,
-        "roll": 0.0,
-        "yaw": 0.0
-      }
-    },
-    {
-      "adjust_ads_transition3p_montage": "None",
-      "adjust_from_ads_transition3p_montage": "None",
-      "base_adjust_ads3p_montage": "None",
-      "distance_text": "800m",
-      "line_of_fire_angle": {
-        "pitch": 0.7599999904632568,
+        "pitch": 0.08,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -151,7 +75,7 @@
   "bipod_loc": {
     "x": 0.0,
     "y": 0.0,
-    "z": 1.5
+    "z": -4.0
   },
   "bipod_recoil_mean": {
     "x": 0.0,
@@ -259,8 +183,8 @@
   },
   "crouch_loc": {
     "x": -2.0,
-    "y": -1.5,
-    "z": -2.0
+    "y": 0.0,
+    "z": -4.0
   },
   "crouch_recoil_mean": {
     "x": 0.42500001192092896,
@@ -447,7 +371,7 @@
   "prone_loc": {
     "x": -2.0,
     "y": -1.5,
-    "z": -2.0
+    "z": -4.0
   },
   "prone_recoil_mean": {
     "x": 0.36125001311302185,
@@ -646,8 +570,8 @@
   },
   "stand_loc": {
     "x": 0.0,
-    "y": 0.0,
-    "z": -5.0
+    "y": 1.5,
+    "z": -7.0
   },
   "stand_loc_blend_time": 0.30000001192092896,
   "stand_recoil_mean": {

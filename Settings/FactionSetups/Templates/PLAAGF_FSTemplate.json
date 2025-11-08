@@ -1,5 +1,32 @@
 {
-  "actions": [],
+  "actions": [
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": []
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": []
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Actions/MapActions/PLA/JH7A_Strafing_Rockets_PLA.JH7A_Strafing_Rockets_PLA' Class 'BP_SQMapActionSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "None",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Actions/MapActions/PLA/UAV_CH4A_PLA.UAV_CH4A_PLA' Class 'BP_SQMapActionSettings_C'>"
+    }
+  ],
   "auto_inject_into_layers": false,
   "characteristics": [
     {
@@ -12,8 +39,8 @@
     "data_table": "'/Game/Settings/FactionSetups/Templates/FactionSetupTable_Templates.FactionSetupTable_Templates' Class 'DataTable'>",
     "row_name": "FSTemplate_PLAAGF"
   },
-  "default_role": "'/Game/Settings/Roles/PLANMC/PLANMC_Rifleman_01.PLANMC_Rifleman_01' Class 'BP_SQRoleSettings_C'>",
-  "default_squad_leader_role": "'/Game/Settings/Roles/PLANMC/PLANMC_SL_01.PLANMC_SL_01' Class 'BP_SQRoleSettings_C'>",
+  "default_role": "'/Game/Settings/Roles/PLA/PLA_Rifleman_01.PLA_Rifleman_01' Class 'BP_SQRoleSettings_C'>",
+  "default_squad_leader_role": "'/Game/Settings/Roles/PLA/PLA_SL_01.PLA_SL_01' Class 'BP_SQRoleSettings_C'>",
   "deployables": [
     {
       "cost": "'/Game/Settings/Deployables/Costs/Cost_Bunker_Conventional.Cost_Bunker_Conventional' Class 'BP_SQRestriction_Cost_C'>",
@@ -392,7 +419,7 @@
   "game_mode_list_inclusion": false,
   "game_modes_list": [],
   "id": "FSTemplate_PLAAGF",
-  "leave_squad_role": "'/Game/Settings/Roles/PLANMC/PLANMC_Recruit_01.PLANMC_Recruit_01' Class 'BP_SQRoleSettings_C'>",
+  "leave_squad_role": "'/Game/Settings/Roles/PLA/PLA_Recruit_01.PLA_Recruit_01' Class 'BP_SQRoleSettings_C'>",
   "outer_faction": "None",
   "override_defaults": false,
   "roles": [

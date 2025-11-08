@@ -42,7 +42,7 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_HE_3rounds.BP_M4M203_UGL_HE_3rounds_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M16A4M203_UGL/BP_M16A4M203_UGL_HE_3rounds.BP_M16A4M203_UGL_HE_3rounds_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.BACKPACK: 0>"
@@ -53,21 +53,21 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_Smoke.BP_M4M203_UGL_Smoke_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M16A4M203_UGL/BP_M16A4M203_UGL_Smoke.BP_M16A4M203_UGL_Smoke_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.BACKPACK: 0>"
         },
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_Smoke_Blue.BP_M4M203_UGL_Smoke_Blue_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M16A4M203_UGL/BP_M16A4M203_UGL_Smoke_Blue.BP_M16A4M203_UGL_Smoke_Blue_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.BACKPACK: 0>"
         },
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_Smoke_Red.BP_M4M203_UGL_Smoke_Red_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M16A4M203_UGL/BP_M16A4M203_UGL_Smoke_Red.BP_M16A4M203_UGL_Smoke_Red_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.BACKPACK: 0>"

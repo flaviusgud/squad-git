@@ -14,7 +14,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "100m",
       "line_of_fire_angle": {
-        "pitch": 0.07999999821186066,
+        "pitch": 0.37,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -25,7 +25,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "200m",
       "line_of_fire_angle": {
-        "pitch": 0.05999999865889549,
+        "pitch": 0.45,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -36,7 +36,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "300m",
       "line_of_fire_angle": {
-        "pitch": 0.14000000059604645,
+        "pitch": 0.545,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -47,7 +47,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "400m",
       "line_of_fire_angle": {
-        "pitch": 0.1599999964237213,
+        "pitch": 0.66,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -58,7 +58,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "500m",
       "line_of_fire_angle": {
-        "pitch": 0.23999999463558197,
+        "pitch": 0.78,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -69,7 +69,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "600m",
       "line_of_fire_angle": {
-        "pitch": 0.33000001311302185,
+        "pitch": 0.897,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -80,7 +80,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "700m",
       "line_of_fire_angle": {
-        "pitch": 0.4699999988079071,
+        "pitch": 1.0,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -91,7 +91,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "800m",
       "line_of_fire_angle": {
-        "pitch": 0.5299999713897705,
+        "pitch": 1.095,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -102,7 +102,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "900m",
       "line_of_fire_angle": {
-        "pitch": 0.6700000166893005,
+        "pitch": 1.2,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -113,7 +113,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "1000m",
       "line_of_fire_angle": {
-        "pitch": 0.699999988079071,
+        "pitch": 1.37,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -173,7 +173,7 @@
   "bipod_loc": {
     "x": 0.0,
     "y": 0.0,
-    "z": 1.5
+    "z": -0.5
   },
   "bipod_recoil_mean": {
     "x": 0.0,
@@ -282,7 +282,7 @@
   "crouch_loc": {
     "x": -2.0,
     "y": -1.5,
-    "z": 1.5
+    "z": -0.5
   },
   "crouch_recoil_mean": {
     "x": 0.42500001192092896,
@@ -469,7 +469,7 @@
   "prone_loc": {
     "x": -2.0,
     "y": -1.5,
-    "z": 1.5
+    "z": -0.5
   },
   "prone_recoil_mean": {
     "x": 0.36125001311302185,

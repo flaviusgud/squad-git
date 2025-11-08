@@ -27,12 +27,12 @@
   "ads_suppression_punch_camera_rotation_multiplier": 0.4000000059604645,
   "ads_suppression_punch_weapon_alignment_multiplier": 2.0,
   "aim1p_weapon_mesh_position": {
-    "x": -1.0,
-    "y": 0.019999999552965164,
-    "z": 0.05000000074505806
+    "x": 0.790468,
+    "y": 0.962908,
+    "z": -0.654607
   },
   "aim1p_weapon_mesh_rescale": {
-    "x": 0.5,
+    "x": 1.0,
     "y": 1.0,
     "z": 1.0
   },
@@ -476,7 +476,7 @@
   "requires_manual_bolt": false,
   "return_to_ads_after_item_collision": true,
   "right_hand3p_weapon_ik_alpha": 1.0,
-  "separate_ads_fov": 50.0,
+  "separate_ads_fov": 49.0,
   "shell_ejection_cull_distance_in_meters": 10.0,
   "shell_ejection_effect1p": "None",
   "shell_ejection_effect3p": "None",

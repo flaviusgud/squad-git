@@ -33,6 +33,14 @@
     },
     {
       "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
+      "row_name": "Mortar+"
+    },
+    {
+      "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
+      "row_name": "AccessGMG"
+    },
+    {
+      "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
       "row_name": "HAT+"
     }
   ],
@@ -292,7 +300,7 @@
       "setting": "'/Game/Settings/Deployables/Weapons/Kornet_RGF.Kornet_RGF' Class 'BP_SQDeployableSettings_C'>"
     },
     {
-      "cost": "'/Game/Settings/Deployables/Costs/Cost_HMG_Conventionnal.Cost_HMG_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_HMG_Bunker_Conventionnal.Cost_HMG_Bunker_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
       "delay": "None",
       "limited_count": "'/Game/Settings/Deployables/Counts/Count_HMG.Count_HMG' Class 'BP_SQRestriction_DeployableCount_C'>",
       "other_restrictions": [
@@ -308,7 +316,7 @@
           "target_teams": "set([SameTeam])"
         }
       ],
-      "setting": "'/Game/Settings/Deployables/Weapons/NSV_Tripod.NSV_Tripod' Class 'BP_SQDeployableSettings_C'>"
+      "setting": "'/Game/Settings/Deployables/Weapons/AGS17_Bunker.AGS17_Bunker' Class 'BP_SQDeployableSettings_C'>"
     },
     {
       "cost": "'/Game/Settings/Deployables/Costs/Cost_HMG_Bunker_Conventionnal.Cost_HMG_Bunker_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
@@ -721,9 +729,16 @@
     {
       "cost": "None",
       "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Medium.Delay_LTV_Medium' Class 'SQRestriction_Delay'>",
-      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_02.AlwaysPerTeam_02' Class 'SQRestriction_Count'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/RGF/RGF_Tigr-M-Kord.RGF_Tigr-M-Kord' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_LTV_Medium.Delay_LTV_Medium' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/RGF/RGF_Tigr-M-AGS17.RGF_Tigr-M-AGS17' Class 'BP_SQVehicleSettings_C'>"
     },
     {
       "cost": "None",

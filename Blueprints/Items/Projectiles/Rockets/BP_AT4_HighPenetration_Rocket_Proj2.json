@@ -12,7 +12,7 @@
   "collision_size": 4.0,
   "content_bundle_guid": {},
   "custom_time_dilation": 1.0,
-  "damage_type_to_apply": "'/Game/Gameplay/DamageTypes/BP_HAT_DamageType.BP_HAT_DamageType_C' Class 'BlueprintGeneratedClass'>",
+  "damage_type_to_apply": "'/Game/Gameplay/DamageTypes/BP_BasicHeatDamageType.BP_BasicHeatDamageType_C' Class 'BlueprintGeneratedClass'>",
   "default_effects_class": "'/Game/Environments/PhysicalMaterials/Material_Effects/BP_MaterialEffects_LAT_HEAT.BP_MaterialEffects_LAT_HEAT_C' Class 'BlueprintGeneratedClass'>",
   "destroy_on_impact": true,
   "enable_auto_lod_generation": true,

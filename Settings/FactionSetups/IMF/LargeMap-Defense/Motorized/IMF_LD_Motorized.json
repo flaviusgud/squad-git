@@ -5,7 +5,7 @@
       "delay": "'/Game/Settings/Actions/Delay/Delay_UAV.Delay_UAV' Class 'SQRestriction_Delay'>",
       "limited_count": "None",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Actions/CommanderActions/INS/HandledDrone.HandledDrone' Class 'BP_SQActionSettings_C'>"
+      "setting": "'/Game/Settings/Actions/CommanderActions/MEI/HandledDrone_MEI.HandledDrone_MEI' Class 'BP_SQActionSettings_C'>"
     },
     {
       "cost": "None",
@@ -1007,7 +1007,7 @@
       "cost": "None",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Vehicle/IMF/IMF_BM21Grad.IMF_BM21Grad' Class 'BP_SQVehicleSettings_C'>"
+      "setting": "'/Game/Settings/Vehicle/IMF/IMF_Ural375D-BM21Grad.IMF_Ural375D-BM21Grad' Class 'BP_SQVehicleSettings_C'>"
     },
     {
       "cost": "None",

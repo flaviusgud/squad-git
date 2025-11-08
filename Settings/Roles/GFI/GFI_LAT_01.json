@@ -35,14 +35,14 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Heat_2Mag.BP_RPG7V1_Heat_2Mag_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7V1/BP_RPG7V1_Heat_2Mag.BP_RPG7V1_Heat_2Mag_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.SPECIAL: 3>"
         },
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Frag_2Mag.BP_RPG7V1_Frag_2Mag_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7V1/BP_RPG7V1_Frag_2Mag.BP_RPG7V1_Frag_2Mag_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.SPECIAL: 3>"

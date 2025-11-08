@@ -5,7 +5,7 @@
       "delay": "None",
       "limited_count": "None",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Actions/CommanderActions/INS/HandledDrone.HandledDrone' Class 'BP_SQActionSettings_C'>"
+      "setting": "'/Game/Settings/Actions/CommanderActions/MEI/HandledDrone_CRF.HandledDrone_CRF' Class 'BP_SQActionSettings_C'>"
     },
     {
       "cost": "None",

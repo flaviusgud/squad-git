@@ -33,6 +33,14 @@
     },
     {
       "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
+      "row_name": "Mortar+"
+    },
+    {
+      "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
+      "row_name": "AccessGMG"
+    },
+    {
+      "data_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
       "row_name": "HAT+"
     }
   ],
@@ -308,7 +316,7 @@
           "target_teams": "set([SameTeam])"
         }
       ],
-      "setting": "'/Game/Settings/Deployables/Weapons/NSV_Tripod.NSV_Tripod' Class 'BP_SQDeployableSettings_C'>"
+      "setting": "'/Game/Settings/Deployables/Weapons/AGS17_Tripod.AGS17_Tripod' Class 'BP_SQDeployableSettings_C'>"
     },
     {
       "cost": "'/Game/Settings/Deployables/Costs/Cost_HMG_Bunker_Conventionnal.Cost_HMG_Bunker_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",

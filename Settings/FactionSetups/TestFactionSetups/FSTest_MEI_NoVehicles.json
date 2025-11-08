@@ -5,7 +5,7 @@
       "delay": "'/Game/Settings/Actions/Delay/Delay_UAV.Delay_UAV' Class 'SQRestriction_Delay'>",
       "limited_count": "None",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Actions/CommanderActions/INS/HandledDrone.HandledDrone' Class 'BP_SQActionSettings_C'>"
+      "setting": "'/Game/Settings/Actions/CommanderActions/MEI/HandledDrone_MEI.HandledDrone_MEI' Class 'BP_SQActionSettings_C'>"
     },
     {
       "cost": "None",
@@ -377,7 +377,7 @@
       "setting": "'/Game/Settings/Deployables/Weapons/HellCannon.HellCannon' Class 'BP_SQDeployableSettings_C'>"
     }
   ],
-  "faction_id": "INS",
+  "faction_id": "MEI",
   "game_mode_list_inclusion": false,
   "game_modes_list": [],
   "id": "FSTest_INS",

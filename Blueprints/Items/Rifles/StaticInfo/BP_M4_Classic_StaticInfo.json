@@ -14,7 +14,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "100m",
       "line_of_fire_angle": {
-        "pitch": -0.5,
+        "pitch": -0.63,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -25,7 +25,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "200m",
       "line_of_fire_angle": {
-        "pitch": -0.15000000596046448,
+        "pitch": -0.52,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -36,7 +36,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "300m",
       "line_of_fire_angle": {
-        "pitch": -0.09000000357627869,
+        "pitch": -0.38,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -47,7 +47,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "400m",
       "line_of_fire_angle": {
-        "pitch": 0.0,
+        "pitch": -0.23,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -58,7 +58,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "450m",
       "line_of_fire_angle": {
-        "pitch": 0.019999999552965164,
+        "pitch": -0.15,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -69,7 +69,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "500m",
       "line_of_fire_angle": {
-        "pitch": 0.03999999910593033,
+        "pitch": -0.07,
         "roll": 0.0,
         "yaw": 0.0
       }

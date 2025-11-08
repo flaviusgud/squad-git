@@ -179,6 +179,7 @@
   "replicate_using_registered_sub_object_list": false,
   "replicates": true,
   "root_component": "'/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_Smoke.Default__BP_M4M203_UGL_Smoke_C:SceneComponent' Class 'SceneComponent'>",
+  "should_remove_from_inventory_when_depleted": false,
   "show_ammo_data_in_hud": false,
   "show_item_count_in_inventory": false,
   "show_mag_count_in_inventory": true,

@@ -709,14 +709,14 @@
       "delay": "'/Game/Settings/Availability/Delay/Delay_APC_Light.Delay_APC_Light' Class 'SQRestriction_Delay'>",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_02.AlwaysPerTeam_02' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Vehicle/BAF/BAF_FV432.BAF_FV432' Class 'BP_SQVehicleSettings_C'>"
+      "setting": "'/Game/Settings/Vehicle/BAF/BAF_FV432-L11A1.BAF_FV432-L11A1' Class 'BP_SQVehicleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "'/Game/Settings/Availability/Delay/Delay_APC_Light.Delay_APC_Light' Class 'SQRestriction_Delay'>",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Vehicle/BAF/BAF_FV432-RWS.BAF_FV432-RWS' Class 'BP_SQVehicleSettings_C'>"
+      "setting": "'/Game/Settings/Vehicle/BAF/BAF_FV432-L37A2-RWS.BAF_FV432-L37A2-RWS' Class 'BP_SQVehicleSettings_C'>"
     },
     {
       "cost": "None",
