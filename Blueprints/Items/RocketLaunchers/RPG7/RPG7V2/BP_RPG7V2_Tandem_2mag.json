@@ -9,7 +9,7 @@
   "aiming_down_sights": false,
   "alt_use_anim": "None",
   "always_relevant": false,
-  "ammo_per_rearm_item": 30.0,
+  "ammo_per_rearm_item": 80.0,
   "attachment_classes": [
     "None"
   ],
@@ -51,7 +51,7 @@
   "custom3_anim": "None",
   "custom_time_dilation": 1.0,
   "debug_item_static_info_class": "None",
-  "display_name": "RPG-7v2 (PG-7VR Tandem)",
+  "display_name": "RPG-7V2 (PG-7VR Tandem)",
   "dynamic_first_person_mesh_materials": [],
   "enable_auto_lod_generation": true,
   "equip_anim": "None",

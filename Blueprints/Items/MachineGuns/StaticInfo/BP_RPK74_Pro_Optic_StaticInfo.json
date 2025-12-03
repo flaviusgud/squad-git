@@ -58,7 +58,7 @@
   "bipod_ads_recoil_sigma": {
     "x": 0.03999999910593033,
     "y": 0.07000000029802322,
-    "z": 0.6800000071525574
+    "z": 0.0
   },
   "bipod_end_loop_section_names": {
     "begin_section": "Begin",
@@ -77,12 +77,12 @@
   "bipod_recoil_mean": {
     "x": 0.10000000149011612,
     "y": 0.004999999888241291,
-    "z": 0.10000000149011612
+    "z": 0.0
   },
   "bipod_recoil_sigma": {
     "x": 0.4000000059604645,
     "y": 0.4000000059604645,
-    "z": 1.0
+    "z": 0.0
   },
   "bipod_time": 0.30000001192092896,
   "bobbing_aim_end_loop_section_names": {
@@ -300,7 +300,7 @@
   "mutual_weapons": [],
   "muzzle_flash_effect1p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_AssaultRifle.Muzzleflash_AssaultRifle' Class 'ParticleSystem'>",
   "muzzle_flash_effect3p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_AssaultRifle.Muzzleflash_AssaultRifle' Class 'ParticleSystem'>",
-  "muzzle_flash_effect_ads": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_Machinegun_ADS.Muzzleflash_Machinegun_ADS' Class 'ParticleSystem'>",
+  "muzzle_flash_effect_ads": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_Machinegun.Muzzleflash_Machinegun' Class 'ParticleSystem'>",
   "muzzle_flash_effect_socket": "BarrelStart",
   "muzzle_flash_lasting_effect1p": "None",
   "muzzle_flash_lasting_effect3p": "None",
@@ -485,7 +485,7 @@
   "requires_manual_bolt": false,
   "return_to_ads_after_item_collision": true,
   "right_hand3p_weapon_ik_alpha": 1.0,
-  "separate_ads_fov": 54.0,
+  "separate_ads_fov": 90.0,
   "shell_ejection_cull_distance_in_meters": 10.0,
   "shell_ejection_effect1p": "'/Game/Particles/Weapons/Shell_Ejections/P_ShellEjection_545x39.P_ShellEjection_545x39' Class 'ParticleSystem'>",
   "shell_ejection_effect3p": "'/Game/Particles/Weapons/Shell_Ejections/P_ShellEjection_545x39.P_ShellEjection_545x39' Class 'ParticleSystem'>",

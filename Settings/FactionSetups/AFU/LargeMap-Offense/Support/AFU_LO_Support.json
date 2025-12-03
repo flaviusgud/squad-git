@@ -219,7 +219,7 @@
       "setting": "'/Game/Settings/Deployables/Fortifications/RazorWire.RazorWire' Class 'BP_SQDeployableSettings_C'>"
     },
     {
-      "cost": "'/Game/Settings/Deployables/Costs/Cost_HAB_Irregular.Cost_HAB_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_HAB_Conventionnal.Cost_HAB_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
       "delay": "None",
       "limited_count": "'/Game/Settings/Deployables/Counts/Count_HAB_02.Count_HAB_02' Class 'BP_SQRestriction_DeployableCount_C'>",
       "other_restrictions": [
@@ -257,7 +257,7 @@
       "setting": "'/Game/Settings/Deployables/Tech/AmmoCrate_AFU.AmmoCrate_AFU' Class 'BP_SQDeployableSettings_C'>"
     },
     {
-      "cost": "'/Game/Settings/Deployables/Costs/Cost_RepairStation_Irregular.Cost_RepairStation_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_RepairStation_Conventionnal.Cost_RepairStation_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
       "delay": "None",
       "limited_count": "'/Game/Settings/Deployables/Counts/Count_RepairStation.Count_RepairStation' Class 'BP_SQRestriction_DeployableCount_C'>",
       "other_restrictions": [
@@ -295,7 +295,7 @@
       "setting": "'/Game/Vehicles/Emplaced_Stugna-P/StugnaP_AFU.StugnaP_AFU' Class 'BP_SQDeployableSettings_C'>"
     },
     {
-      "cost": "'/Game/Settings/Deployables/Costs/Cost_Mortar_Irregular.Cost_Mortar_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_Mortar_Conventionnal.Cost_Mortar_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
       "delay": "None",
       "limited_count": "'/Game/Settings/Deployables/Counts/Count_Mortar_02.Count_Mortar_02' Class 'BP_SQRestriction_DeployableCount_C'>",
       "other_restrictions": [
@@ -314,7 +314,7 @@
       "setting": "'/Game/Settings/Deployables/Weapons/81mmMortar.81mmMortar' Class 'BP_SQDeployableSettings_C'>"
     },
     {
-      "cost": "'/Game/Settings/Deployables/Costs/Cost_HMG_Irregular.Cost_HMG_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_HMG_Conventionnal.Cost_HMG_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
       "delay": "None",
       "limited_count": "'/Game/Settings/Deployables/Counts/Count_HMG.Count_HMG' Class 'BP_SQRestriction_DeployableCount_C'>",
       "other_restrictions": [
@@ -333,9 +333,28 @@
       "setting": "'/Game/Settings/Deployables/Weapons/DShk_Tripod.DShk_Tripod' Class 'BP_SQDeployableSettings_C'>"
     },
     {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_GMG_Conventionnal.Cost_GMG_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_GMG.Count_GMG' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Weapons/AGS17_Tripod.AGS17_Tripod' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
       "cost": "'/Game/Settings/Deployables/Costs/Cost_HMG_Bunker_Conventionnal.Cost_HMG_Bunker_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
       "delay": "None",
-      "limited_count": "'/Game/Settings/Deployables/Counts/Count_HMG.Count_HMG' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_HMG_Protected.Count_HMG_Protected' Class 'BP_SQRestriction_DeployableCount_C'>",
       "other_restrictions": [
         {
           "data": {
@@ -350,6 +369,25 @@
         }
       ],
       "setting": "'/Game/Settings/Deployables/Weapons/NSV_Bunker_AFU.NSV_Bunker_AFU' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_GMG_Bunker_Conventionnal.Cost_GMG_Bunker_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_GMG_Protected.Count_GMG_Protected' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Weapons/AGS17_Bunker.AGS17_Bunker' Class 'BP_SQDeployableSettings_C'>"
     },
     {
       "cost": "None",

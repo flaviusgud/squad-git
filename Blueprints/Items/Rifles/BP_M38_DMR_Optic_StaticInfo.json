@@ -400,7 +400,7 @@
   "mutual_weapons": [],
   "muzzle_flash_effect1p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_AssaultRifle_Star.Muzzleflash_AssaultRifle_Star' Class 'ParticleSystem'>",
   "muzzle_flash_effect3p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_AssaultRifle_Star.Muzzleflash_AssaultRifle_Star' Class 'ParticleSystem'>",
-  "muzzle_flash_effect_ads": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_AssaultRifle_Star_ADS.Muzzleflash_AssaultRifle_Star_ADS' Class 'ParticleSystem'>",
+  "muzzle_flash_effect_ads": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_AssaultRifle_Star.Muzzleflash_AssaultRifle_Star' Class 'ParticleSystem'>",
   "muzzle_flash_effect_socket": "BarrelStart",
   "muzzle_flash_lasting_effect1p": "None",
   "muzzle_flash_lasting_effect3p": "None",

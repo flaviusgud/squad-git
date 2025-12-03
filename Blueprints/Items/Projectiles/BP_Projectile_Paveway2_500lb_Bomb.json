@@ -39,7 +39,7 @@
   "life_span": 0.0,
   "min_flight_time": 0.0,
   "min_net_update_frequency": 2.0,
-  "near_ground_trigger_distance": 33000.0,
+  "near_ground_trigger_distance": 75000.0,
   "net_cull_distance_squared": 225000000.0,
   "net_dormancy": "<NetDormancy.DORM_AWAKE: 1>",
   "net_priority": 0.5,

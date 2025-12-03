@@ -51,7 +51,7 @@
   "custom2_anim": "None",
   "custom3_anim": "None",
   "custom_time_dilation": 1.0,
-  "debug_item_static_info_class": "None",
+  "debug_item_static_info_class": "'/Game/Blueprints/Items/Rifles/StaticInfo/Debug/ASVAL_Optic_Debug.ASVAL_Optic_Debug' Class 'BP_ASVAL_Optic_StaticInfo_C'>",
   "display_name": "AS-VAL + PSO-1-1",
   "dynamic_first_person_mesh_materials": [],
   "enable_auto_lod_generation": true,

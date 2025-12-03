@@ -14,7 +14,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "100m",
       "line_of_fire_angle": {
-        "pitch": 0.37,
+        "pitch": -0.07,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -25,7 +25,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "200m",
       "line_of_fire_angle": {
-        "pitch": 0.45,
+        "pitch": 0.0,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -36,7 +36,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "300m",
       "line_of_fire_angle": {
-        "pitch": 0.545,
+        "pitch": 0.11,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -47,7 +47,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "400m",
       "line_of_fire_angle": {
-        "pitch": 0.66,
+        "pitch": 0.22,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -58,7 +58,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "500m",
       "line_of_fire_angle": {
-        "pitch": 0.78,
+        "pitch": 0.34,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -69,7 +69,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "600m",
       "line_of_fire_angle": {
-        "pitch": 0.897,
+        "pitch": 0.465,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -80,7 +80,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "700m",
       "line_of_fire_angle": {
-        "pitch": 1.0,
+        "pitch": 0.565,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -91,7 +91,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "800m",
       "line_of_fire_angle": {
-        "pitch": 1.095,
+        "pitch": 0.655,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -102,7 +102,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "900m",
       "line_of_fire_angle": {
-        "pitch": 1.2,
+        "pitch": 0.76,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -113,7 +113,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "1000m",
       "line_of_fire_angle": {
-        "pitch": 1.37,
+        "pitch": 0.93,
         "roll": 0.0,
         "yaw": 0.0
       }

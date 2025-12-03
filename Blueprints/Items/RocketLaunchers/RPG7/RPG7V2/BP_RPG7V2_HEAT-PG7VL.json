@@ -240,7 +240,7 @@
     "is_barrel_socket_on_soldier": false,
     "mag_must_be_empty_for_vehicle_rearm": false,
     "max_damage_to_apply": 240.0,
-    "max_mags": 2,
+    "max_mags": 1,
     "maximum_trace_distance": 0.0,
     "min_damage_to_apply": 240.0,
     "minimum_time_between_rearms": 0.0,

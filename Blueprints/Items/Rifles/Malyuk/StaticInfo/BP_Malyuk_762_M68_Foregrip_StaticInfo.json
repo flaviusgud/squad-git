@@ -142,7 +142,7 @@
   },
   "clear_sights_min_input": 7.5,
   "crouch_ads_recoil_mean": {
-    "x": 1.5,
+    "x": 0.85,
     "y": 0.33,
     "z": 0.02
   },
@@ -187,7 +187,7 @@
     "z": 0.5
   },
   "crouch_recoil_mean": {
-    "x": 1.9,
+    "x": 0.95,
     "y": 1.0,
     "z": 0.0
   },
@@ -305,7 +305,7 @@
   "mutual_weapons": [],
   "muzzle_flash_effect1p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_AssaultRifle_Sideblasts.Muzzleflash_AssaultRifle_Sideblasts' Class 'ParticleSystem'>",
   "muzzle_flash_effect3p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_RifleSemiAuto.Muzzleflash_RifleSemiAuto' Class 'ParticleSystem'>",
-  "muzzle_flash_effect_ads": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_AssaultRifle_Sideblasts_ADS.Muzzleflash_AssaultRifle_Sideblasts_ADS' Class 'ParticleSystem'>",
+  "muzzle_flash_effect_ads": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_AssaultRifle_Sideblasts.Muzzleflash_AssaultRifle_Sideblasts' Class 'ParticleSystem'>",
   "muzzle_flash_effect_socket": "BarrelStart",
   "muzzle_flash_lasting_effect1p": "None",
   "muzzle_flash_lasting_effect3p": "None",
@@ -374,8 +374,8 @@
     "z": 0.5
   },
   "prone_recoil_mean": {
-    "x": 0.6,
-    "y": 0.04,
+    "x": 0.65,
+    "y": 0.065,
     "z": 0.0
   },
   "prone_recoil_sigma": {
@@ -448,7 +448,7 @@
     "y": 0.0
   },
   "recoil_alignment_bipod_use_separate_config": true,
-  "recoil_alignment_crouch_multiplier": 0.699999988079071,
+  "recoil_alignment_crouch_multiplier": 0.6000000238418579,
   "recoil_alignment_grip_angle_limits": {
     "x": 1.5,
     "y": 1.5
@@ -461,7 +461,7 @@
   "recoil_alignment_movement_exponent": 1.0,
   "recoil_alignment_multiplier_max": 1.2100000381469727,
   "recoil_alignment_no_flip_flop_when_bipoded": false,
-  "recoil_alignment_prone_multiplier": 0.6499999761581421,
+  "recoil_alignment_prone_multiplier": 0.550000011920929,
   "recoil_alignment_shoulder_angle_limits": {
     "x": 14.0,
     "y": 14.0
@@ -472,9 +472,9 @@
   },
   "recoil_alignment_stamina_addative": 1.5,
   "recoil_alignment_stamina_exponent": 0.5,
-  "recoil_alignment_stand_multiplier": 0.800000011920929,
+  "recoil_alignment_stand_multiplier": 0.699999988079071,
   "recoil_anim_blend_time": 0.0,
-  "recoil_camera_offset_factor": 0.2800000011920929,
+  "recoil_camera_offset_factor": 0.699999988079071,
   "recoil_camera_offset_interp_speed": 5.0,
   "recoil_camera_shot_interp_speed": 0.0,
   "recoil_can_release_interp_speed": 30.0,
@@ -498,8 +498,8 @@
   "right_hand3p_weapon_ik_alpha": 1.0,
   "separate_ads_fov": 90.0,
   "shell_ejection_cull_distance_in_meters": 10.0,
-  "shell_ejection_effect1p": "'/Game/Particles/Weapons/Shell_Ejections/P_ShellEjection_762.P_ShellEjection_762' Class 'ParticleSystem'>",
-  "shell_ejection_effect3p": "'/Game/Particles/Weapons/Shell_Ejections/P_ShellEjection_762.P_ShellEjection_762' Class 'ParticleSystem'>",
+  "shell_ejection_effect1p": "'/Game/Particles/Weapons/Shell_Ejections/P_ShellEjection_762x39.P_ShellEjection_762x39' Class 'ParticleSystem'>",
+  "shell_ejection_effect3p": "'/Game/Particles/Weapons/Shell_Ejections/P_ShellEjection_762x39.P_ShellEjection_762x39' Class 'ParticleSystem'>",
   "shell_ejection_effect_socket": "ShellEjection",
   "shot_deviation_factor_release": 1.0,
   "show_weapon_handling_indicator": true,
@@ -529,8 +529,8 @@
   },
   "sprint_play_rate_factor_min_range": -2.0,
   "stand_ads_recoil_mean": {
-    "x": 1.8,
-    "y": 0.8,
+    "x": 0.9,
+    "y": 0.42,
     "z": 0.05
   },
   "stand_ads_recoil_sigma": {
@@ -575,8 +575,8 @@
   },
   "stand_loc_blend_time": 0.25,
   "stand_recoil_mean": {
-    "x": 2.3,
-    "y": 1.5,
+    "x": 1.0,
+    "y": 0.45,
     "z": 0.0
   },
   "stand_recoil_sigma": {

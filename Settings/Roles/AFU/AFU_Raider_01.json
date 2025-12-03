@@ -24,7 +24,7 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/SubmachineGuns/VZ61/BP_Vz61_3mags.BP_Vz61_3mags_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/SubmachineGuns/VZ61/BP_Vz61_5mags.BP_Vz61_5mags_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.SECONDARY: 2>"

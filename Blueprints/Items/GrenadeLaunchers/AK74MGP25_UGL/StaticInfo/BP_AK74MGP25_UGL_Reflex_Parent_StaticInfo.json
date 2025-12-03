@@ -435,7 +435,7 @@
       "none_or_ignore_current_unequip_duration": 0.25,
       "none_or_ignore_current_weapon_unequip_montage": "None",
       "previous_empty_or_ignore_current_equip_duration": 1.350000023841858,
-      "weapon": "'/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P63_Pro.BP_AK74GP25_Rifle_1P63_Pro_C' Class 'BlueprintGeneratedClass'>"
+      "weapon": "'/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_EXPS_Pro.BP_AK74GP25_Rifle_EXPS_Pro_C' Class 'BlueprintGeneratedClass'>"
     },
     {
       "both_empty1p_equip_montage": "None",
@@ -708,7 +708,7 @@
   ],
   "muzzle_flash_effect1p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_Rifle.Muzzleflash_Rifle' Class 'ParticleSystem'>",
   "muzzle_flash_effect3p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_Rifle.Muzzleflash_Rifle' Class 'ParticleSystem'>",
-  "muzzle_flash_effect_ads": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_Rifle_ADS.Muzzleflash_Rifle_ADS' Class 'ParticleSystem'>",
+  "muzzle_flash_effect_ads": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_Rifle.Muzzleflash_Rifle' Class 'ParticleSystem'>",
   "muzzle_flash_effect_socket": "UGLBarrelStart",
   "muzzle_flash_lasting_effect1p": "None",
   "muzzle_flash_lasting_effect3p": "None",

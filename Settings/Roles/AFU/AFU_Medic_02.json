@@ -13,7 +13,7 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_1p78.BP_Malyuk_545_1p78_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M150.BP_Malyuk_545_M150_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 2,
           "weapon_type": "<WeaponType.PRIMARY: 1>"
@@ -90,13 +90,6 @@
         {
           "cannot_rearm": true,
           "equipable_item": "'/Game/Blueprints/Items/EquippableItems/BP_MPL50_Shovel_Rus.BP_MPL50_Shovel_Rus_C' Class 'BlueprintGeneratedClass'>",
-          "max_allowed_in_inventory": 1,
-          "minimum_count_on_spawn": 1,
-          "weapon_type": "<WeaponType.BACKPACK: 0>"
-        },
-        {
-          "cannot_rearm": true,
-          "equipable_item": "'/Game/Blueprints/Items/Binoculars/BP_Soviet_Binoculars.BP_Soviet_Binoculars_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 1,
           "weapon_type": "<WeaponType.BACKPACK: 0>"

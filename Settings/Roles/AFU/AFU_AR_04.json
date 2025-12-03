@@ -13,7 +13,7 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/MachineGuns/BP_RPK74_1P78_Pro.BP_RPK74_1P78_Pro_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/MachineGuns/BP_RPK74_M150_Pro.BP_RPK74_M150_Pro_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 1,
           "weapon_type": "<WeaponType.PRIMARY: 1>"

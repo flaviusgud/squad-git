@@ -187,7 +187,7 @@
       "setting": "'/Game/Settings/Deployables/Fortifications/RazorWire.RazorWire' Class 'BP_SQDeployableSettings_C'>"
     },
     {
-      "cost": "'/Game/Settings/Deployables/Costs/Cost_HAB_Irregular.Cost_HAB_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_HAB_Conventionnal.Cost_HAB_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
       "delay": "None",
       "limited_count": "'/Game/Settings/Deployables/Counts/Count_HAB_01.Count_HAB_01' Class 'BP_SQRestriction_DeployableCount_C'>",
       "other_restrictions": [
@@ -225,7 +225,7 @@
       "setting": "'/Game/Settings/Deployables/Tech/AmmoCrate_AFU.AmmoCrate_AFU' Class 'BP_SQDeployableSettings_C'>"
     },
     {
-      "cost": "'/Game/Settings/Deployables/Costs/Cost_RepairStation_Irregular.Cost_RepairStation_Irregular' Class 'BP_SQRestriction_Cost_C'>",
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_RepairStation_Conventionnal.Cost_RepairStation_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
       "delay": "None",
       "limited_count": "'/Game/Settings/Deployables/Counts/Count_RepairStation.Count_RepairStation' Class 'BP_SQRestriction_DeployableCount_C'>",
       "other_restrictions": [

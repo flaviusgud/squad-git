@@ -11,6 +11,7 @@
   "always_relevant": false,
   "ammo_per_rearm_item": 10.0,
   "attachment_classes": [
+    {},
     {}
   ],
   "attachments": [],

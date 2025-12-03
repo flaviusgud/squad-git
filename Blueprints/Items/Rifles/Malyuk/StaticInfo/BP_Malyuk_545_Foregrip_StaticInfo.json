@@ -458,7 +458,7 @@
     "y": 0.0
   },
   "recoil_alignment_bipod_use_separate_config": true,
-  "recoil_alignment_crouch_multiplier": 0.8999999761581421,
+  "recoil_alignment_crouch_multiplier": 0.8500000238418579,
   "recoil_alignment_grip_angle_limits": {
     "x": 1.5,
     "y": 1.5
@@ -471,9 +471,9 @@
   "recoil_alignment_movement_exponent": 1.0,
   "recoil_alignment_multiplier_max": 1.3300000429153442,
   "recoil_alignment_no_flip_flop_when_bipoded": false,
-  "recoil_alignment_prone_multiplier": 0.8500000238418579,
+  "recoil_alignment_prone_multiplier": 0.800000011920929,
   "recoil_alignment_shoulder_angle_limits": {
-    "x": 6.0,
+    "x": 5.0,
     "y": 5.0
   },
   "recoil_alignment_shoulder_max": {
@@ -488,7 +488,7 @@
   "recoil_camera_offset_interp_speed": 5.0,
   "recoil_camera_shot_interp_speed": 0.0,
   "recoil_can_release_interp_speed": 30.0,
-  "recoil_grip_alignment_curve": "'/Game/Blueprints/Items/RecoilGripAlignmentCurve_Bullpup.RecoilGripAlignmentCurve_Bullpup' Class 'CurveFloat'>",
+  "recoil_grip_alignment_curve": "'/Game/Blueprints/Items/RecoilGripAlignmentCurve.RecoilGripAlignmentCurve' Class 'CurveFloat'>",
   "recoil_lof_attack_interp_speed": 45.0,
   "recoil_lof_camera_offset_limit": 30.0,
   "recoil_lof_release_interp_speed": 25.0,

@@ -14,7 +14,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "100m",
       "line_of_fire_angle": {
-        "pitch": 0.15000000596046448,
+        "pitch": 0.18,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -25,7 +25,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "200m",
       "line_of_fire_angle": {
-        "pitch": 0.25,
+        "pitch": 0.3,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -36,7 +36,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "300m",
       "line_of_fire_angle": {
-        "pitch": 0.3799999952316284,
+        "pitch": 0.41,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -47,7 +47,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "400m",
       "line_of_fire_angle": {
-        "pitch": 0.5199999809265137,
+        "pitch": 0.58,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -58,7 +58,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "500m",
       "line_of_fire_angle": {
-        "pitch": 0.6800000071525574,
+        "pitch": 0.74,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -69,7 +69,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "600m",
       "line_of_fire_angle": {
-        "pitch": 0.8799999952316284,
+        "pitch": 0.96,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -80,7 +80,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "700m",
       "line_of_fire_angle": {
-        "pitch": 1.090000033378601,
+        "pitch": 1.15,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -91,7 +91,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "800m",
       "line_of_fire_angle": {
-        "pitch": 1.3600000143051147,
+        "pitch": 1.36,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -102,7 +102,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "900m",
       "line_of_fire_angle": {
-        "pitch": 1.659999966621399,
+        "pitch": 1.66,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -113,7 +113,7 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "1000m",
       "line_of_fire_angle": {
-        "pitch": 2.0,
+        "pitch": 2.03,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -129,9 +129,9 @@
   "ads_suppression_punch_weapon_alignment_multiplier": 2.0,
   "ads_transition1p_montage": "None",
   "aim1p_weapon_mesh_position": {
-    "x": -7.400000095367432,
+    "x": -7.5,
     "y": 1.062079,
-    "z": 0.304
+    "z": 0.335
   },
   "aim1p_weapon_mesh_rescale": {
     "x": 1.0,
@@ -405,7 +405,7 @@
   "mutual_weapons": [],
   "muzzle_flash_effect1p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_Rifle.Muzzleflash_Rifle' Class 'ParticleSystem'>",
   "muzzle_flash_effect3p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_Rifle.Muzzleflash_Rifle' Class 'ParticleSystem'>",
-  "muzzle_flash_effect_ads": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_Rifle_ADS.Muzzleflash_Rifle_ADS' Class 'ParticleSystem'>",
+  "muzzle_flash_effect_ads": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_Rifle.Muzzleflash_Rifle' Class 'ParticleSystem'>",
   "muzzle_flash_effect_socket": "BarrelStart",
   "muzzle_flash_lasting_effect1p": "None",
   "muzzle_flash_lasting_effect3p": "None",
@@ -596,7 +596,7 @@
   "requires_manual_bolt": false,
   "return_to_ads_after_item_collision": true,
   "right_hand3p_weapon_ik_alpha": 1.0,
-  "separate_ads_fov": 90.0,
+  "separate_ads_fov": 77.0,
   "shell_ejection_cull_distance_in_meters": 10.0,
   "shell_ejection_effect1p": "'/Game/Particles/Weapons/Shell_Ejections/P_ShellEjection_762x54.P_ShellEjection_762x54' Class 'ParticleSystem'>",
   "shell_ejection_effect3p": "'/Game/Particles/Weapons/Shell_Ejections/P_ShellEjection_762x54.P_ShellEjection_762x54' Class 'ParticleSystem'>",

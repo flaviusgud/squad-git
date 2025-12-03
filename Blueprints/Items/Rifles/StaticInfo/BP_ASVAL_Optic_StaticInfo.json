@@ -15,7 +15,40 @@
       "base_adjust_ads3p_montage": "None",
       "distance_text": "100m",
       "line_of_fire_angle": {
-        "pitch": 0.41999998688697815,
+        "pitch": 0.39,
+        "roll": 0.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "adjust_ads_transition3p_montage": "None",
+      "adjust_from_ads_transition3p_montage": "None",
+      "base_adjust_ads3p_montage": "None",
+      "distance_text": "200m",
+      "line_of_fire_angle": {
+        "pitch": 0.7,
+        "roll": 0.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "adjust_ads_transition3p_montage": "None",
+      "adjust_from_ads_transition3p_montage": "None",
+      "base_adjust_ads3p_montage": "None",
+      "distance_text": "300m",
+      "line_of_fire_angle": {
+        "pitch": 1.03,
+        "roll": 0.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "adjust_ads_transition3p_montage": "None",
+      "adjust_from_ads_transition3p_montage": "None",
+      "base_adjust_ads3p_montage": "None",
+      "distance_text": "400m",
+      "line_of_fire_angle": {
+        "pitch": 1.35,
         "roll": 0.0,
         "yaw": 0.0
       }
@@ -31,9 +64,9 @@
   "ads_suppression_punch_weapon_alignment_multiplier": 2.0,
   "ads_transition1p_montage": "None",
   "aim1p_weapon_mesh_position": {
-    "x": 0.544,
-    "y": 0.6,
-    "z": -0.168
+    "x": 0.104976,
+    "y": 0.656911,
+    "z": -0.211382
   },
   "aim1p_weapon_mesh_rescale": {
     "x": 1.0,
@@ -306,7 +339,7 @@
   "mutual_weapons": [],
   "muzzle_flash_effect1p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_SuppressedRifle.Muzzleflash_SuppressedRifle' Class 'ParticleSystem'>",
   "muzzle_flash_effect3p": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_SuppressedRifle.Muzzleflash_SuppressedRifle' Class 'ParticleSystem'>",
-  "muzzle_flash_effect_ads": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_SuppressedRifle_ADS.Muzzleflash_SuppressedRifle_ADS' Class 'ParticleSystem'>",
+  "muzzle_flash_effect_ads": "'/Game/Particles/Weapons/MuzzleFlashes/Small-Arms/Muzzleflash_SuppressedRifle.Muzzleflash_SuppressedRifle' Class 'ParticleSystem'>",
   "muzzle_flash_effect_socket": "BarrelStart",
   "muzzle_flash_lasting_effect1p": "None",
   "muzzle_flash_lasting_effect3p": "None",
@@ -497,7 +530,7 @@
   "requires_manual_bolt": false,
   "return_to_ads_after_item_collision": true,
   "right_hand3p_weapon_ik_alpha": 1.0,
-  "separate_ads_fov": 90.0,
+  "separate_ads_fov": 77.0,
   "shell_ejection_cull_distance_in_meters": 10.0,
   "shell_ejection_effect1p": "'/Game/Particles/Weapons/Shell_Ejections/P_ShellEjection_545x39.P_ShellEjection_545x39' Class 'ParticleSystem'>",
   "shell_ejection_effect3p": "'/Game/Particles/Weapons/Shell_Ejections/P_ShellEjection_545x39.P_ShellEjection_545x39' Class 'ParticleSystem'>",

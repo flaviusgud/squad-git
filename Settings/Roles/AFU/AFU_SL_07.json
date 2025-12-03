@@ -13,7 +13,7 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_1p78_Foregrip.BP_Malyuk_762_1p78_Foregrip_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_M150_Foregrip.BP_Malyuk_762_M150_Foregrip_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 2,
           "weapon_type": "<WeaponType.PRIMARY: 1>"
@@ -43,7 +43,7 @@
         {
           "cannot_rearm": false,
           "equipable_item": "'/Game/Blueprints/Items/Grenades/BP_RGD5Frag_Brown.BP_RGD5Frag_Brown_C' Class 'BlueprintGeneratedClass'>",
-          "max_allowed_in_inventory": 2,
+          "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.BACKPACK: 0>"
         }
