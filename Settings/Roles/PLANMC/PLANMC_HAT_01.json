@@ -13,7 +13,7 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Rifles/BP_QBZ95B-1.BP_QBZ95B-1_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/Rifles/QBZ-192/BP_QBZ192_IronSights.BP_QBZ192_IronSights_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 2,
           "weapon_type": "<WeaponType.PRIMARY: 1>"
@@ -42,10 +42,10 @@
         },
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Grenades/BP_Type86p_Frag.BP_Type86p_Frag_C' Class 'BlueprintGeneratedClass'>",
-          "max_allowed_in_inventory": 2,
+          "equipable_item": "'/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_HE_2mags.BP_PF-98_HE_2mags_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
-          "weapon_type": "<WeaponType.BACKPACK: 0>"
+          "weapon_type": "<WeaponType.SPECIAL: 3>"
         }
       ]
     },

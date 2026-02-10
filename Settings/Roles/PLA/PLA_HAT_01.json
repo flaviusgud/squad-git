@@ -13,7 +13,7 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Pistols/BP_QSZ-92_10mags.BP_QSZ-92_10mags_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/Rifles/QBZ-192/BP_QBZ192_IronSights.BP_QBZ192_IronSights_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 2,
           "weapon_type": "<WeaponType.PRIMARY: 1>"

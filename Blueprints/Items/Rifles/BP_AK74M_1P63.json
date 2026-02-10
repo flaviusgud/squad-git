@@ -88,7 +88,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "None",
   "item_description": "Magazine Capacity: 30+1/Caliber: 5.45x39mm/Rate of Fire: 650 RPM/Fire Mode: Semi, Auto",
   "item_static_info_class": "'/Game/Blueprints/Items/Rifles/StaticInfo/BP_AK74M_Reflex_StaticInfo.BP_AK74M_Reflex_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {

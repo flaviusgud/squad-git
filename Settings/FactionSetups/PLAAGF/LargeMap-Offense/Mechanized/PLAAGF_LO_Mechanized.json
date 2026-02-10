@@ -39,8 +39,8 @@
     "data_table": "'/Game/Settings/FactionSetups/PLAAGF/FactionSetupTable_PLAAGF.FactionSetupTable_PLAAGF' Class 'DataTable'>",
     "row_name": "PLAAGF_LO_Mechanized"
   },
-  "default_role": "'/Game/Settings/Roles/PLA/PLA_Rifleman_01.PLA_Rifleman_01' Class 'BP_SQRoleSettings_C'>",
-  "default_squad_leader_role": "'/Game/Settings/Roles/PLA/PLA_SL_01.PLA_SL_01' Class 'BP_SQRoleSettings_C'>",
+  "default_role": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Rifleman_01.PLAAGF_Rifleman_01' Class 'BP_SQRoleSettings_C'>",
+  "default_squad_leader_role": "'/Game/Settings/Roles/PLAAGF/PLAAGF_SL_01.PLAAGF_SL_01' Class 'BP_SQRoleSettings_C'>",
   "deployables": [
     {
       "cost": "'/Game/Settings/Deployables/Costs/Cost_Bunker_Conventional.Cost_Bunker_Conventional' Class 'BP_SQRestriction_Cost_C'>",
@@ -290,6 +290,44 @@
       "setting": "'/Game/Settings/Deployables/Weapons/PLA_HJ8_ATGM.PLA_HJ8_ATGM' Class 'BP_SQDeployableSettings_C'>"
     },
     {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_GMG_Conventionnal.Cost_GMG_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_GMG.Count_GMG' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Weapons/PLA_QLZ87_AGL.PLA_QLZ87_AGL' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
+      "cost": "'/Game/Settings/Deployables/Costs/Cost_GMG_Bunker_Conventionnal.Cost_GMG_Bunker_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_GMG_Protected.Count_GMG_Protected' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Deployables/Other_Restrictions/Deployable_OtherRestrictionsReasons.Deployable_OtherRestrictionsReasons' Class 'DataTable'>",
+            "row_name": "WithinFriendlyFOB"
+          },
+          "fob_radius_table_column_name": "FOBConstructionRadius",
+          "id": "WithinFriendlyFOB",
+          "range": 15000.0,
+          "target_count": 1,
+          "target_teams": "set([SameTeam])"
+        }
+      ],
+      "setting": "'/Game/Settings/Deployables/Weapons/PLA_QLZ87_Bunker_AGL.PLA_QLZ87_Bunker_AGL' Class 'BP_SQDeployableSettings_C'>"
+    },
+    {
       "cost": "'/Game/Settings/Deployables/Costs/Cost_HMG_Bunker_Conventionnal.Cost_HMG_Bunker_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
       "delay": "None",
       "limited_count": "'/Game/Settings/Deployables/Counts/Count_HMG_Protected.Count_HMG_Protected' Class 'BP_SQRestriction_DeployableCount_C'>",
@@ -400,7 +438,7 @@
   "game_mode_list_inclusion": false,
   "game_modes_list": [],
   "id": "PLAAGF_LO_Mechanized",
-  "leave_squad_role": "'/Game/Settings/Roles/PLA/PLA_Recruit_01.PLA_Recruit_01' Class 'BP_SQRoleSettings_C'>",
+  "leave_squad_role": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Recruit_01.PLAAGF_Recruit_01' Class 'BP_SQRoleSettings_C'>",
   "outer_faction": "None",
   "override_defaults": false,
   "roles": [
@@ -409,7 +447,7 @@
       "delay": "None",
       "limited_count": "None",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_Recruit_01.PLA_Recruit_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Recruit_01.PLAAGF_Recruit_01' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
@@ -427,7 +465,7 @@
           ]
         }
       ],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_SL_01.PLA_SL_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_SL_01.PLAAGF_SL_01' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
@@ -445,7 +483,7 @@
           ]
         }
       ],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_SL_02.PLA_SL_02' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_SL_02.PLAAGF_SL_02' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
@@ -463,7 +501,25 @@
           ]
         }
       ],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_SL_03.PLA_SL_03' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_SL_03.PLAAGF_SL_03' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_SL.Role_SL' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [
+        {
+          "data": {
+            "data_table": "'/Game/Settings/Roles/Conditions/RoleRestrictionTable.RoleRestrictionTable' Class 'DataTable'>",
+            "row_name": "RequireSL"
+          },
+          "id": "RequireSL",
+          "required_status": [
+            "<SQPlayerStatus.SQUAD_LEADER: 1>"
+          ]
+        }
+      ],
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_SL_04.PLAAGF_SL_04' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
@@ -481,7 +537,7 @@
           ]
         }
       ],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_SLCrewman_01.PLA_SLCrewman_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_SLCrewman_01.PLAAGF_SLCrewman_01' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
@@ -499,133 +555,175 @@
           ]
         }
       ],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_SLPilot_01.PLA_SLPilot_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_SLPilot_01.PLAAGF_SLPilot_01' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_Medic.Role_Medic' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_Medic_01.PLA_Medic_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Medic_01.PLAAGF_Medic_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Medic.Role_Medic' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Medic_02.PLAAGF_Medic_02' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_Medic_Scoped.Role_Medic_Scoped' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_Medic_02.PLA_Medic_02' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Medic_03.PLAAGF_Medic_03' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_Rifleman.Role_Rifleman' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_Rifleman_01.PLA_Rifleman_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Rifleman_01.PLAAGF_Rifleman_01' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_Rifleman.Role_Rifleman' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_Rifleman_02.PLA_Rifleman_02' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Rifleman_02.PLAAGF_Rifleman_02' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_Rifleman_Scoped.Role_Rifleman_Scoped' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_Rifleman_03.PLA_Rifleman_03' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Rifleman_03.PLAAGF_Rifleman_03' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Rifleman.Role_Rifleman' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Rifleman_04.PLAAGF_Rifleman_04' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_AR.Role_AR' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_AR_01.PLA_AR_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_AR_01.PLAAGF_AR_01' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_AR_FireSupport.Role_AR_FireSupport' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_AR_02.PLA_AR_02' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_AR_02.PLAAGF_AR_02' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Raider.Role_Raider' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Raider_01.PLAAGF_Raider_01' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_GND.Role_GND' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_Grenadier_01.PLA_Grenadier_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Grenadier_01.PLAAGF_Grenadier_01' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
-      "limited_count": "'/Game/Settings/Roles/Counts/Role_GND.Role_GND' Class 'BP_SQRestriction_RoleCount_C'>",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_GND_Expanded.Role_GND_Expanded' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_Grenadier_02.PLA_Grenadier_02' Class 'BP_SQRoleSettings_C'>"
-    },
-    {
-      "cost": "None",
-      "delay": "None",
-      "limited_count": "'/Game/Settings/Roles/Counts/Role_LAT.Role_LAT' Class 'BP_SQRestriction_RoleCount_C'>",
-      "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_LAT_01.PLA_LAT_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Grenadier_02.PLAAGF_Grenadier_02' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_LAT.Role_LAT' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_LAT_02.PLA_LAT_02' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_LAT_01.PLAAGF_LAT_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_LAT.Role_LAT' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_LAT_02.PLAAGF_LAT_02' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_LAT.Role_LAT' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_LAT_03.PLAAGF_LAT_03' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_DMR.Role_DMR' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_Marksman_01.PLA_Marksman_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Marksman_01.PLAAGF_Marksman_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_Scout.Role_Scout' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Scout_01.PLAAGF_Scout_01' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_MMG.Role_MMG' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_MachineGunner_02.PLA_MachineGunner_02' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_MachineGunner_01.PLAAGF_MachineGunner_01' Class 'BP_SQRoleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "None",
+      "limited_count": "'/Game/Settings/Roles/Counts/Role_MMG.Role_MMG' Class 'BP_SQRestriction_RoleCount_C'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_MachineGunner_02.PLAAGF_MachineGunner_02' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_HAT.Role_HAT' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_HAT_01.PLA_HAT_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_HAT_01.PLAAGF_HAT_01' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_HAT.Role_HAT' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_HAT_02.PLA_HAT_02' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_HAT_02.PLAAGF_HAT_02' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_CE.Role_CE' Class 'BP_SQRestriction_RoleCount_C'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_Engineer_01.PLA_Engineer_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Engineer_01.PLAAGF_Engineer_01' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_Crewman.Role_Crewman' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_Crewman_01.PLA_Crewman_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Crewman_01.PLAAGF_Crewman_01' Class 'BP_SQRoleSettings_C'>"
     },
     {
       "cost": "None",
       "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_Pilot.Role_Pilot' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/PLA/PLA_Pilot_01.PLA_Pilot_01' Class 'BP_SQRoleSettings_C'>"
+      "setting": "'/Game/Settings/Roles/PLAAGF/PLAAGF_Pilot_01.PLAAGF_Pilot_01' Class 'BP_SQRoleSettings_C'>"
     }
   ],
   "vehicles": [
@@ -646,9 +744,23 @@
     {
       "cost": "None",
       "delay": "'/Game/Settings/Availability/Delay/Delay_APC_Light.Delay_APC_Light' Class 'SQRestriction_Delay'>",
-      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_02.AlwaysPerTeam_02' Class 'SQRestriction_Count'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/PLA/PLA_ZSD05_QJZ89.PLA_ZSD05_QJZ89' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_APC_Light.Delay_APC_Light' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/PLA/PLA_ZSD89_QLZ87.PLA_ZSD89_QLZ87' Class 'BP_SQVehicleSettings_C'>"
+    },
+    {
+      "cost": "None",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_IFV_Light.Delay_IFV_Light' Class 'SQRestriction_Delay'>",
+      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
+      "other_restrictions": [],
+      "setting": "'/Game/Settings/Vehicle/PLA/PLA_ZSD89II_25mm.PLA_ZSD89II_25mm' Class 'BP_SQVehicleSettings_C'>"
     },
     {
       "cost": "None",

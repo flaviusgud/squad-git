@@ -13,7 +13,7 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Rifles/BP_QBZ95-1_Optic.BP_QBZ95-1_Optic_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/Rifles/QBZ-191/BP_QBZ191_Holo.BP_QBZ191_Holo_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 2,
           "weapon_type": "<WeaponType.PRIMARY: 1>"

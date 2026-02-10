@@ -88,7 +88,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "None",
   "item_description": "Magazine Capacity: 20+1/Caliber: 7.62x51mm NATO/Rate of Fire: 630 RPM/Fire Mode: Semi, Full-Auto",
   "item_static_info_class": "'/Game/Blueprints/Items/Rifles/StaticInfo/BP_MPT76_A940_StaticInfo.BP_MPT76_A940_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {
@@ -226,7 +226,7 @@
       ]
     ],
     "distance_to_start_damage_fall_off": 9000.0,
-    "dry_reload_duration": 4.474999904632568,
+    "dry_reload_duration": 5.300000190734863,
     "dynamic_moa_decay_multiplier": 1.0,
     "dynamic_moa_gain_multiplier": 1.0,
     "empty_mag_to_reload": false,

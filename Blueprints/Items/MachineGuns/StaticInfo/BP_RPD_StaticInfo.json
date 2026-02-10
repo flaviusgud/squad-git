@@ -150,15 +150,17 @@
     "yaw": 0.0
   },
   "bipod_ads_recoil_mean": {
-    "x": 0.02,
+    "x": 0.035,
     "y": 0.015,
-    "z": 0.15
+    "z": 0.0
   },
   "bipod_ads_recoil_sigma": {
-    "x": 0.07199999690055847,
+    "x": 0.072,
     "y": 0.07500000298023224,
-    "z": 0.20000000298023224
+    "z": 0.0
   },
+  "bipod_ads_transition1p_montage": "None",
+  "bipod_base_ads1p_montage": "None",
   "bipod_end_loop_section_names": {
     "begin_section": "Begin",
     "end_section": "End",
@@ -166,6 +168,7 @@
     "loop_section2": "Loop",
     "mid_end_section": "End"
   },
+  "bipod_from_ads_transition1p_montage": "None",
   "bipod_height_raw": 40.0,
   "bipod_length": 81.0,
   "bipod_loc": {
@@ -174,14 +177,14 @@
     "z": 2.0
   },
   "bipod_recoil_mean": {
-    "x": 0.10000000149011612,
-    "y": 0.004999999888241291,
-    "z": 0.30000001192092896
+    "x": 0.11,
+    "y": 0.005,
+    "z": 0.0
   },
   "bipod_recoil_sigma": {
-    "x": 0.18000000715255737,
-    "y": 0.18000000715255737,
-    "z": 0.5
+    "x": 0.15,
+    "y": 0.18,
+    "z": 0.0
   },
   "bipod_time": 0.30000001192092896,
   "bobbing_aim_end_loop_section_names": {
@@ -237,9 +240,9 @@
   },
   "clear_sights_min_input": 34.900001525878906,
   "crouch_ads_recoil_mean": {
-    "x": 0.9,
-    "y": 0.4,
-    "z": 0.8
+    "x": 0.35,
+    "y": 0.12,
+    "z": 0.2
   },
   "crouch_ads_recoil_sigma": {
     "x": 0.30000001192092896,
@@ -282,14 +285,14 @@
     "z": 3.0
   },
   "crouch_recoil_mean": {
-    "x": 1.7999999523162842,
-    "y": 1.5,
+    "x": 0.4,
+    "y": 0.38,
     "z": 0.0
   },
   "crouch_recoil_sigma": {
-    "x": 0.800000011920929,
-    "y": 0.800000011920929,
-    "z": 1.0
+    "x": 0.45,
+    "y": 0.45,
+    "z": 0.5
   },
   "crouch_time": 0.44999998807907104,
   "default_zeroing_text": "100m",
@@ -413,7 +416,7 @@
   "niagara_shell_ejection_effect3p": "None",
   "offset_line_of_fire": {
     "pitch": -3.0,
-    "roll": 0.0,
+    "roll": -4.0,
     "yaw": 0.0
   },
   "out_of_forced_lowering_sound": "None",
@@ -425,14 +428,14 @@
   "prevent_freelook_while_ads": true,
   "prevent_use_while_crawling": true,
   "prone_ads_recoil_mean": {
-    "x": 0.10000000149011612,
-    "y": 0.20000000298023224,
-    "z": 0.10000000149011612
+    "x": 0.25,
+    "y": 0.11,
+    "z": 0.1
   },
   "prone_ads_recoil_sigma": {
-    "x": 0.20000000298023224,
-    "y": 0.2199999988079071,
-    "z": 0.5
+    "x": 0.12,
+    "y": 0.18,
+    "z": 0.33
   },
   "prone_lean_left_camera_rotation": {
     "pitch": 0.0,
@@ -470,14 +473,14 @@
     "z": 3.0
   },
   "prone_recoil_mean": {
-    "x": 0.5,
-    "y": 0.6000000238418579,
-    "z": 0.5
+    "x": 0.25,
+    "y": 0.21,
+    "z": 0.0
   },
   "prone_recoil_sigma": {
-    "x": 0.3499999940395355,
-    "y": 0.3499999940395355,
-    "z": 1.0
+    "x": 0.35,
+    "y": 0.35,
+    "z": 0.45
   },
   "prone_time": 0.30000001192092896,
   "prone_transition_recoil_mean": {
@@ -555,7 +558,7 @@
   },
   "recoil_alignment_movement_addative": 0.30000001192092896,
   "recoil_alignment_movement_exponent": 1.0,
-  "recoil_alignment_multiplier_max": 1.5,
+  "recoil_alignment_multiplier_max": 1.3300000429153442,
   "recoil_alignment_no_flip_flop_when_bipoded": false,
   "recoil_alignment_prone_multiplier": 0.25,
   "recoil_alignment_shoulder_angle_limits": {
@@ -619,14 +622,14 @@
   },
   "sprint_play_rate_factor_min_range": -2.0,
   "stand_ads_recoil_mean": {
-    "x": 2.0,
-    "y": 1.25,
-    "z": 0.35
+    "x": 0.5,
+    "y": 0.25,
+    "z": 0.3
   },
   "stand_ads_recoil_sigma": {
     "x": 0.4000000059604645,
     "y": 0.4000000059604645,
-    "z": 0.5
+    "z": 0.55
   },
   "stand_lean_left_camera_rotation": {
     "pitch": 0.0,
@@ -665,14 +668,14 @@
   },
   "stand_loc_blend_time": 0.5,
   "stand_recoil_mean": {
-    "x": 4.0,
-    "y": 5.0,
-    "z": 0.800000011920929
+    "x": 0.45,
+    "y": 0.45,
+    "z": 0.6
   },
   "stand_recoil_sigma": {
-    "x": 2.200000047683716,
-    "y": 2.200000047683716,
-    "z": 3.0
+    "x": 0.55,
+    "y": 0.6,
+    "z": 0.6
   },
   "stand_time": 0.5,
   "steady1p_hip_fire_duration": 0.30000001192092896,
@@ -820,6 +823,7 @@
   "unequip_sound3p": "None",
   "usable_in_main_base": false,
   "use_auto_lowering": true,
+  "use_bipod_ads": false,
   "walk_speed_multiplier": 0.5,
   "weapon_mesh_spring_loc_delay_factor": 0.03500000014901161,
   "weapon_mesh_spring_rot_delay_factor": 0.7799999713897705,

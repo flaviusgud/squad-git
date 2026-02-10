@@ -85,7 +85,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "None",
   "item_description": "Magazine Capacity: 35 (Stick), 71 (Drum)/Caliber: 7.62x25mm Tokarev/Rate of Fire: 1000 RPM/Fire Mode: Auto, Semi",
   "item_static_info_class": "'/Game/Blueprints/Items/SubmachineGuns/PPSH41/StaticInfo/BP_Ppsh41_Drum_StaticInfo.BP_Ppsh41_Drum_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {

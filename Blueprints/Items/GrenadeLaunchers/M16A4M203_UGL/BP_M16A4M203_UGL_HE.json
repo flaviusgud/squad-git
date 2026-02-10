@@ -88,7 +88,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "'/Game/UI/HUD/Weapon/MagazineIconData/IconData_ShellGrenade.IconData_ShellGrenade' Class 'SQMagazineIconDataAsset'>",
   "item_description": "Caliber: 40mm/Arming Distance: 10m/Explosion Radius: 15m (HEDP) 0m (Smoke)/Penetration Capability: 10mm RHA",
   "item_static_info_class": "'/Game/Blueprints/Items/GrenadeLaunchers/M16A4M203_UGL/StaticInfo/BP_M16A4M203_UGL_HE_StaticInfo.BP_M16A4M203_UGL_HE_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {

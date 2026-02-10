@@ -13,7 +13,6 @@
   "ammo_per_rearm_item": 15.0,
   "attachment_classes": [
     {},
-    {},
     {}
   ],
   "attachments": [],
@@ -90,7 +89,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "None",
   "item_description": "Magazine Capacity: 100/Caliber: 5.56x45mm NATO Red Tracer/Rate of Fire: 850 RPM/Fire Mode: Auto",
   "item_static_info_class": "'/Game/Blueprints/Items/MachineGuns/StaticInfo/BP_M249_Pip_Optic_SDO_StaticInfo.BP_M249_Pip_Optic_SDO_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {

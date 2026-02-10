@@ -63,6 +63,8 @@
     "y": 0.06499999761581421,
     "z": 0.5
   },
+  "bipod_ads_transition1p_montage": "None",
+  "bipod_base_ads1p_montage": "None",
   "bipod_end_loop_section_names": {
     "begin_section": "Begin",
     "end_section": "End",
@@ -70,6 +72,7 @@
     "loop_section2": "Loop",
     "mid_end_section": "End"
   },
+  "bipod_from_ads_transition1p_montage": "None",
   "bipod_height_raw": 31.5,
   "bipod_length": 55.0,
   "bipod_loc": {
@@ -730,6 +733,7 @@
   "unequip_sound3p": "None",
   "usable_in_main_base": false,
   "use_auto_lowering": true,
+  "use_bipod_ads": false,
   "walk_speed_multiplier": 0.699999988079071,
   "weapon_mesh_spring_loc_delay_factor": -0.05999999865889549,
   "weapon_mesh_spring_rot_delay_factor": -1.100000023841858,

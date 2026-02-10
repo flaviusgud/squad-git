@@ -87,7 +87,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "'/Game/UI/HUD/Weapon/MagazineIconData/IconData_Rocket.IconData_Rocket' Class 'SQMagazineIconDataAsset'>",
   "item_description": "Warhead: 120mm HEI/Guidance: Unguided/Explosion Radius: 20m/Penetration Capability: 400mm RHA",
   "item_static_info_class": "'/Game/Blueprints/Items/RocketLaunchers/StaticInfo/BP_PF-98_HE_StaticInfo.BP_PF-98_HE_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {

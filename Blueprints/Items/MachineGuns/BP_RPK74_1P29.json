@@ -88,7 +88,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "None",
   "item_description": "Magazine Capacity: 45+1/Caliber: 5.45x39mm/Rate of Fire: 650 RPM/Fire Mode: Auto",
   "item_static_info_class": "'/Game/Blueprints/Items/MachineGuns/StaticInfo/BP_RPK74_Optic_1p29_StaticInfo.BP_RPK74_Optic_1p29_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {

@@ -90,7 +90,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "None",
   "item_description": "Magazine Capacity: 100+1/Caliber: 5.56x45mm NATO/Rate of Fire: 850 RPM/Fire Mode: Semi, Auto",
   "item_static_info_class": "'/Game/Blueprints/Items/Rifles/M16_Wormpool/StaticInfo/BP_M16_Wormpool_Ironsights_Cmag_StaticInfo.BP_M16_Wormpool_Ironsights_Cmag_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {
@@ -228,7 +228,7 @@
       ]
     ],
     "distance_to_start_damage_fall_off": 9000.0,
-    "dry_reload_duration": 5.070000171661377,
+    "dry_reload_duration": 4.849999904632568,
     "dynamic_moa_decay_multiplier": 1.0,
     "dynamic_moa_gain_multiplier": 1.0,
     "empty_mag_to_reload": false,
@@ -261,7 +261,7 @@
     "rounds_between_tracer": 0,
     "rounds_per_mag": 100,
     "tactical_reload_bipod_duration": 4.610000133514404,
-    "tactical_reload_duration": 4.610000133514404,
+    "tactical_reload_duration": 4.159999847412109,
     "time_between_shots": 0.07199999690055847,
     "time_between_single_shots": 0.125,
     "time_to_start_damage_fall_off": 0.3400000035762787,

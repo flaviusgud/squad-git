@@ -87,7 +87,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "'/Game/UI/HUD/Weapon/MagazineIconData/IconData_Rocket.IconData_Rocket' Class 'SQMagazineIconDataAsset'>",
   "item_description": "Warhead: 84mm High Explosive Anti-Tank/Guidance: Unguided/Explosion Radius: 7.5m/Penetration Capability: 420mm RHA",
   "item_static_info_class": "'/Game/Blueprints/Items/RocketLaunchers/StaticInfo/BP_M136AT4_StaticInfo.BP_M136AT4_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {

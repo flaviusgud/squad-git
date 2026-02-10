@@ -162,6 +162,8 @@
     "y": 0.0,
     "z": 0.0
   },
+  "bipod_ads_transition1p_montage": "None",
+  "bipod_base_ads1p_montage": "None",
   "bipod_end_loop_section_names": {
     "begin_section": "Begin",
     "end_section": "End",
@@ -169,6 +171,7 @@
     "loop_section2": "Loop",
     "mid_end_section": "End"
   },
+  "bipod_from_ads_transition1p_montage": "None",
   "bipod_height_raw": 31.5,
   "bipod_length": 55.0,
   "bipod_loc": {
@@ -411,7 +414,7 @@
   "niagara_shell_ejection_effect3p": "None",
   "offset_line_of_fire": {
     "pitch": -3.0,
-    "roll": 0.0,
+    "roll": -4.0,
     "yaw": 0.0
   },
   "out_of_forced_lowering_sound": "None",
@@ -800,6 +803,7 @@
   "unequip_sound3p": "None",
   "usable_in_main_base": false,
   "use_auto_lowering": true,
+  "use_bipod_ads": false,
   "walk_speed_multiplier": 0.6000000238418579,
   "weapon_mesh_spring_loc_delay_factor": 0.02500000037252903,
   "weapon_mesh_spring_rot_delay_factor": 1.2000000476837158,

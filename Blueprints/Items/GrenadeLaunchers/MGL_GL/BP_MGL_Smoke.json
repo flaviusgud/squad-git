@@ -84,7 +84,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "None",
   "item_description": "Caliber: 40mm/Arming Distance: 10m/Explosion Radius: 15m (HEDP) 0m (Smoke)/Penetration Capability: 10mm RHA",
   "item_static_info_class": "'/Game/Blueprints/Items/GrenadeLaunchers/MGL_GL/StaticInfo/BP_MGL_Parent_StaticInfo.BP_MGL_Parent_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {

@@ -85,7 +85,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "None",
   "item_description": "Magazine Capacity: 5/Caliber: 7.62\u00d754mmR/Fire Mode: Bolt-Action",
   "item_static_info_class": "'/Game/Blueprints/Items/Rifles/StaticInfo/BP_Mosin_M38Carbine_StaticInfo.BP_Mosin_M38Carbine_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {

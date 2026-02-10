@@ -88,7 +88,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "None",
   "item_description": "Magazine Capacity: 10/Caliber: .303 British/Fire Mode: Bolt-Action",
   "item_static_info_class": "'/Game/Blueprints/Items/Rifles/LeeEnfieldNo4/StaticInfo/BP_LeeEnfieldNo4_Sniper_StaticInfo.BP_LeeEnfieldNo4_Sniper_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {

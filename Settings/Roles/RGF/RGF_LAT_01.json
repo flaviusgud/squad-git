@@ -86,6 +86,13 @@
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 1,
           "weapon_type": "<WeaponType.BACKPACK: 0>"
+        },
+        {
+          "cannot_rearm": true,
+          "equipable_item": "'/Game/Blueprints/Items/Binoculars/BP_Russian_Baigish_Binoculars.BP_Russian_Baigish_Binoculars_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
+          "minimum_count_on_spawn": 1,
+          "weapon_type": "<WeaponType.BACKPACK: 0>"
         }
       ]
     }

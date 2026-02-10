@@ -88,7 +88,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "None",
   "item_description": "Magazine Capacity: 33+1/Caliber: 9x19mm Parabellum/Fire Mode: Semi",
   "item_static_info_class": "'/Game/Blueprints/Items/Pistols/G17/StaticInfo/BP_G17_ExtendedMag_33rd_StaticInfo.BP_G17_ExtendedMag_33rd_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {

@@ -719,7 +719,7 @@
     },
     {
       "cost": "None",
-      "delay": "'/Game/Settings/Availability/Delay/Delay_UH_Initial45.Delay_UH_Initial45' Class 'SQRestriction_Delay'>",
+      "delay": "'/Game/Settings/Availability/Delay/Delay_UH_Initial30.Delay_UH_Initial30' Class 'SQRestriction_Delay'>",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/VDV/VDV_Mi-8-PKP.VDV_Mi-8-PKP' Class 'BP_SQVehicleSettings_C'>"

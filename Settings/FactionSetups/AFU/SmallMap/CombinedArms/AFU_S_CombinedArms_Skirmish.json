@@ -189,7 +189,7 @@
     {
       "cost": "'/Game/Settings/Deployables/Costs/Cost_HAB_Conventionnal.Cost_HAB_Conventionnal' Class 'BP_SQRestriction_Cost_C'>",
       "delay": "None",
-      "limited_count": "'/Game/Settings/Deployables/Counts/Count_HAB_02.Count_HAB_02' Class 'BP_SQRestriction_DeployableCount_C'>",
+      "limited_count": "'/Game/Settings/Deployables/Counts/Count_HAB_01.Count_HAB_01' Class 'BP_SQRestriction_DeployableCount_C'>",
       "other_restrictions": [
         {
           "data": {

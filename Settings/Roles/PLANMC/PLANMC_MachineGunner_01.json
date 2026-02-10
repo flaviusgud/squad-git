@@ -13,7 +13,7 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/MachineGuns/BP_QJY-88.BP_QJY-88_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/MachineGuns/QJY-201/BP_QJY-201_IronSights.BP_QJY-201_IronSights_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 1,
           "weapon_type": "<WeaponType.PRIMARY: 1>"

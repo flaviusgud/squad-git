@@ -88,7 +88,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "'/Game/UI/HUD/Weapon/MagazineIconData/IconData_Rocket.IconData_Rocket' Class 'SQMagazineIconDataAsset'>",
   "item_description": "",
   "item_static_info_class": "'/Game/Blueprints/Items/RocketLaunchers/StaticInfo/BP_CarlGustav_M2_HE_No78Mk1_StaticInfo.BP_CarlGustav_M2_HE_No78Mk1_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {

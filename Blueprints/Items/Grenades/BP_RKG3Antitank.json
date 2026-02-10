@@ -66,7 +66,7 @@
   "initial_life_span": 0.0,
   "instigator": "None",
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "'/Game/UI/HUD/Weapon/MagazineIconData/IconData_AntiTankGrenade.IconData_AntiTankGrenade' Class 'SQMagazineIconDataAsset'>",
   "item_description": "Explosion Radius: 5m",
   "item_static_info_class": "'/Game/Blueprints/Items/Grenades/StaticInfo/BP_RKG3Antitank_StaticInfo.BP_RKG3Antitank_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "lean_blend_out_time_multiplier": 0.800000011920929,

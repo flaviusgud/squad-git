@@ -87,7 +87,7 @@
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
   "item_count": 0,
-  "item_count_icon_texture": "None",
+  "item_count_icon_texture_set": "'/Game/UI/HUD/Weapon/MagazineIconData/IconData_Rocket.IconData_Rocket' Class 'SQMagazineIconDataAsset'>",
   "item_description": "Warhead: 85mm High Explosive Anti-Tank/Guidance: Unguided/Explosion Radius: 8m/Penetration Capability: 250mm RHA",
   "item_static_info_class": "'/Game/Blueprints/Items/RocketLaunchers/StaticInfo/BP_RPG7v2_Tandem_StaticInfo.BP_RPG7v2_Tandem_StaticInfo_C' Class 'BlueprintGeneratedClass'>",
   "last_shot_info": {
