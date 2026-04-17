@@ -13,7 +13,7 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Rifles/AK101_PushCo/BP_AK101_PushCO_EXPS.BP_AK101_PushCO_EXPS_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/Rifles/BP_M16A2M203_Rifle.BP_M16A2M203_Rifle_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 2,
           "weapon_type": "<WeaponType.PRIMARY: 1>"
@@ -42,8 +42,8 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Grenades/BP_RGD5Frag_Brown.BP_RGD5Frag_Brown_C' Class 'BlueprintGeneratedClass'>",
-          "max_allowed_in_inventory": 2,
+          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_HE_3mags.BP_M16A2M203_UGL_HE_3mags_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.BACKPACK: 0>"
         }
@@ -53,22 +53,22 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke.BP_RDG2Smoke_C' Class 'BlueprintGeneratedClass'>",
-          "max_allowed_in_inventory": 2,
+          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_Smoke.BP_M16A2M203_UGL_Smoke_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.BACKPACK: 0>"
         },
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Green.BP_RDG2Smoke_Green_C' Class 'BlueprintGeneratedClass'>",
-          "max_allowed_in_inventory": 2,
+          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_Smoke_Blue.BP_M16A2M203_UGL_Smoke_Blue_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.BACKPACK: 0>"
         },
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Yellow.BP_RDG2Smoke_Yellow_C' Class 'BlueprintGeneratedClass'>",
-          "max_allowed_in_inventory": 2,
+          "equipable_item": "'/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_Smoke_Red.BP_M16A2M203_UGL_Smoke_Red_C' Class 'BlueprintGeneratedClass'>",
+          "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.BACKPACK: 0>"
         }

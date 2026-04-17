@@ -9,7 +9,7 @@
   "aiming_down_sights": false,
   "alt_use_anim": "None",
   "always_relevant": false,
-  "ammo_per_rearm_item": 10.0,
+  "ammo_per_rearm_item": 40.0,
   "attachment_classes": [
     {}
   ],
@@ -85,6 +85,7 @@
   "is_holding_breath": false,
   "is_modifying_zeroing": false,
   "is_round_in_chamber": true,
+  "is_spatially_loaded": true,
   "item_count": 0,
   "item_count_icon_texture_set": "None",
   "item_description": "Caliber: 35mm x 32mmSR/Arming Distance: 10m/Explosion Radius: 11m (HEDP)/Penetration Capability: 80mm RHA",
@@ -180,6 +181,7 @@
   "replicate_using_registered_sub_object_list": false,
   "replicates": true,
   "root_component": "'/Game/Blueprints/Items/GrenadeLaunchers/QLZ-87/BP_QLZ87_AGL_HEDP_Optic.Default__BP_QLZ87_AGL_HEDP_Optic_C:SceneComponent' Class 'SceneComponent'>",
+  "runtime_grid": "None",
   "should_remove_from_inventory_when_depleted": false,
   "show_ammo_data_in_hud": false,
   "show_item_count_in_inventory": false,

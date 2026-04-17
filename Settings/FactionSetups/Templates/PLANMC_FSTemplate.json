@@ -811,20 +811,6 @@
       "delay": "None",
       "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
-      "setting": "'/Game/Settings/Vehicle/PLANMC/PLANMC_ZBL08.PLANMC_ZBL08' Class 'BP_SQVehicleSettings_C'>"
-    },
-    {
-      "cost": "None",
-      "delay": "None",
-      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
-      "other_restrictions": [],
-      "setting": "'/Game/Settings/Vehicle/PLANMC/PLANMC_ZBD05.PLANMC_ZBD05' Class 'BP_SQVehicleSettings_C'>"
-    },
-    {
-      "cost": "None",
-      "delay": "None",
-      "limited_count": "'/Game/Settings/Availability/Count/AlwaysPerTeam_01.AlwaysPerTeam_01' Class 'SQRestriction_Count'>",
-      "other_restrictions": [],
       "setting": "'/Game/Settings/Vehicle/PLANMC/PLANMC_ZBD05.PLANMC_ZBD05' Class 'BP_SQVehicleSettings_C'>"
     },
     {

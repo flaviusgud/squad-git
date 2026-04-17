@@ -13,7 +13,7 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/Rifles/QBZ-192/BP_QBZ192_IronSights_Grippod.BP_QBZ192_IronSights_Grippod_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/Rifles/QBZ-192/BP_QBZ192_IronSights_Grippod_4mags.BP_QBZ192_IronSights_Grippod_4mags_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 1,
           "weapon_type": "<WeaponType.PRIMARY: 1>"

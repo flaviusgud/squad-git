@@ -1,6 +1,6 @@
 {
   "actions": [],
-  "auto_inject_into_layers": true,
+  "auto_inject_into_layers": false,
   "characteristics": [],
   "characteristics_table": "'/Game/Settings/FactionSetups/FactionCharacteristicTable.FactionCharacteristicTable' Class 'DataTable'>",
   "data": {

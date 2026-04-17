@@ -1,12 +1,13 @@
-import unreal
-import os
+import io
 import json
+import os
 import re
 from glob import glob
 
+import unreal
 
-out = "D:/ws/sq5"
-inst = "C:/avx/bin/SEPT/Squad/Content"
+out = "D:/ws/squad-git"
+inst = "D:/bin/SEPT/Squad/Content"
 
 guns_types = ["GrenadeLaunchers", "MachineGuns", "Pistols", "Rifles", "RocketLaunchers", "SubmachineGuns"]
 used_guns = set()
@@ -16,7 +17,7 @@ used_static = set()
 def jd(x, p):
     pp = p.rsplit("/", 1)[0]
     os.makedirs(f"{out}/{pp}", exist_ok=1)
-    with open(f"{out}/{p}.json", "w") as f:
+    with io.open(f"{out}/{p}.json", "w", newline="\n") as f:
         json.dump(x, f, indent=2)
 
 

@@ -6,11 +6,14 @@
   },
   "allow_raising_above_head": true,
   "base1p_montage": "'/Game/Blueprints/Items/Grenades/VOG17_UZRGM_Frag/Animations/A_Char_VOG17_Basepose_1p_Montage.A_Char_VOG17_Basepose_1p_Montage' Class 'AnimMontage'>",
+  "bipod_crouch_shuffle": "None",
   "bipod_loc": {
     "x": 0.0,
     "y": 0.0,
     "z": 1.5
   },
+  "bipod_prone_shuffle": "None",
+  "bipod_stand_shuffle": "None",
   "bobbing_add_sprint1p_montage": "None",
   "bored_abort_blend_out_time": 0.20000000298023224,
   "bored_max_frequency": 60.0,

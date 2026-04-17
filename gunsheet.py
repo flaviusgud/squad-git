@@ -1,7 +1,8 @@
 import json
-import pandas as pd
 from collections import defaultdict
 from glob import glob
+
+import pandas as pd
 
 
 def jl(x):
@@ -26,6 +27,7 @@ for path in paths:
             "rpm": int(60 / wc["time_between_shots"]),
             "vel": int(wc["muzzle_velocity"] / 100),
             "AP(mm)": wc["armor_penetration_depth_millimeters"],
+            "MOA": wc["moa"],
         }
         d["start_dmg"] = int(wc["damage_falloff_curve"][1][0])
         d["end_dmg"] = int(wc["damage_falloff_curve"][1][1])
@@ -37,14 +39,13 @@ for path in paths:
             d["50dmg"] = int((d["start_dist"] + off * (d["end_dist"] - d["start_dist"])))
         s = j["item_static_info_class"].split(f"Items/")[1].split(".")[0]
         s = jl(f"Blueprints/Items/{s}.json")
-        for st in ["stand", "crouch", "prone", "bipod"]:
-            for ads in ["", "_ads"]:
-                m = s[f"{st}{ads}_recoil_mean"]
-                si = s[f"{st}{ads}_recoil_sigma"]
-                for dim in "xyz":
-                    d[f"{st}{ads}_{dim}"] = f"{m[dim]:.1f}±{si[dim]:.1f}"
+        for st in ["stand", "stand_ads", "prone_ads", "bipod_ads"]:
+            m = s[f"{st}_recoil_mean"]
+            si = s[f"{st}_recoil_sigma"]
+            for dim in "xyz":
+                d[f"{st}_{dim}"] = f"{m[dim]:.2f}±{si[dim]:.2f}"
         d["clamp"] = int(s["sway_data"]["limits"]["final_sway_clamp"])
-        for st in ["standing", "crouch", "prone", "bipod"]:
+        for st in ["standing", "prone"]:
             d[f"{st}_min"] = round(s["sway_data"]["stance_group"][st]["sway_min"], 1)
 
         s2n[json.dumps(d)].append(f"{j['display_name'].replace(' ', '')}>{wc['max_mags']}")

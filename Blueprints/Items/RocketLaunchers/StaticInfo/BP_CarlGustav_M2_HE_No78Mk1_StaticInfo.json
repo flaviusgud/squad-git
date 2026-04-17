@@ -159,6 +159,7 @@
   },
   "bipod_ads_transition1p_montage": "None",
   "bipod_base_ads1p_montage": "None",
+  "bipod_crouch_shuffle": "None",
   "bipod_end_loop_section_names": {
     "begin_section": "Begin",
     "end_section": "End",
@@ -166,7 +167,10 @@
     "loop_section2": "Loop",
     "mid_end_section": "End"
   },
+  "bipod_enter_transition_duration": 0.3125,
+  "bipod_exit_transition_duration": 0.3125,
   "bipod_from_ads_transition1p_montage": "None",
+  "bipod_height3p": 40.0,
   "bipod_height_raw": 31.0,
   "bipod_length": 28.0,
   "bipod_loc": {
@@ -174,6 +178,7 @@
     "y": 0.0,
     "z": 0.0
   },
+  "bipod_prone_shuffle": "None",
   "bipod_recoil_mean": {
     "x": 0.0,
     "y": 0.0,
@@ -184,6 +189,7 @@
     "y": 0.0,
     "z": 0.0
   },
+  "bipod_stand_shuffle": "None",
   "bipod_time": 0.30000001192092896,
   "bipod_weapon_montage": "None",
   "bobbing_aim_end_loop_section_names": {
@@ -239,7 +245,7 @@
   },
   "clear_sights_min_input": 1.0,
   "crouch_ads_recoil_mean": {
-    "x": 7.0,
+    "x": -7.0,
     "y": 0.0,
     "z": 0.0
   },
@@ -284,7 +290,7 @@
     "z": 7.0
   },
   "crouch_recoil_mean": {
-    "x": 7.0,
+    "x": -7.0,
     "y": 0.0,
     "z": 0.0
   },
@@ -293,7 +299,7 @@
     "y": 0.0,
     "z": 0.0
   },
-  "crouch_time": 0.8999999761581421,
+  "crouch_time": 0.574999988079071,
   "default_zeroing_text": "100m",
   "deviation_visu_fb_interp_speed_final": 0.0,
   "deviation_visu_fb_interp_speed_yz": 0.0,
@@ -489,7 +495,7 @@
   "niagara_shell_ejection_effect3p": "None",
   "offset_line_of_fire": {
     "pitch": -3.0,
-    "roll": -4.0,
+    "roll": 0.0,
     "yaw": 0.0
   },
   "out_of_forced_lowering_sound": "None",
@@ -501,7 +507,7 @@
   "prevent_freelook_while_ads": true,
   "prevent_use_while_crawling": true,
   "prone_ads_recoil_mean": {
-    "x": 7.0,
+    "x": -7.0,
     "y": 0.0,
     "z": 0.0
   },
@@ -546,7 +552,7 @@
     "z": 7.0
   },
   "prone_recoil_mean": {
-    "x": 7.0,
+    "x": -7.0,
     "y": 0.0,
     "z": 0.0
   },
@@ -555,7 +561,7 @@
     "y": 0.0,
     "z": 0.0
   },
-  "prone_time": 0.800000011920929,
+  "prone_time": 0.574999988079071,
   "prone_transition_recoil_mean": {
     "x": 0.0,
     "y": 0.0,
@@ -677,7 +683,7 @@
   },
   "sprint_play_rate_factor_min_range": -2.0,
   "stand_ads_recoil_mean": {
-    "x": 7.0,
+    "x": 0.0,
     "y": 0.0,
     "z": 0.0
   },
@@ -723,7 +729,7 @@
   },
   "stand_loc_blend_time": 1.0,
   "stand_recoil_mean": {
-    "x": 7.0,
+    "x": 0.0,
     "y": 0.0,
     "z": 0.0
   },
@@ -732,7 +738,7 @@
     "y": 0.0,
     "z": 0.0
   },
-  "stand_time": 1.0,
+  "stand_time": 0.574999988079071,
   "steady1p_hip_fire_duration": 0.30000001192092896,
   "strafe_spring_rotator": {
     "pitch": 0.0,
@@ -747,8 +753,8 @@
   "sway_alignment_data": {
     "aspect": {
       "has_sway": 1.0,
-      "sway_interp_speed_final": 3.0,
-      "sway_interp_speed_yz": 1.0
+      "sway_interp_speed_final": 2.0,
+      "sway_interp_speed_yz": 0.800000011920929
     },
     "dynamic_group": {
       "breath": {
@@ -756,46 +762,46 @@
         "holding_breath_sway_factor": 0.6600000262260437
       },
       "movement": {
-        "add_move_sway": 0.00039999998989515007,
-        "max_move_sway_factor": 22.0,
+        "add_move_sway": 9.500000305706635e-05,
+        "max_move_sway_factor": 0.75,
         "min_move_sway_factor": 0.0,
-        "move_sway_factor_release": 3.0
+        "move_sway_factor_release": 1.0
       },
       "stamina": {
         "full_stamina_sway_factor": 0.0,
-        "low_stamina_sway_factor": 3.5
+        "low_stamina_sway_factor": 0.5
       }
     },
     "limits": {
-      "final_sway_clamp": 4.0
+      "final_sway_clamp": -1.0
     },
     "location_offset": {
       "x": 0.0,
       "y": 0.0,
       "z": 0.0
     },
-    "location_offset_multiplier": 0.8999999761581421,
+    "location_offset_multiplier": 8.0,
     "stance_group": {
       "bipod": {
-        "ads_sway_min": 0.5,
-        "sway_min": 0.699999988079071
+        "ads_sway_min": 0.20000000298023224,
+        "sway_min": 0.20000000298023224
       },
       "bipod_interpolation_speed": 0.33000001311302185,
       "crouch": {
-        "ads_sway_min": 2.0,
-        "sway_min": 2.700000047683716
+        "ads_sway_min": 0.75,
+        "sway_min": 0.75
       },
       "prone": {
-        "ads_sway_min": 1.0,
-        "sway_min": 1.5
+        "ads_sway_min": 0.5,
+        "sway_min": 0.6499999761581421
       },
       "prone_transition": {
         "prone_transition_sway_min": 1.0
       },
       "stance_interpolation_speed": 7.5,
       "standing": {
-        "ads_sway_min": 3.0,
-        "sway_min": 5.0
+        "ads_sway_min": 0.75,
+        "sway_min": 1.0
       }
     },
     "sway": {
@@ -810,23 +816,23 @@
   "sway_data": {
     "aspect": {
       "has_sway": 1.0,
-      "sway_interp_speed_final": 2.0,
-      "sway_interp_speed_yz": 1.5
+      "sway_interp_speed_final": 2.5,
+      "sway_interp_speed_yz": 0.20000000298023224
     },
     "dynamic_group": {
       "breath": {
         "holding_breath_sway": 0.0,
-        "holding_breath_sway_factor": 0.9300000071525574
+        "holding_breath_sway_factor": 0.6000000238418579
       },
       "movement": {
         "add_move_sway": 0.0005000000237487257,
-        "max_move_sway_factor": 14.0,
+        "max_move_sway_factor": 60.0,
         "min_move_sway_factor": 0.0,
-        "move_sway_factor_release": 4.0
+        "move_sway_factor_release": 15.0
       },
       "stamina": {
         "full_stamina_sway_factor": 0.0,
-        "low_stamina_sway_factor": 4.5
+        "low_stamina_sway_factor": 30.0
       }
     },
     "limits": {
@@ -837,7 +843,7 @@
       "y": 0.0,
       "z": 0.0
     },
-    "location_offset_multiplier": 1.7999999523162842,
+    "location_offset_multiplier": 1.0,
     "stance_group": {
       "bipod": {
         "ads_sway_min": 0.0,
@@ -845,20 +851,20 @@
       },
       "bipod_interpolation_speed": 0.6600000262260437,
       "crouch": {
-        "ads_sway_min": 0.550000011920929,
-        "sway_min": 5.0
+        "ads_sway_min": 7.0,
+        "sway_min": 1.0
       },
       "prone": {
-        "ads_sway_min": 0.4000000059604645,
-        "sway_min": 3.0
+        "ads_sway_min": 3.0,
+        "sway_min": 0.5600000023841858
       },
       "prone_transition": {
         "prone_transition_sway_min": 1.0
       },
       "stance_interpolation_speed": 7.5,
       "standing": {
-        "ads_sway_min": 0.699999988079071,
-        "sway_min": 8.0
+        "ads_sway_min": 12.0,
+        "sway_min": 1.2999999523162842
       }
     },
     "sway": {
@@ -878,7 +884,6 @@
   "unequip_sound3p": "None",
   "usable_in_main_base": false,
   "use_auto_lowering": false,
-  "use_bipod_ads": false,
   "walk_speed_multiplier": 0.6000000238418579,
   "weapon_mesh_spring_loc_delay_factor": -0.1761920005083084,
   "weapon_mesh_spring_rot_delay_factor": 1.0,

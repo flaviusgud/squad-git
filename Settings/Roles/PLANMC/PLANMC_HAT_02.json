@@ -42,7 +42,7 @@
         },
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_HE.BP_PF-98_HE_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_HE_2mags.BP_PF-98_HE_2mags_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 0,
           "weapon_type": "<WeaponType.SPECIAL: 3>"

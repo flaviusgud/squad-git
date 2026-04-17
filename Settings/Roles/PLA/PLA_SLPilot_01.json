@@ -13,7 +13,7 @@
       "weapon_items": [
         {
           "cannot_rearm": false,
-          "equipable_item": "'/Game/Blueprints/Items/SubmachineGuns/OCW-05/BP_QCW05_Holo.BP_QCW05_Holo_C' Class 'BlueprintGeneratedClass'>",
+          "equipable_item": "'/Game/Blueprints/Items/SubmachineGuns/OCW-05/BP_QCW05_Holo_3mags.BP_QCW05_Holo_3mags_C' Class 'BlueprintGeneratedClass'>",
           "max_allowed_in_inventory": 1,
           "minimum_count_on_spawn": 1,
           "weapon_type": "<WeaponType.PRIMARY: 1>"

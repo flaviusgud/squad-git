@@ -772,13 +772,6 @@
     {
       "cost": "None",
       "delay": "None",
-      "limited_count": "'/Game/Settings/Roles/Counts/Role_Sniper.Role_Sniper' Class 'BP_SQRestriction_RoleCount_C'>",
-      "other_restrictions": [],
-      "setting": "'/Game/Settings/Roles/IMF/IMF_Sniper_01.IMF_Sniper_01' Class 'BP_SQRoleSettings_C'>"
-    },
-    {
-      "cost": "None",
-      "delay": "None",
       "limited_count": "'/Game/Settings/Roles/Counts/Role_Crewman.Role_Crewman' Class 'SQRestriction_Count'>",
       "other_restrictions": [],
       "setting": "'/Game/Settings/Roles/IMF/IMF_Crewman_01.IMF_Crewman_01' Class 'BP_SQRoleSettings_C'>"

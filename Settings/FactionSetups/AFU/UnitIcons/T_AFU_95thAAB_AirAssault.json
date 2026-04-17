@@ -83,5 +83,6 @@
   "srgb": true,
   "use_legacy_gamma": false,
   "use_new_mip_filter": true,
-  "virtual_texture_streaming": false
+  "virtual_texture_streaming": false,
+  "virtual_texture_streaming_priority": "<VTProducerPriority.NORMAL: 4>"
 }
