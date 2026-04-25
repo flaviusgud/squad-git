@@ -31,6 +31,7 @@
   "initial_life_span": 0.0,
   "instigator": "None",
   "is_explosive_projectile": true,
+  "is_spatially_loaded": true,
   "is_tracer": false,
   "last_impact_hit_result": {},
   "lasting_effect_actor": "None",
@@ -55,6 +56,7 @@
   "proxies_predict_impact": true,
   "replicate_using_registered_sub_object_list": false,
   "replicates": false,
+  "runtime_grid": "None",
   "should_destroy_by_lifespan": false,
   "smoke_color": {
     "a": 1.0,

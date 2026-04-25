@@ -32,6 +32,7 @@
   "initial_life_span": 20.0,
   "instigator": "None",
   "is_explosive_projectile": true,
+  "is_spatially_loaded": true,
   "is_tracer": false,
   "last_impact_hit_result": {},
   "lasting_effect_actor": "None",
@@ -59,6 +60,7 @@
   "replicate_using_registered_sub_object_list": false,
   "replicates": false,
   "root_component": "'/Game/Blueprints/Items/Projectiles/BP_Projectile_RifleGrenade_FNFAL_HEAT.Default__BP_Projectile_RifleGrenade_FNFAL_HEAT_C:SphereCollision' Class 'SQProjectileRootComponent'>",
+  "runtime_grid": "None",
   "should_destroy_by_lifespan": false,
   "smoke_color": {
     "a": 1.0,
